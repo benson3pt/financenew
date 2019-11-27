@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="日盛證券, 日盛全球優益理財商品">
+    <meta name="keywords" content="日盛證券,日盛全球優益理財商品">
+    <meta name="author" content="">
+    <title>日盛全球優益理財商品</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="bookmark" href="favicon.ico" />
+    <!--FB-->
+    <meta property="og:title" content="日盛全球優益理財商品">
+    <meta property="og:description" content="日盛全球優益理財商品">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/iconfont.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
+    <!-- Custom Fonts -->
+    <link href="assets/css/all.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/notosanstc.css" rel="stylesheet" type="text/css">
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+    <!--主要 css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-menu" data-offset="110" class="ifPGN_new account_signature">
+
+    <!-- go_top -->
+    <div id="go_top"><i class="fa fa-sort-asc" aria-hidden="true"></i></div>
+
+
+    <!-- Preloader -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_four"></div>
+            </div>
+        </div>
+    </div>
+    <!--// off Preloader -->
+
+
+
+
+    <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
+        <div class="attr-nav">
+            客戶風險等級<span class="riskspan">4</span><span class="logout"><a href="index.shtml">登出</a></span>
+        </div>
+
+
+
+
+        <div class="container">
+
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+					<i class="fa fa-bars"></i>
+				</button>
+                <a class="navbar-brand" href="login_index.shtml" target="_self">
+                    <img src="assets/images/logo.png" class="logo" alt="">
+                </a>
+
+            </div>
+            <!-- End Header Navigation -->
+            <!-- navbar menu -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="myAccount_signature.shtml" class="scroll0">線上文件簽署狀態 <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+</a></li>
+                    <li><a href="myAccount_paper.shtml">電子交易通知設定</a></li>
+                    <li><a href="myAccount_changPW.shtml">變更密碼</a></li>
+                    <li><a href="myAccount_edit.shtml">變更聯絡資料</a></li>
+                    <li><a href="https://jsmarket.jihsun.com.tw/WebNet/Certificate/Login.aspx?subtype=1" target="_blank">數位憑證</a></li>
+                    <li class="hide_li"><a href="#">客戶風險等級4</a></li>
+                    <li class="hide_li"><a href="index.shtml">登出</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+
+    </nav>
+
+    <!-- breadcrumb -->
+    <section class="bread">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="login_index.shtml">首頁</a></li>
+                <li style="color: #000">個人設定</li>
+                <li class="active">線上文件簽署狀態</li>
+            </ol>
+        </div>
+    </section>
+    <!--// breadcrumb -->
+
+
+    <!-------------------------------------------------- modal -------------------------------------------------------------->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">洗錢防制聲明書</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="table-responsive lawbox">
+                        <h4>連結標的風險</h4>
+                        <p>本商品為衍生性金融商品交易，商品之期末投資損益視連結標的股價走勢而定，須承擔連結標的價格平均漲跌幅超過設定區間之收益風險。本商品保本率為100%，故到期時不會產生契約本金之損失。</p>
+                        <h4>交易提前終止風險</h4>
+                        <p>本商品到期前如申請提前終止，客戶最低可領回100%的契約本金。</p>
+                        <h4>利率風險</h4>
+                        <p>本商品到期損益結算不受市場利率波動所影響。</p>
+                        <h4>流動性風險</h4>
+                        <p>本商品交易契約不得轉讓、質借或設定質權及其他擔保物權予第三人。</p>
+                        <h4>信用風險</h4>
+                        <p>客戶與交易券商承作本商品須承擔交易券商之信用風險，即若交易券商發生信用事件，則於商品到期日可能無法依約辦理交割，此「信用風險」之評估，端視客戶對於自身之風險承受度及交易券商信用評等價值之評估。</p>
+                        <h4>匯率風險</h4>
+                        <p>本商品承作與到期皆以新台幣計價，故無匯率風險。</p>
+                        <h4>國家風險</h4>
+                        <p>交易券商註冊國中華民國如發生戰亂或天災等不可抗力之事件，可能導致客戶投資損失。</p>
+                        <h4>賦稅風險</h4>
+                        <p>課徵之稅率與方式可能因法令、法規或政策等因素影響而有所變動，致造成客戶實質收益增加或減少。</p>
+                        <h4>法律風險</h4>
+                        <p>客戶承作本商品時，承擔因契約、法令等因素所造成的法律風險，故客戶應詳閱並妥善保管產品說明、成交確認等各項交易有關文件，以降低法律風險。</p>
+                        <h4>再投資風險</h4>
+                        <p>若本商品交易契約依約定條款、或發生連結標的於商品到期日之前終止上市、或合法性及喪失市場機制等因素而提前終止時，客戶的下一個投資標的可能無法提供相同收益，因而產生資金再投資風險。</p>
+                        <h4>其他</h4>
+                        <p>交易券商已盡力充分說明本商品之各項可能風險，惟客戶仍應於交易前充分瞭解結構型商品之性質，及相關之財務、會計、稅制或法律等事宜，自行審度本身財務狀況及風險承受度，始決定是否進行投
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <form class="form-inline text-center">
+                        <div class="form-group">
+                            <!--				<label>輸入密碼</label>
+--><input type="text" class="form-control" placeholder="請輸入密碼">
+                            <a type="submit" class="btn btn-danger btnnew" href="#">簽署</a>
+                        </div>
+                        <!--<a type="submit" class="btn btn-default" href="#" data-dismiss="modal" aria-label="Close">取消交易</a>-->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------- //modal -------------------------------------------------------------->
+
+
+    <!-- 內容 -->
+    <div class="main-w3pvt mian-content-wthree text-center buy_funds_ELNbg" id="product">
+        <div class="container">
+            <div class="main_product">
+                <div class="head_title text-center fix">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="text-uppercase text-block text-center myaccount">線上文件簽署狀態</h2>
+                            <section class="elncontent2 table-responsive">
+                                <table class="table table-responsive">
+                                    <tbody>
+                                        <tr>
+                                            <th width="23%">項目</th>
+                                            <th width="23%">簽署日期</th>
+                                            <th width="23%">簽署方式</th>
+                                            <th width="30%">簽署狀態</th>
+                                        </tr>
+                                        <tr>
+                                            <td width="21%">客戶投資風險屬性分析表(KYC)</td>
+                                            <td width="21%">2018/12/10</td>
+                                            <td width="21%">電子</td>
+                                            <td width="36%">
+                                                <p class="text-success"><i class="fa fa-check-square" aria-hidden="true"></i>已簽署</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>電子交易同意書1</td>
+                                            <td>&nbsp;</td>
+                                            <td>電子</td>
+                                            <td>
+                                                <a href="#" type="button" class="btn" data-toggle="modal" data-target="#myModal">
+					  尚未簽署</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>電子交易同意書2</td>
+                                            <td>2018/12/10</td>
+                                            <td>電子</td>
+                                            <td width="36%">
+                                                <p class="text-success"><i class="fa fa-check-square" aria-hidden="true"></i>已簽署</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>個資同意書</td>
+                                            <td>2018/12/10</td>
+                                            <td>電子</td>
+                                            <td width="36%">
+                                                <p class="text-success"><i class="fa fa-check-square" aria-hidden="true"></i>已簽署</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>洗錢防制聲明書</td>
+                                            <td>&nbsp;</td>
+                                            <td>紙本</td>
+                                            <td width="36%">
+                                                <p>尚未簽署<small class="text-danger">*請洽客服專線</small></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>FATCA聲明書</td>
+                                            <td>&nbsp;</td>
+                                            <td>紙本</td>
+                                            <td width="36%">
+                                                <p>尚未簽署<small class="text-danger">*請洽客服專線</small></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </section>
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- //內容 -->
+
+
+
+
+
+
+
+
+
+
+    <!--footer-->
+    <!-- #include file ="footer.html" -->
+
+
+
+    <footer id="contact" class="footer bg-black">
+        <div class="main_footer fix">
+            <div class="col-md-12">
+                <p class="wow fadeInRight" data-wow-duration="1s">
+                    <span>日盛證券股份有限公司</span> <span>電話：(02)2516-3050</span><span class="footerlastspan">地址：台北市南京東路二段111號3樓</span><br>
+                    <a href="http://www.jihsun.com.tw/ePaper/eReport.html" target="_blank">防制洗錢及打擊資助恐怖主義專區</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JS includes -->
+    <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function($) {
+
+            /*
+		$(".modal-header button").click(function(){		
+         window.open("login_index.shtml","_self");
+	     });   
+	   */
+
+
+        });
+    </script>
+
+
+
+</body>
+
+</html>

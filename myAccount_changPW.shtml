@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="日盛證券, 日盛全球優益理財商品">
+    <meta name="keywords" content="日盛證券,日盛全球優益理財商品">
+    <meta name="author" content="">
+    <title>日盛全球優益理財商品</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="bookmark" href="favicon.ico" />
+    <!--FB-->
+    <meta property="og:title" content="日盛全球優益理財商品">
+    <meta property="og:description" content="日盛全球優益理財商品">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/iconfont.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
+    <!-- Custom Fonts -->
+    <link href="assets/css/all.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/notosanstc.css" rel="stylesheet" type="text/css">
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+    <!--主要 css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-menu" data-offset="110" class="ifPGN_new account_signature myAccount_changPW">
+
+    <!-- go_top -->
+    <div id="go_top"><i class="fa fa-sort-asc" aria-hidden="true"></i></div>
+
+
+    <!-- Preloader -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_four"></div>
+            </div>
+        </div>
+    </div>
+    <!--// off Preloader -->
+
+
+
+
+    <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
+        <div class="attr-nav">
+            客戶風險等級<span class="riskspan">4</span><span class="logout"><a href="index.shtml">登出</a></span>
+        </div>
+
+
+
+
+        <div class="container">
+
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+					<i class="fa fa-bars"></i>
+				</button>
+                <a class="navbar-brand" href="login_index.shtml" target="_self">
+                    <img src="assets/images/logo.png" class="logo" alt="">
+                </a>
+
+            </div>
+            <!-- End Header Navigation -->
+            <!-- navbar menu -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="myAccount_signature.shtml">線上文件簽署狀態 <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+</a></li>
+                    <li><a href="myAccount_paper.shtml">電子交易通知設定</a></li>
+                    <li><a href="myAccount_changPW.shtml" class="scroll0">變更密碼</a></li>
+                    <li><a href="myAccount_edit.shtml">變更聯絡資料</a></li>
+                    <li><a href="https://jsmarket.jihsun.com.tw/WebNet/Certificate/Login.aspx?subtype=1" target="_blank">數位憑證</a></li>
+                    <li class="hide_li"><a href="#">客戶風險等級4</a></li>
+                    <li class="hide_li"><a href="index.shtml">登出</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+
+    </nav>
+
+    <!-- breadcrumb -->
+    <section class="bread">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="login_index.shtml">首頁</a></li>
+                <li style="color: #000">個人設定</li>
+                <li class="active">變更密碼</li>
+            </ol>
+        </div>
+    </section>
+    <!--// breadcrumb -->
+
+
+
+
+    <!-- 內容 -->
+    <div class="main-w3pvt mian-content-wthree text-center buy_funds_ELNbg" id="product">
+        <div class="container">
+            <!--            <div class="main_product roomy-40">-->
+            <div class="main_product">
+                <div class="head_title text-center fix">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="text-uppercase text-block text-center myaccount">變更密碼</h2>
+                            <section class="elncontent2 table-responsive">
+                                <p class="password">※密碼設定須為6-20為英數字(半形)，請注意大小寫</p>
+                                <div class="passwordarea">
+                                    <input class="form-control" type="password" placeholder="輸入原密碼">
+                                    <input class="form-control" type="password" placeholder="設定新密碼">
+                                    <input class="form-control" type="password" placeholder="確認新密碼">
+                                    <p class="password2">◎請注意!密碼輸入錯誤三次將被鎖定!</p>
+                                </div>
+
+                                <button type="button" class="btn pwcf">確認</button>
+                                <button type="button" class="btn pwcf2">取消</button>
+
+                                <div class="notearea text-left">
+                                    <h3>密碼保護說明：</h3>
+                                    <ol>
+                                        <li>依主管機關規範，並確保您的權益以及交易安全，即日起密碼必須為優質密碼，且將無法使用純數字。</li>
+                                        <li>優質密碼:至少需有一位英文字，且由6~20為英數字所組成，如a74917、jack0577、2H11885。</li>
+                                        <li>密碼安全防護有賴您與日盛共同保護，提醒您，此密碼與語音系統共用。變更成功後，登入語音系統亦請使用優質密碼。</li>
+                                        <li>密碼勿告知他人，並請至少每三個月定期變更一次您的密碼。</li>
+                                    </ol>
+                                </div>
+
+
+
+                            </section>
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- //內容 -->
+
+
+
+
+
+
+
+
+
+
+    <!--footer-->
+    <!-- #include file ="footer.html" -->
+
+
+
+    <footer id="contact" class="footer bg-black">
+        <div class="main_footer fix">
+            <div class="col-md-12">
+                <p class="wow fadeInRight" data-wow-duration="1s">
+                    <span>日盛證券股份有限公司</span> <span>電話：(02)2516-3050</span><span class="footerlastspan">地址：台北市南京東路二段111號3樓</span><br>
+                    <a href="http://www.jihsun.com.tw/ePaper/eReport.html" target="_blank">防制洗錢及打擊資助恐怖主義專區</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JS includes -->
+    <script src="assets/js/vendor/jquery-1.12.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function($) {
+
+            /*
+		$(".modal-header button").click(function(){		
+         window.open("login_index.shtml","_self");
+	     });   
+	   */
+
+
+        });
+    </script>
+
+
+
+</body>
+
+</html>

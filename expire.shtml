@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="日盛證券, 日盛全球優益理財商品">
+    <meta name="keywords" content="日盛證券,日盛全球優益理財商品">
+    <meta name="author" content="">
+    <title>日盛全球優益理財商品</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="bookmark" href="favicon.ico" />
+    <!--FB-->
+    <meta property="og:title" content="日盛全球優益理財商品">
+    <meta property="og:description" content="日盛全球優益理財商品">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/iconfont.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
+    <!-- Custom Fonts -->
+    <link href="assets/css/all.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/notosanstc.css" rel="stylesheet" type="text/css">
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css" />
+
+
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!--主要 css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-menu" data-offset="110" class="undue">
+
+    <!-- go_top -->
+    <div id="go_top"><i class="fa fa-sort-asc" aria-hidden="true"></i></div>
+
+
+    <!-- Preloader -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_four"></div>
+            </div>
+        </div>
+    </div>
+    <!--// off Preloader -->
+
+
+    <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
+
+        <div class="attr-nav newattr-nav">
+            <table>
+                <tr>
+                    <td class="pal">客戶風險等級<span class="riskspan">4</span></td>
+                    <td class="par">
+                        <span class="logout"><a href="index.shtml">登出</a></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="pal">
+                        <span>
+                        本日到期契約結算金額預估
+                        <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="本日到期契約結算金額於13:35後可顯示實際到期結算交割金額，您可於14:10前使用該金額下單"></i>
+                            </span>
+                        <span class="riskspan">1,000,000,000<span class="m-l-5">元</span></span>
+                    </td>
+                    <td class="par">
+                        <span class="logout"><a href="#">查詢</a></span>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="container">
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu1">
+					<i class="fa fa-bars"></i>
+            </button>
+
+                <a class="navbar-brand" href="login_index.shtml" target="_self">
+                    <img src="assets/images/logo.png" class="logo" alt="">
+                </a>
+
+            </div>
+            <!-- End Header Navigation -->
+            <div class="collapse navbar-collapse" id="navbar-menu1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="undue.shtml">未到期契約</a></li>
+                    <li><a href="expire.shtml" class="scroll0">已到期契約</a></li>
+                    <li class="hide_li"><a href="#">客戶風險等級 4</a></li>
+                    <li class="hide_li"><a href="index.shtml">登出</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- breadcrumb -->
+    <section class="bread" style="margin-top: 80px;">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="login_index.shtml">首頁</a></li>
+                <li style="color: #000">帳戶總覽</li>
+                <li class="active">已到期契約 </li>
+            </ol>
+        </div>
+    </section>
+    <!--// breadcrumb -->
+
+
+
+    <!-- 內容 -->
+    <div class="main-w3pvt mian-content-wthree text-center buy_funds_ELNbg" id="product">
+        <div class="container">
+            <div class="main_product roomy-40">
+                <div class="head_title text-center fix">
+                    <div class="row">
+                        <div class="col-md-12 allsection">
+
+
+                            <!--低買優益Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                <div class="modal-dialog" role="document">
+
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <h4 class="modal-title" id="myModalLabel">低買優益(ELN)</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="importfunds table-responsive model-table">
+                                                <h3>2330台積電</h3>
+                                                <table class="table table-responsive norbox">
+                                                    <tr>
+                                                        <th width="11%">契約<br>編號</th>
+                                                        <th width="1%">契約<br>起始日</th>
+                                                        <th width="1%">契約<br>到期日</th>
+                                                        <th width="1%">契約<br>本金</th>
+                                                        <th width="11%">履約價</th>
+                                                        <th width="11%">期初<br>收益金額</th>
+                                                        <th width="11%">稅前<br>投資損益</th>
+                                                        <th width="11%">稅前<br>報酬率</th>
+                                                        <th width="11%">代扣<br>稅額</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>PGNT2021</td>
+                                                        <td>2018/12/17</td>
+                                                        <td>2018/12/31</td>
+                                                        <td>10,085,000</td>
+                                                        <td>200</td>
+                                                        <td>10,000,000</td>
+                                                        <td>20,000,000</td>
+                                                        <td>10%</td>
+                                                        <td>3,500</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>PGNT2021</td>
+                                                        <td>2018/12/17</td>
+                                                        <td>2018/12/31</td>
+                                                        <td>10,085,000</td>
+                                                        <td>200</td>
+                                                        <td>10,000,000</td>
+                                                        <td>20,000,000</td>
+                                                        <td>10%</td>
+                                                        <td>3,500</td>
+                                                    </tr>
+                                                    <tr class="text-large">
+                                                        <td colspan="3">合計</td>
+                                                        <td>10,085,000</td>
+                                                        <td>&nbsp;</td>
+                                                        <td>20,000,000</td>
+                                                        <td>40,000,000</td>
+                                                        <td>10%</td>
+                                                        <td>7,000</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <!--		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">關閉</button>
+		  </div>
+--></div>
+                                </div>
+                            </div>
+                            <!-- //低買優益Modal -->
+
+                            <!--存股優益Modal -->
+                            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header redheader">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <h4 class="modal-title" id="myModalLabel2">存股優益(RCW)</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="importfunds table-responsive model-table">
+                                                <h3>2330台積電</h3>
+                                                <table class="table table-responsive norbox">
+                                                    <tr>
+                                                        <th width="11%">契約<br>編號</th>
+                                                        <th width="1%">契約<br>起始日</th>
+                                                        <th width="1%">契約<br>到期日</th>
+                                                        <th width="1%">契約<br>本金</th>
+                                                        <th width="11%">履約價</th>
+                                                        <th width="11%">賣出<br>Call比率</th>
+                                                        <th width="11%">期初<br>收益金額</th>
+                                                        <th width="11%">稅前<br>投資損益</th>
+                                                        <th width="11%">稅前<br>報酬率</th>
+                                                        <th width="11%">代扣<br>稅額</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>PGNT2021</td>
+                                                        <td>2018/12/17</td>
+                                                        <td>2018/12/31</td>
+                                                        <td>10,085,000</td>
+                                                        <td>200</td>
+                                                        <td>20%</td>
+                                                        <td>10,000,000</td>
+                                                        <td>20,000,000</td>
+                                                        <td>10%</td>
+                                                        <td>3,500</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>PGNT2021</td>
+                                                        <td>2018/12/17</td>
+                                                        <td>2018/12/31</td>
+                                                        <td>10,085,000</td>
+                                                        <td>200</td>
+                                                        <td>20%</td>
+                                                        <td>10,000,000</td>
+                                                        <td>20,000,000</td>
+                                                        <td>10%</td>
+                                                        <td>3,500</td>
+                                                    </tr>
+                                                    <tr class="text-large">
+                                                        <td colspan="3">合計</td>
+                                                        <td>10,085,000</td>
+                                                        <td>&nbsp;</td>
+                                                        <td></td>
+                                                        <td>20,000,000</td>
+                                                        <td>40,000,000</td>
+                                                        <td>10%</td>
+                                                        <td>7,000</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //存股優益Modal -->
+
+                            <span class="pull-right text-black">資料期間：2018-11-9 ~ 2019-1-9</span>
+
+                            <div class="dateout">
+                                <label class="checkbox-inline">
+				  <input type="radio" name="blankRadio" value="option2" checked> 近一個月
+				</label>
+                                <label class="checkbox-inline">
+				  <input type="radio" name="blankRadio"  value="option3"> 自訂
+					<input type="text" class="datepicker"> 到 <input type="text" class="datepicker">
+				</label>
+                                <button type="button" class="btn btn-warning">查詢</button>
+                            </div>
+
+
+                            <!-----------------------------------------------------------未到期契約------------------------------------------------------------------------------>
+                            <section class="item">
+                                <p class="elntitle"><i class="fa fa-dot-circle-o" aria-hidden="true"></i>已到期損益</p>
+                                <div class="col-md-4">
+                                    <div style="width:250px; height:250px">
+                                        <canvas id="canvasLine"></canvas>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="table-responsive">
+                                        <table class="table tablefe table-responsive">
+                                            <tr>
+                                                <td></td>
+                                                <td>契約本金</td>
+                                                <td>稅前投資損益</td>
+                                                <td>稅前報酬率</td>
+                                            </tr>
+                                            <tr>
+                                                <td><i class="fa fa-circle yellow" aria-hidden="true"></i>低買優益(ELN)</td>
+                                                <td>1,000,000,000</td>
+                                                <td><span class="red">10,000,000</span></td>
+                                                <td><span class="red"><i class="fa fa-caret-up" aria-hidden="true"></i>10%</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td><i class="fa fa-circle red" aria-hidden="true"></i>存股優益(RCW)</td>
+                                                <td>500,000,000</td>
+                                                <td><span class="green">-250,000</span></td>
+                                                <td><span class="green"><i class="fa fa-caret-down" aria-hidden="true"></i>5%</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>合計</td>
+                                                <td>2,500,000,000</td>
+                                                <td><span class="red">19,750,000</span></td>
+                                                <td><span class="red"><i class="fa fa-caret-up" aria-hidden="true"></i>7%</span></td>
+                                            </tr>
+                                        </table>
+
+
+                                    </div>
+                                </div>
+                                <p class="elntitle"><i class="fa fa-dot-circle-o" aria-hidden="true"></i>契約內容</p>
+
+
+                                <!-- 低買優益 表格 -->
+                                <p class="titlename2"><span>低買</span>優益(ELN) </p>
+                                <div class="table-responsive">
+
+                                    <table class="table table-responsive norbox">
+                                        <tr>
+                                            <th width="12.5%">標的<br>名稱</th>
+                                            <th width="12.5%">標的<br>代碼</th>
+                                            <th width="12.5%">契約<br>數量</th>
+                                            <th width="12.5%">契約<br>本金</th>
+                                            <th width="12.5%">期初<br>收益金額</th>
+                                            <th width="12.5%">稅前<br>投資損益</th>
+                                            <th width="12.5%">稅前<br>報酬率</th>
+                                            <th width="12.5%">&nbsp;</th>
+                                        </tr>
+                                        <tr>
+                                            <td>台積電</td>
+                                            <td>2330</td>
+                                            <td>3</td>
+                                            <td>10,085,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10%</td>
+                                            <td><a type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#myModal">查看詳情</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>台積電</td>
+                                            <td>2330</td>
+                                            <td>3</td>
+                                            <td>10,085,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10%</td>
+                                            <td><a type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#myModal">查看詳情</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>台積電</td>
+                                            <td>2330</td>
+                                            <td>3</td>
+                                            <td>10,085,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10%</td>
+                                            <td><a type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#myModal">查看詳情</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>台積電</td>
+                                            <td>2330</td>
+                                            <td>3</td>
+                                            <td>10,085,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10%</td>
+                                            <td><a type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#myModal">查看詳情</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>台積電</td>
+                                            <td>2330</td>
+                                            <td>3</td>
+                                            <td>10,085,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10%</td>
+                                            <td><a type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#myModal">查看詳情</a></td>
+                                        </tr>
+                                        <tr class="text-large allline">
+                                            <td colspan="2">合計</td>
+                                            <td>15</td>
+                                            <td>50,000,000</td>
+                                            <td>50,000,000</td>
+                                            <td>50,000,000</td>
+                                            <td>10%</td>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <!-- /低買優益 表格 -->
+
+                                <!-- 存股優益 表格 -->
+                                <p class="titlename3"><span>存股</span>優益(RCW)</p>
+                                <div class="table-responsive">
+
+                                    <table class="table table-responsive norbox">
+                                        <tr>
+                                            <th width="12.5%">標的<br>名稱</th>
+                                            <th width="12.5%">標的<br>代碼</th>
+                                            <th width="12.5%">契約<br>數量</th>
+                                            <th width="12.5%">契約<br>本金</th>
+                                            <th width="12.5%">期初<br>收益金額</th>
+                                            <th width="12.5%">稅前<br>投資損益</th>
+                                            <th width="12.5%">稅前<br>報酬率</th>
+                                            <th width="12.5%">&nbsp;</th>
+                                        </tr>
+                                        <tr>
+                                            <td>台積電</td>
+                                            <td>2330</td>
+                                            <td>3</td>
+                                            <td>10,085,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10%</td>
+                                            <td><a type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#myModal2">查看詳情</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>台積電</td>
+                                            <td>2330</td>
+                                            <td>3</td>
+                                            <td>10,085,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10,000,000</td>
+                                            <td>10%</td>
+                                            <td><a type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#myModal2">查看詳情</a></td>
+                                        </tr>
+
+                                        <tr class="text-large allline">
+                                            <td colspan="2">合計</td>
+                                            <td>6</td>
+                                            <td>50,000,000</td>
+                                            <td>50,000,000</td>
+                                            <td>50,000,000</td>
+                                            <td>10%</td>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <!-- /存股優益 表格 -->
+                            </section>
+
+                            <!-----------------------------------------------------------//未到期契約------------------------------------------------------------------------------>
+
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- //內容 -->
+
+
+
+
+
+
+
+
+
+
+    <!--footer-->
+    <!-- #include file ="footer.html" -->
+
+
+
+    <footer id="contact" class="footer bg-black">
+        <div class="main_footer fix">
+            <div class="col-md-12">
+                <p class="wow fadeInRight" data-wow-duration="1s">
+                    <span>日盛證券股份有限公司</span> <span>電話：(02)2516-3050</span><span class="footerlastspan">地址：台北市南京東路二段111號3樓</span><br>
+                    <a href="http://www.jihsun.com.tw/ePaper/eReport.html" target="_blank">防制洗錢及打擊資助恐怖主義專區</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- JS includes -->
+
+<script src="assets/js/vendor/jquery-1.12.2.min.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="assets/js/jquery.easing.1.3.js"></script>
+<script src="assets/js/bootsnav.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.zh-TW.min.js"></script>
+
+
+
+
+<!-- <script src="assets/js/utils.js"></script>-->
+<script type="text/javascript">
+    $(document).ready(function($) {
+        //tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+
+
+        $('.datepicker').datepicker({
+            format: "yyyy-mm-dd",
+            autoclose: true,
+            todayBtn: true,
+            todayHighlight: true,
+            language: "zh-TW"
+        });
+
+
+
+    });
+</script>
+
+<script>
+    var datas = [];
+    var ctx = document.getElementById('canvasLine').getContext('2d');
+    var lineChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ['低買優益', '存股優益'],
+            datasets: [{
+                spanGaps: true,
+                borderWidth: 2,
+                backgroundColor: [
+                    "#FFCE00",
+                    "#FF001F"
+                ],
+                data: [8, 90]
+            }]
+        },
+        options: {
+            layout: {
+                padding: {
+                    left: 0,
+                    right: 0,
+                    top: -20,
+                    bottom: 0
+                }
+            },
+            responsive: true,
+            legend: { //標題
+                display: true,
+                onClick: null, //click disable
+                position: 'top',
+
+                labels: {
+                    fontColor: '#000000',
+                    fontFamily: "Noto Sans TC",
+                    lineHeight: 0,
+                }
+            },
+
+            hover: {
+                mode: 'label'
+            },
+            title: {
+                display: true,
+            }
+        }
+    });
+</script>
+
+
+
+</html>

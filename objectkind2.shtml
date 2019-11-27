@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="日盛證券, 日盛全球優益理財商品">
+    <meta name="keywords" content="日盛證券,日盛全球優益理財商品">
+    <meta name="author" content="">
+    <title>日盛全球優益理財商品</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="bookmark" href="favicon.ico" />
+    <!--FB-->
+    <meta property="og:title" content="日盛全球優益理財商品">
+    <meta property="og:description" content="日盛全球優益理財商品">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/iconfont.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
+    <!-- Custom Fonts -->
+    <link href="assets/css/all.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/notosanstc.css" rel="stylesheet" type="text/css">
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+
+    </style>
+
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+
+    <style>
+        .activeli {
+            color: #FF7600;
+            margin-left: 10px;
+            background-color: #FFF;
+            border: solid 1px #FF7600;
+        }
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-menu" data-offset="110" class="objectkind2">
+
+    <!-- go_top -->
+    <div id="go_top"><i class="fa fa-sort-asc" aria-hidden="true"></i></div>
+
+
+    <!-- Preloader -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_four"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End off Preloader -->
+
+
+    <div class="culmn">
+
+
+        <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
+
+            <div class="attr-nav newattr-nav">
+                <table>
+                    <tr>
+                        <td class="pal">目前市場<span class="riskspan riskr">台灣</span> 客戶風險等級
+                            <span class="riskspan">4</span>
+
+                        </td>
+                        <td class="par">
+                            <span class="logout"><a href="index.shtml">登出</a></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="pal">
+                            <span>
+                            本日到期契約結算金額預估
+                            <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="本日到期契約結算金額於13:35後可顯示實際到期結算交割金額，您可於14:10前使用該金額下單"></i>
+                                </span>
+                            <span class="riskspan">1,000,000,000<span class="m-l-5">元</span></span>
+                        </td>
+                        <td class="par">
+                            <span class="logout"><a href="#">查詢</a></span>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="container">
+
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+					<i class="fa fa-bars"></i>
+            </button>
+                    <a class="navbar-brand" href="login_index.shtml" target="_self">
+                        <img src="assets/images/logo.png" class="logo" alt="">
+                    </a>
+
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hide_li"><a href="#">客戶風險等級 4</a></li>
+                        <li class="hide_li"><a href="index.shtml">登出</a></li>
+                    </ul>
+                </div>
+                <!-- End Header Navigation -->
+            </div>
+        </nav>
+
+        <!-- breadcrumb -->
+        <section class="bread" style="margin-top: 80px;">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li><a href="login_index.shtml">首頁</a></li>
+                    <li><a href="choice_best_index_1.shtml">優益下單</a></li>
+                    <li class="active">標的報價-存股優益</li>
+                </ol>
+            </div>
+        </section>
+        <!--// breadcrumb -->
+
+
+
+        <div class="main-w3pvt mian-content-wthree mian-content-pic text-center choicebest2" id="product">
+            <div class="container">
+                <div class="main_product roomy-40">
+                    <div class="head_title text-center fix">
+                        <!--					<h2 class="text-uppercase choice_best_h2">本日熱門標的</h2>
+-->
+                        <!--<h5>本日熱門標的</h5>-->
+
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12">
+
+                                <!-----------------------------------------------------左側選單-------------------------------------------------------->
+
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                <h4 class="panel-title"><i class="fa fa-dot-circle-o" aria-hidden="true"></i>本日熱門標的</h4>
+                                            </a>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li>2454 聯發科</li>
+                                                    <li class="pbliactive">2330 台積電</li>
+                                                    <li>2330 成長股</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                <h4 class="panel-title"><i class="fa fa-globe" aria-hidden="true"></i>全球頂尖企業</h4>
+                                            </a>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li>2454 聯發科</li>
+                                                    <li>2330 台積電</li>
+                                                    <li>2330 成長股</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                                <h4 class="panel-title"><i class="fa fa-bar-chart" aria-hidden="true"></i>藍籌穩健</h4>
+                                            </a>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li>2454 聯發科</li>
+                                                    <li>2330 台積電</li>
+                                                    <li>2330 成長股</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
+                                                <h4 class="panel-title"><i class="fa fa-line-chart" aria-hidden="true"></i>藍籌高成長</h4>
+                                            </a>
+                                        </div>
+                                        <div id="collapsefour" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li>2454 聯發科</li>
+                                                    <li>2330 台積電</li>
+                                                    <li>2330 成長股</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsefive">
+                                                <h4 class="panel-title"><i class="fa fa-signal" aria-hidden="true"></i>高收益率</h4>
+                                            </a>
+                                        </div>
+                                        <div id="collapsefive" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul>
+                                                    <li>2454 聯發科</li>
+                                                    <li>2330 台積電</li>
+                                                    <li>2330 成長股</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-----------------------------------------------------//左側選單-------------------------------------------------------->
+                            </div>
+
+                            <div class="col-md-9 col-sm-12">
+                                <p class="text-left stockname">
+                                    <span>存股優益</span>
+                                    <i class="fa fa-angle-right m-l-5" aria-hidden="true"></i>
+                                    <i class="fa fa-angle-right m-r-5" aria-hidden="true"></i> 2330 台積電<span class="currentprice">現在股價：</span><span class="currentprice2">235</span>
+                                    <span class="currentprice">尚可投資	</span><span class="currentprice2">5.00億</span>
+
+                                    <button type="button" class="btn btn-default refresh">
+					9秒<i class="fa fa-refresh" aria-hidden="true"></i>
+                </button>
+                                </p>
+
+                                <div class="panel-group" id="stockitem">
+
+                                    <div class="panel panel-default">
+
+                                        <div class="panel-heading p-heading2">
+
+                                            <h4 class="panel-title panel-title_new">穩健型</h4>
+                                        </div>
+
+                                        <div id="stockitem2" class="panel-collapse collapse in">
+                                            <div class="panel-body stockitembg4">
+                                                <div class="row">
+                                                    <div class="col-md-4 col-sm-12 categorystock">
+                                                        <div class="port_item xs-m-top-30">
+                                                            <div class="port_img"></div>
+                                                            <h5 class="newH5"><b>2330  台積電 </b><br><small>風險等級 RR 4</small></h5>
+                                                            <div class="port_circle">
+                                                                <span>17</span>%<br>年化收益率
+                                                            </div>
+
+                                                            <div class="port_caption">
+
+                                                                <table class="table table-hover">
+                                                                    <!--                                        <tr>
+											<td>逢高賣出</td>
+											<td><i class="fa fa-caret-down board_txt text-danger" aria-hidden="true"></i><span>2.0</span>%</td>
+									     	</tr>	
+-->
+                                                                    <tr>
+                                                                        <td>賣出call比例 </td>
+                                                                        <td><span>60</span>%</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>承作期間</td>
+                                                                        <td><span>35</span>天</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order disabledBtn">立即下單</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-12 categorystock">
+                                                        <div class="port_item xs-m-top-30">
+                                                            <div class="port_img"></div>
+                                                            <h5 class="newH5"><b>2330  台積電 </b><br><small>風險等級 RR 4</small></h5>
+                                                            <div class="port_circle">
+                                                                <span>17</span>%<br>年化收益率
+                                                            </div>
+
+                                                            <div class="port_caption">
+
+                                                                <table class="table table-hover">
+                                                                    <!--                                        <tr>
+											<td>逢高賣出</td>
+											<td><i class="fa fa-caret-down board_txt text-danger" aria-hidden="true"></i><span>2.0</span>%</td>
+									     	</tr>	
+-->
+                                                                    <tr>
+                                                                        <td>賣出call比例 </td>
+                                                                        <td><span>60</span>%</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>承作期間</td>
+                                                                        <td><span>35</span>天</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-12 categorystock">
+                                                        <div class="port_item xs-m-top-30">
+                                                            <div class="port_img"></div>
+                                                            <h5 class="newH5"><b>2330  台積電 </b><br><small>風險等級 RR 4</small></h5>
+                                                            <div class="port_circle">
+                                                                <span>17</span>%<br>年化收益率
+                                                            </div>
+
+                                                            <div class="port_caption">
+
+                                                                <table class="table table-hover">
+                                                                    <!--                                        <tr>
+											<td>逢高賣出</td>
+											<td><i class="fa fa-caret-down board_txt text-danger" aria-hidden="true"></i><span>2.0</span>%</td>
+									     	</tr>	
+-->
+                                                                    <tr>
+                                                                        <td>賣出call比例 </td>
+                                                                        <td><span>60</span>%</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>承作期間</td>
+                                                                        <td><span>35</span>天</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="panel panel-default" style="margin-top:10px;">
+                                        <div class="panel-heading p-heading1">
+                                            <h4 class="panel-title panel-title_new">積極型</h4>
+                                        </div>
+                                        <div id="stockitem1" class="panel-collapse collapse in">
+                                            <div class="panel-body stockitembg3">
+
+                                                <div class="row">
+                                                    <div class="col-md-4 col-sm-12 categorystock">
+                                                        <div class="port_item xs-m-top-30 port_item2">
+                                                            <div class="port_img"></div>
+                                                            <h5 class="newH5"><b>2330  台積電 </b><br><small>風險等級 RR 4</small></h5>
+                                                            <div class="port_circle">
+                                                                <span>17</span>%<br>年化收益率
+                                                            </div>
+
+                                                            <div class="port_caption">
+
+                                                                <table class="table table-hover">
+                                                                    <!--                                        <tr>
+											<td>逢高賣出</td>
+											<td><i class="fa fa-caret-down board_txt text-danger" aria-hidden="true"></i><span>2.0</span>%</td>
+									     	</tr>	
+-->
+                                                                    <tr>
+                                                                        <td>賣出call比例 </td>
+                                                                        <td><span>60</span>%</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>承作期間</td>
+                                                                        <td><span>35</span>天</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-12 categorystock">
+                                                        <div class="port_item xs-m-top-30 port_item2">
+                                                            <div class="port_img"></div>
+                                                            <h5 class="newH5"><b>2330  台積電 </b><br><small>風險等級 RR 4</small></h5>
+                                                            <div class="port_circle">
+                                                                <span>17</span>%<br>年化收益率
+                                                            </div>
+
+                                                            <div class="port_caption">
+
+                                                                <table class="table table-hover">
+                                                                    <!--                                        <tr>
+											<td>逢高賣出</td>
+											<td><i class="fa fa-caret-down board_txt text-danger" aria-hidden="true"></i><span>2.0</span>%</td>
+									     	</tr>	
+-->
+                                                                    <tr>
+                                                                        <td>賣出call比例 </td>
+                                                                        <td><span>60</span>%</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>承作期間</td>
+                                                                        <td><span>35</span>天</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-12 categorystock">
+                                                        <div class="port_item xs-m-top-30 port_item2">
+                                                            <div class="port_img"></div>
+                                                            <h5 class="newH5"><b>2330  台積電 </b><br><small>風險等級 RR 4</small></h5>
+                                                            <div class="port_circle">
+                                                                <span>17</span>%<br>年化收益率
+                                                            </div>
+
+                                                            <div class="port_caption">
+
+                                                                <table class="table table-hover">
+                                                                    <!--                                        <tr>
+											<td>逢高賣出</td>
+											<td><i class="fa fa-caret-down board_txt text-danger" aria-hidden="true"></i><span>2.0</span>%</td>
+									     	</tr>	
+-->
+                                                                    <tr>
+                                                                        <td>賣出call比例 </td>
+                                                                        <td><span>60</span>%</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>承作期間</td>
+                                                                        <td><span>35</span>天</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <!-- //col-md-3 選單 -->
+
+
+
+
+
+
+    </div>
+
+
+
+    <!--footer-->
+    <!-- #include file ="footer.html" -->
+
+
+
+    <footer id="contact" class="footer bg-black">
+        <div class="main_footer fix">
+            <div class="col-md-12">
+                <p class="wow fadeInRight" data-wow-duration="1s">
+                    <span>日盛證券股份有限公司</span> <span>電話：(02)2516-3050</span><span class="footerlastspan">地址：台北市南京東路二段111號3樓</span><br>
+                    <a href="http://www.jihsun.com.tw/ePaper/eReport.html" target="_blank">防制洗錢及打擊資助恐怖主義專區</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- JS includes -->
+
+    <script src="assets/js/vendor/jquery-1.12.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+
+
+
+    <script src="assets/js/plugins.js"></script>
+    <!-- <script src="assets/js/main.js"></script> -->
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#loading").fadeOut(500);
+            //tooltip
+            $('[data-toggle="tooltip"]').tooltip();
+
+            $(".optional ul.optional_ul2 li").click(function() {
+                $(this).addClass("activeal2");
+                $(this).siblings('.activeal2').removeClass('activeal2');
+            });
+
+            $("#accordion .panel-default").eq(0).children($(".panel-heading")).addClass("active");
+
+
+            $("#accordion .panel-title").click(function() {
+                $(".panel-body ul li").removeClass("pbliactive2");
+                $("#accordion .panel-heading").removeClass("active");
+                $(this).parent().parent($(".panel-heading")).addClass("active");
+            });
+
+            $(".panel-body ul li").click(function() {
+                $(this).addClass("pbliactive").siblings().removeClass("pbliactive");
+            });
+
+            /*
+	  	  $("#stockitem .panel-default a").click(function(){
+		  var $icon = $(this).children().children("i");
+		  var $iconname = $icon.attr('class').split(' ')[1];
+		  if($iconname === "fa-chevron-circle-down"){
+			 $icon.removeClass("fa-chevron-circle-down").addClass("fa-chevron-circle-up")
+			 }else{
+			 $icon.removeClass("fa-chevron-circle-up").addClass("fa-chevron-circle-down")
+			 }
+	  });	
+	  */
+
+
+        });
+    </script>
+
+</body>
+
+</html>

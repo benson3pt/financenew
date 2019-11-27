@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="日盛證券, 日盛全球優益理財商品">
+    <meta name="keywords" content="日盛證券,日盛全球優益理財商品">
+    <meta name="author" content="">
+    <title>日盛全球優益理財商品</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="shortcut icon" href="img/favicon.ico"/>
+	<link rel="bookmark" href="img/favicon.ico"/>
+    <!--FB-->
+    <meta property="og:title" content="日盛全球優益理財商品">
+    <meta property="og:description" content="日盛全球優益理財商品">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">  
+
+	
+	<link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/iconfont.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
+  	<!-- Custom Fonts -->
+    <link href="assets/css/all.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/notosanstc.css" rel="stylesheet" type="text/css">
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->	
+	
+	<!--For Plugins external css-->
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+
+
+	<style>
+	</style>
+    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	</head>
+
+
+
+<body>
+    <!-- go_top -->
+	<div id="go_top"><i class="fa fa-sort-asc" aria-hidden="true"></i></div>
+
+
+
+	
+	
+	
+	
+<header>
+<nav class="navbar navbar-black ">
+  <div class="container">
+  <div class="login_btn">登入</div>
+    <div class="navbar-img" style="margin-top: -7px">
+				<a class="navbar-brand" href="login_index.shtml" target="_self">
+					<img src="assets/images/logo.png" class="logo" alt="">
+				</a>
+		
+    </div>
+  </div>
+</nav>
+</header>	
+	
+<!--主圖和LOGIN-->  	
+<section class="bg">
+    <div class="container-fluid">
+    <div class="main_bg">
+	<div class="row">
+	<div class="col-md-7">
+
+	    <p class="text-right pull-right hidden-xs hidden-sm">讓您的財富和全球頂尖企業的獲利<BR><span>同步成長</span></p>
+	</div>	
+	<div class="col-md-5">
+		    <!-- login -->
+    <div id="login_panel" class="pull-right">
+		<p class="login_name">交易登入</p>
+		<form>  
+			<div class="loginbox">      			
+				<div class="form-group" style="margin-bottom: 5px">		
+					<input type="text" class="form-control accountbg" placeholder="請輸入ID">
+							
+					<input type="Password" id="login_pw" class="form-control pwbg" placeholder="請輸入密碼">	
+					
+					<input type="checkbox" onclick="Toggle()"> <span class="shownumber"><span style="font-size:0.85em">輸入時顯示密碼</span></span>
+				</div>
+					<a class="btn btn-warning btn-lg center-block newlogin" href="login_index.shtml">登入</a>
+					
+					<p class="text-center"><a href="https://securev.jihsun.com.tw/JssFHCTradeNet/UnlockPwd/code.html" target="_blank" style="font-size: 0.8em;">忘記密碼</a></p>
+					  			
+			</div>
+		</form>
+		<div class="text-center addaccountbox">
+			立即預約專人諮詢! <a href="addmem.shtml" class="btn btn-danger">預約開戶</a>
+		</div>
+		<div class="adbanner" style="width: 100%;padding:34px 0px;background-color: #000000;text-align: center;color: #FFF">BANNER</div>
+			
+	</div>
+	<!-- login -->
+		
+	</div>
+	</div>		
+	</div>
+	</div>
+</section>	
+    
+<!--移動式選單-->  	
+	<section class="option">
+    <div class="container-fluid">
+    <div class="container">
+    <div class="row">
+	<div class="col-sm-12">
+		
+	<ul id="myTab" class="nav nav-tabs">
+	<li class="mytabactive">聚焦全球頂尖企業</li>
+	<li>低買優益理財商品</li>
+	<li>存股優益理財商品</li>
+    </ul>
+	</div>
+	</div>
+	</div>	
+	</div>	
+	</section>
+	
+<!--移動式選單的內容-->  	
+<section id="myTabContent" class="tab-content">
+
+	
+	<!--移動式選單的內容  聚焦全球頂尖企業-->  	
+
+	<div class="tab-pane">
+	<div class="container">
+		
+	<div class="row">
+	<div class="col-sm-9">
+	<p class="text_item">全球產業贏家賺取經濟比例越來越大</p>
+	<p class="text_item2">投資全球頂尖的產業贏家是最佳選擇</p>
+    </div>
+	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
+	</div>	
+	<div class="row">
+		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic1.jpg" alt=""></div>
+	</div>
+		
+		
+	<div class="row">
+	<div class="col-sm-9">
+	<p class="text_item">全球財富集中趨勢</p>
+	<p class="text_item2">如何在全球財富集中化的趨勢中脫穎而出?</p>
+    </div>
+	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
+	</div>	
+	<div class="row">
+		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic2.jpg" alt=""></div>
+	</div>
+		
+	<div class="row">
+	<div class="col-sm-9">
+	<p class="text_item">日盛如何讓您的財富和全球頂尖企業的獲利同步成長</p>
+	<p class="text_item2">提供以全球頂尖企業股票為標的的投資產品</p>
+    </div>
+	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
+	</div>	
+	<div class="row">
+		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic3.jpg" alt=""></div>
+	</div>
+		
+	</div>
+	</div>
+
+	
+    <!--移動式選單的內容  低買優益理財商品-->  	
+
+	<div class="tab-pane">
+	<div class="container">
+		
+	<div class="row">
+	<div class="col-sm-9">
+	<p class="text_item">不追高，逢低買進是長期投資致富的第一步2</p>
+	<p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
+    </div>
+	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
+	</div>	
+	<div class="row">
+		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic4.jpg" alt=""></div>
+	</div>
+		
+		
+	<div class="row">
+	<div class="col-sm-9">
+	<p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品2</p>
+	<p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
+    </div>
+	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
+	</div>	
+	<div class="row">
+		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic5.jpg" alt=""></div>
+	</div>
+		
+	<div class="row">
+	<div class="col-sm-9">
+	<p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品2</p>
+	<p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
+    </div>
+	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
+	</div>	
+	<div class="row">
+		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic6.jpg" alt=""></div>
+	</div>
+		
+	</div>
+	</div>
+
+	
+	
+    <!--移動式選單的內容  存股優益理財商品-->  	
+
+	<div class="tab-pane">
+	<div class="container">
+		
+	<div class="row">
+	<div class="col-sm-9">
+	<p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品3</p>
+	<p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
+    </div>
+	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
+	</div>	
+	<div class="row">
+		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic7.jpg" alt=""></div>
+	</div>
+		
+		
+	<div class="row">
+	<div class="col-sm-9">
+	<p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品3</p>
+	<p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
+    </div>
+	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
+	</div>	
+	<div class="row">
+		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic8.jpg" alt=""></div>
+	</div>
+		
+	<div class="row">
+	<div class="col-sm-9">
+	<p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品3</p>
+	<p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
+    </div>
+	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
+	</div>	
+	<div class="row">
+		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic9.jpg" alt=""></div>
+	</div>
+		
+	</div>
+	</div>
+		
+</section>
+
+
+
+       
+
+    
+    <!--footer-->
+    <!-- #include file ="footer.html" -->
+
+
+
+	<footer id="contact" class="footer bg-black">
+		<div class="main_footer fix">
+			<div class="col-md-12">
+				<p class="wow fadeInRight" data-wow-duration="1s">
+<span>日盛證券股份有限公司</span>  <span>電話：(02)2516-3050</span>  <span class="footerlastspan">地址：台北市南京東路二段111號3樓</span><br>
+<a href="http://www.jihsun.com.tw/ePaper/eReport.html" target="_blank">防制洗錢及打擊資助恐怖主義專區</a>
+					為求最佳效果，建議瀏覽器使用IE10(含)以上版本，1440x900以上解析度
+				</p>
+			</div>
+		</div>
+	</footer>
+
+
+<!-- JS includes -->
+
+<script src="assets/js/vendor/jquery-1.12.2.min.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+
+<script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="assets/js/jquery.easing.1.3.js"></script>
+<script src="assets/js/bootsnav.js"></script>
+
+
+
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/index.js"></script>
+    <!-- Custom JavaScript -->
+    
+    <script type="text/javascript">
+     //打勾或取消輸入時顯示密碼
+    function Toggle() { 
+        var temp = document.getElementById("login_pw"); 
+        if (temp.type === "password") { 
+            temp.type = "text"; 
+        } 
+        else { 
+            temp.type = "password"; 
+        }} 
+
+	$(document).ready(function(){
+	$(window).scroll(function () {
+    var scrollVal = $(this).scrollTop();
+	if(scrollVal>250){
+		$("#go_top").stop().fadeIn();
+	}else{
+		$("#go_top").stop().fadeOut();
+	}
+  });
+	    $('#go_top').bind('click', function(event) {
+        $('html, body').stop().animate({
+            scrollTop: 0
+        }, 1000, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
+	
+	});
+    </script>
+</body>
+
+
+
+	
+	<script type="text/javascript">
+     //打勾或取消輸入時顯示密碼
+    function Toggle() { 
+        var temp = document.getElementById("login_pw"); 
+        if (temp.type === "password") { 
+            temp.type = "text"; 
+        } 
+        else { 
+            temp.type = "password"; 
+        }} 
+
+	$(document).ready(function(){
+
+	
+	});
+    </script>
+</html>

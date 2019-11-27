@@ -1,0 +1,634 @@
+loginbox    <link rel="stylesheet" href="assets/css/style.css">
+    background: #fff url(../../img/account.png) no-repeat;
+    background: #fff url(../../img/account.png) no-repeat;
+* {    
+    font-family: "Microsoft JhengHei",'Noto Sans TC',Helvetica,Arial,sans-serif;
+}
+html, body {
+			font-size:18px;
+			box-sizing: border-box;
+			width:100%;
+		}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	font-family: "Microsoft JhengHei",'Noto Sans TC',Helvetica,Arial,sans-serif;
+}
+.btn {
+    font-size: 16px;
+}
+
+/*footer*/
+
+
+
+
+
+::selection{text-shadow:none;background:#fed136;}
+
+/**********************2019036******************************************/
+.navbar-black {
+	width: 100%;
+  background-color:#000000;
+  border-color:none;
+  padding: 5px 0px 32px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  position: fixed;
+  z-index:999999999;
+}
+.navbar-black .navbar-img{
+	/*width: 320px;*/
+	margin: 0px auto;
+	}
+.navbar-black .navbar-brand {
+  color: #777;
+}
+.navbar-black .navbar-brand:hover,
+.navbar-black .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-black .navbar-text {
+  color: #777;
+}
+.navbar-black .navbar-nav > li > a {
+  color: #777;
+}
+.navbar-black .navbar-nav > li > a:hover,
+.navbar-black .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-black .navbar-nav > .active > a,
+.navbar-black .navbar-nav > .active > a:hover,
+.navbar-black .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.navbar-black .navbar-nav > .disabled > a,
+.navbar-black .navbar-nav > .disabled > a:hover,
+.navbar-black .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-black .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-black .navbar-toggle:hover,
+.navbar-black .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-black .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-black .navbar-collapse,
+.navbar-black .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-black .navbar-nav > .open > a,
+.navbar-black .navbar-nav > .open > a:hover,
+.navbar-black .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-black .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-black .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-black .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-black .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-black .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-black .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-black .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-black .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-black .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-black .navbar-link {
+  color: #777;
+}
+.navbar-black .navbar-link:hover {
+  color: #333;
+}
+.navbar-black .btn-link {
+  color: #777;
+}
+.navbar-black .btn-link:hover,
+.navbar-black .btn-link:focus {
+  color: #333;
+}
+.navbar-black .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-black .btn-link:hover,
+.navbar-black .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-black .btn-link:focus {
+  color: #ccc;
+}
+
+
+@media (min-width: 541px) and (max-width: 940px) {
+
+.navbar-black .login_btn{
+	width: 50px;
+	height:50px;
+	border-radius: 50%;
+	border: solid 1px #787878;
+	position: absolute;
+	color: #FFFFFF;
+	right:50px;
+	text-align: center;
+	font-size:0.9em;
+	line-height:3;
+	top: 18px;
+	background-color:#363636
+	}
+    }
+@media (min-width: 320px) and (max-width: 540px) {
+/*.navbar-black .navbar-img{
+	width: 260px;
+	margin-left: 0px;
+	padding-left: 0px;
+	}
+.navbar-black .navbar-img img{
+	min-width: 260px;
+	}
+*/
+.navbar-black .login_btn{
+	width: 50px;
+	height:50px;
+	border-radius: 50%;
+	border: solid 1px #787878;
+	position: absolute;
+	color: #FFFFFF;
+	right:20px;
+	text-align: center;
+	font-size:0.9em;
+	line-height:3;
+	top: 18px;
+	background-color:#363636
+	}
+    }
+@media (min-width: 769px) {
+.navbar-black .login_btn{
+display: none;
+	}
+    }
+@media (min-width: 1025px) { 
+.navbar-black .navbar-img {
+	width: 100%;
+}
+}
+
+
+
+/****主圖****/
+section.bg{
+}
+section.bg .container-fluid{
+	padding: 0px;
+	}
+section.bg .main_bg{
+	width: 100%;
+	height: 830px;
+	background: url("../../assets/images/header-bg.jpg") center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	margin-top: 5px;
+	}
+
+section.bg .main_bg .col-md-7{
+}
+section.bg .main_bg .col-md-6:first-child{
+border-right: solid 1px #FFF
+}
+section.bg .main_bg  p.text-right{
+    color: #FFF;
+	padding-top: 260px;
+	line-height:1.6;
+	font-size:2.7em;
+	font-weight: bold;
+}
+section.bg .main_bg  p.text-right span{
+    color: #FFF;
+	font-size:1.3em;
+	font-weight:600;
+}
+
+/*  device=1025-1280*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+section.bg .main_bg{
+	width: 100%;
+	height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    margin-top: 0px;
+	}	
+section.bg .main_bg p.text-right{
+    color: #FFF;
+	padding-top:200px;
+	line-height:1.4;
+	font-size:2.1em;
+}     
+}
+
+/*************************go top***************************/
+#go_top {
+width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #FF7600;
+	position: fixed;
+	right: 50px;
+	bottom: 100px;
+	z-index: 9999999999999999999999999;
+	text-align: center;
+	padding-top: 15px;
+	transition: background-color 0.5s;
+-moz-transition: background-color 0.5s;	
+-webkit-transition: background-color 0.5s;	
+-o-transition: background-color 0.5s;
+	cursor: pointer;
+	display: none;
+	}
+#go_top span{
+    color: #FFF;
+}
+#go_top:hover{
+	background-color:#ffd308;
+	}
+
+
+/*  device=540-768*/
+@media (min-width: 540px) and (max-width: 768px) {
+section.bg .main_bg{
+	width: 100%;
+	height: 580px;
+	background: url("../../assets/images/540bg.jpg") 20% 20% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	margin-top: 5px;
+	display: none
+	}
+section.bg .main_bg p.text-right{
+    color: #FFF;
+	padding-top:80px;
+	line-height:1.4;
+	font-size:1.3em;
+	float: none;
+	margin-left: 0px;
+}     
+.main_bg .col-md-5 .pull-right {
+     float: none !important;
+    }
+.main_bg #login_panel{
+	width: 85%;
+	margin: 120px auto;
+	max-height: 370px;
+	max-width: 350px;
+    background-color: rgb(255,255,255);
+    background-color: rgb(255,255,255.0.8);
+	position:relative;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.8);
+	}
+    }
+
+
+
+/*移動式選單*/
+
+section.option .container-fluid{
+	background: rgba(235,235,235,1);
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.8);
+
+}
+
+section.option #myTab li{
+	width: 33%;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 45px 0px;
+	color: #310008;
+	background: none;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+section.option #myTab li.mytabactive{
+	background-color:rgba(225,217,218,1.00);
+}
+
+section.option #myTab li:hover{
+	color:#000000;
+}
+
+@media (max-width: 1025px) {
+section.option{
+	padding-top: 82px;
+}
+}
+/*@media (min-width: 320px) and (max-width: 540px) {
+	section.option{
+	padding-top: 0px;
+}
+}
+*/
+@media (min-width: 320px) and (max-width: 768px) {
+section.option #myTab li{
+	padding: 25px 0px
+}
+}
+@media (max-width: 576px) { 
+section.option #myTab li{
+	width: 33%;
+	text-align: center;
+	font-size:0.9em;
+	padding: 10px 15px
+}
+}
+section.option >.container-fluid{
+	width: 100%;
+} 
+/*section.option fixed*/
+/*	<section class="option">
+    <div class="container-fluid">
+    <div class="container">
+    <div class="row">
+	<div class="col-12">
+
+section.option{
+	position: relative;
+	width: 100%;
+}
+section.option >.container-fluid{
+	position: fixed;
+	width: 100%;
+	top:82px;
+    z-index:999999999;
+} 
+*/
+
+
+
+/*移動式選單的內容*/
+#myTabContent > .tab-pane{
+	display:none
+}
+#myTabContent{
+	padding-top: 50px;
+	border: none
+}
+#myTabContent p.text_item{
+	color: #843534;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-top: 30px;
+	}
+#myTabContent p.text_item2{
+	color:#666666;
+	font-size: 1.2em;
+	margin-bottom:15px;
+	}
+#myTabContent .btn{
+	margin-top:40px;
+	padding:15px 45px;
+	transition: background-color 0.4s;
+-moz-transition: background-color 0.4s;	
+-webkit-transition: background-color 0.4s;	
+-o-transition: background-color 0.4s;
+}
+#myTabContent .pic{
+	border-bottom: solid 1px #E8E8E8;
+	padding-bottom:30px;
+}
+#myTabContent .lastpic{
+	border-bottom: none;
+}
+@media (max-width: 768px) {
+#myTabContent{
+	padding-top: 10px;
+}
+#myTabContent .btn{
+	margin-top:30px;
+}
+}
+@media (max-width: 576px) { 
+#myTabContent p.text_item{
+	font-size: 1.1em;
+	margin-bottom: 5px;
+	}
+#myTabContent .btn{
+	margin-top:0px;
+	margin-bottom: 10px;
+	padding:8px 16px;
+	font-size:0.8em;
+}
+
+#myTabContent p.text_item2{
+	color:#666666;
+	font-size: 0.9em;
+	margin-bottom:10px;
+	}
+    }   
+
+
+/***********************login_index.shtml*****************************************/
+.page{
+background-color:#000000;
+background-color:rgba(0,0,0,0.9);
+}
+
+
+/********* nav個人設定**************/
+.Ltp_Jsun{
+	margin-top:25px;
+
+}
+
+.Ltp_Jsun span.itemspan:first-child{
+	padding-left: 1em;
+	border-left: solid 1px #424242;
+	color:#FFBE00
+}
+.Ltp_Jsun span.itemspan{
+	color: #FFF;
+	font-size:0.85em;
+	margin-right: 1em;
+	padding-right: 1em;
+	border-right: solid 1px #424242;
+	font-weight: bold;
+}
+
+.Ltp_Jsun span.itemspan a{
+	color: #FFF;
+	font-size:1em;
+	transition: color 0.4s;
+-moz-transition: color 0.4s;	
+-webkit-transition: color 0.4s;	
+-o-transition: color 0.4s;
+
+}
+.Ltp_Jsun span.itemspan a:hover{
+	text-decoration: none;
+	color: #FFA600;
+}
+
+.Ltp_Jsun span.itemspan span.badge{
+	transition: color 0.4s;
+-moz-transition: color 0.4s;	
+-webkit-transition: color 0.4s;	
+-o-transition: color 0.4s;
+}
+
+.Ltp_Jsun span.itemspan:hover span.badge{
+	color: #FFA600;
+}
+
+@media (min-width: 300px) and (max-width: 1160px) {
+.page .navbar-img{
+	margin-left: 0px;
+}
+}
+
+@media (min-width: 200px) and (max-width: 375px) {
+.Ltp_Jsun span.itemspan:first-child{
+	padding-left:0em;
+	border-left: none;
+	color:#C4C4C4
+}
+.Ltp_Jsun span.itemspan{
+	color: #FFF;
+	font-size:0.75em;
+	margin-right:0.4em;
+	padding-left:0.4em;
+	border-right: solid 1px #424242;
+	font-weight: bold;
+}
+.navbar-black {
+    padding: 5px 0px 10px;
+}
+}
+
+/************banner*******************/
+section.banner{
+	width: 100%;
+}
+
+section.banner .bannerimg{
+	width: 100%;
+	height: 200px;
+	background: url("../../img/login_bg.jpg") center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/************section.page-header*******************/
+section.page_option{
+	background-color:rgba(235,235,235,0.8);
+}
+section.page_option .container{
+	width: 100%;
+}
+
+
+section.page_option .container ul.nav-tabs{
+	width: 60%;
+	margin: 0px auto;
+}
+
+section.page_option .container ul.nav-tabs li{
+	background-color:rgba(235,235,235,0.8);
+	text-align: center;
+	padding: 20px 0px;
+	cursor: pointer;
+	font-size: 1.1em;
+	font-weight: bold;
+transition: background-color 0.6s;
+-moz-transition: background-color 0.6s;	
+-webkit-transition: background-color 0.6s;	
+-o-transition: background-color 0.6s;
+}
+
+section.page_option .container ul.nav-tabs li .circlei{
+	width: 15px;
+	height: 15px;
+	border: solid 1px #949494;
+	padding: 0px 9px;
+	display: inline;
+	border-radius: 50%;
+	margin-left: 0.1em;
+	color: #949494
+}
+section.page_option .container ul.nav-tabs li:hover{
+	background-color:#645f5c;
+	color:#FFF;
+}
+section.page_option .container ul.nav-tabs li.active{
+	background-color:#645f5c;
+	color:#FFF;
+}
+section.page_option .container ul.nav-tabs span{
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+section.page_option .container ul.nav-tabs{
+	width: 80%;
+	margin: 0px auto;
+}
+section.page_option .container ul.nav-tabs li{
+		font-size: 1em;
+		}
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+section.page_option .container ul.nav-tabs{
+	width: 100%;
+	margin: 0px auto;
+}
+
+}
+@media (min-width: 320px) and (max-width: 540px) {
+section.page_option .container ul.nav-tabs{
+	width: 100%;
+	margin: 0px auto;
+}
+section.page_option .container ul.nav-tabs li{
+		font-size: 0.5em;
+		}
+}
+
+	@media (max-width: 540px) and (min-width: 320px){
+.navbar-black .login_btn {
+    top: 8px;
+}}
+
+@media (max-width: 414px){
+section.option {
+  /*  padding-top: 68px;*/
+}}
+
+
+
+.newlogin{
+	padding: 12px 10px;
+	
+}
+
+
