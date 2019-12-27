@@ -111,7 +111,7 @@
     <!--首頁-->
     <section id="home" class="home bg-black fix" style="padding-top: 100px">
 
-        <h2 class="text-uppercase text-center" style="line-height:3">- 可投資市場 -</h2>
+        <h2 class="text-uppercase text-center" style="line-height:3">- 投資市場 -</h2>
 
         <div class="container">
 
@@ -120,8 +120,21 @@
                 <div class="main_home">
 
                     <div class="col-md-4 col-sm-12 col-xs-12">
-                    </div>
+                        <div class="square bluebg esing" style="height: 355.179px;">
 
+                            <div class="imgflag"><img src="assets/images/usicon.png" alt="美國"></div>
+                            <p class="nationname1">美國</p>
+                            <p class="comingsoon">建構中<br>敬請期待</p>
+
+                            <!-- <p class="circle_sp2 new_sp"><small>您的資產市值</small><br><sup class="newmoney"></sup>20,000,000元</p>
+                            <hr>
+                            <div class="neworder newordernew2">
+                                <a href="undue.shtml" class=" button_order2">帳戶總覽</a>
+                                <a href="choice_best_index.shtml" class=" button_order3">優益下單</a>
+                            </div> -->
+                        </div>
+
+                    </div>
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <div class="square bluebg">
                             <div class="imgflag"><img src="assets/images/nticon.png" alt="台灣"></div>
@@ -134,9 +147,23 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="square bluebg esing" style="height: 355.179px;">
+                            <div class="imgflag "><img src="assets/images/hongicon.png " alt="香港 "></div>
+                            <p class="nationname1 ">香港</p>
+                            <p class="comingsoon">建構中<br>敬請期待</p>
+
+                            <!-- <p class="circle_sp2 new_sp "><small>您的資產市值</small><br><sup class="newmoney "></sup>20,000,000元</p>
+                            <hr>
+                            <div class="neworder newordernew2 ">
+                                <a href="undue.shtml " class=" button_order2 ">帳戶總覽</a>
+                                <a href="choice_best_index.shtml " class=" button_order3 ">優益下單</a>
+                            </div> -->
+                        </div>
+
                     </div>
+
+
 
                 </div>
             </div>
@@ -157,36 +184,12 @@
                 <div class="main_features fix roomy-70">
                     <!--				<div class="main_features fix roomy-70">
 -->
-                    <div class="col-md-4">
-                        <div class="square">
-                            <div class="imgflag"><img src="assets/images/usicon.png" alt="美國"></div>
-                            <p class="nationname">美國</p>
-                            <p class="newnumber newnewnumber">
-                                <span class="text-danger">2~</span><span class="counter text-danger">30</span><span class="percent">%</span><br>
-                                <span class="newsoan" data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
-		<i class="fa fa-info-circle" aria-hidden="true" ></i>
-		</span>
+                    <div class="col-md-4 ">
+                        <div class="square esing" style="height: 487px;">
+                            <div class="imgflag "><img src="assets/images/usicon.png " alt="美國 "></div>
+                            <p class="nationname ">美國</p>
+                            <p class="comingsoon">建構中<br>敬請期待</p>
 
-                            </p>
-                            <div class="detail_out">
-                                <table class="table">
-                                    <tbody>
-                                        <tr>
-                                            <td>台積電</td>
-                                            <td>2-17%</td>
-                                        </tr>
-                                        <tr>
-                                            <td>大立光</td>
-                                            <td>12-30%</td>
-                                        </tr>
-                                        <tr>
-                                            <td>聯發科</td>
-                                            <td>4-22%</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="neworder"><a href="choice_best_index.shtml" class="button_order">查看詳情</a></div>
-                            </div>
                         </div>
                     </div>
 
@@ -224,39 +227,13 @@
                     </div>
 
                     <div class="col-md-4">
-                        <div class="square">
-                            <div class="imgflag"><img src="assets/images/hongicon.png" alt="香港"></div>
-                            <p class="nationname">香港</p>
-                            <p class="newnumber newnewnumber">
-                                <span class="text-danger">2~</span><span class="counter text-danger">30</span><span class="percent">%</span><br>
-                                <span class="newsoan" data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
-		<i class="fa fa-info-circle" aria-hidden="true" ></i>
-		</span>
+                        <div class="square esing" style="height: 487px;">
+                            <div class="imgflag "><img src="assets/images/hongicon.png " alt="香港 "></div>
+                            <p class="nationname ">香港</p>
+                            <p class="comingsoon">建構中<br>敬請期待</p>
 
-                            </p>
-
-                            <div class="detail_out">
-                                <table class="table">
-                                    <tbody>
-                                        <tr>
-                                            <td>台積電</td>
-                                            <td>2-17%</td>
-                                        </tr>
-                                        <tr>
-                                            <td>大立光</td>
-                                            <td>12-30%</td>
-                                        </tr>
-                                        <tr>
-                                            <td>聯發科</td>
-                                            <td>4-22%</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="neworder"><a href="choice_best_index.shtml" class="button_order">查看詳情</a></div>
-                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <!-- End off row -->

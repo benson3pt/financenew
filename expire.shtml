@@ -79,11 +79,9 @@
                 </tr>
                 <tr>
                     <td class="pal">
-                        <span>
-                        本日到期契約結算金額預估
-                        <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="本日到期契約結算金額於13:35後可顯示實際到期結算交割金額，您可於14:10前使用該金額下單"></i>
-                            </span>
+                        <span>本日到期契約結算金額預估</span>
                         <span class="riskspan">1,000,000,000<span class="m-l-5">元</span></span>
+                        <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="本日到期契約結算金額於13:35後可顯示實際到期結算交割金額，您可於14:10前使用該金額下單"></i>
                     </td>
                     <td class="par">
                         <span class="logout"><a href="#">查詢</a></span>
@@ -276,6 +274,7 @@
                             <span class="pull-right text-black">資料期間：2018-11-9 ~ 2019-1-9</span>
 
                             <div class="dateout">
+                                <div class="newIncome"><i class="fa fa-dot-circle-o" aria-hidden="true"></i>已到期損益</div>
                                 <label class="checkbox-inline">
 				  <input type="radio" name="blankRadio" value="option2" checked> 近一個月
 				</label>
@@ -289,7 +288,6 @@
 
                             <!-----------------------------------------------------------未到期契約------------------------------------------------------------------------------>
                             <section class="item">
-                                <p class="elntitle"><i class="fa fa-dot-circle-o" aria-hidden="true"></i>已到期損益</p>
                                 <div class="col-md-4">
                                     <div style="width:250px; height:250px">
                                         <canvas id="canvasLine"></canvas>

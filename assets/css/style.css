@@ -5241,7 +5241,7 @@ i.fa-exclamation-triangle {
 
 .undue table.tablefe tr td {
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.36em;
     border-top: solid 1px #ACACAC;
     padding: 18px 0px;
     color: #000000;
@@ -5269,7 +5269,7 @@ i.fa-exclamation-triangle {
 .undue table.tablefe tr:nth-child(4) td:nth-child(1) {}
 
 .undue table.tablefe tr:last-child td {
-    font-size: 1.3em;
+    font-size: 1.36em;
 }
 
 .undue .buy_funds_ELNbg {
@@ -5336,7 +5336,7 @@ table.norbox tr td {
 
 table.norbox tr td {
     padding: 12px 0px;
-    font-size: 1.1em;
+    font-size: 1.30em;
     text-align: center;
     vertical-align: middle;
     font-weight: bold;
@@ -5347,20 +5347,20 @@ table.norbox tr th {
     background-color: rgba(92, 92, 92);
     background-color: rgba(92, 92, 92, 1.00);
     color: #FFF;
-    font-size: 1.2em;
+    font-size: 1.36em;
 }
 
 table.norbox tr:nth-child(even) td {
     background-color: rgba(227, 227, 227);
     background-color: rgba(227, 227, 227, 0.5);
     font-weight: bold;
-    color: #676767;
+    color: #424242;
 }
 
 table.norbox tr:last-child td {
     border-top: solid 3px #8E8E8E;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: #000000;
 }
 
@@ -5379,6 +5379,7 @@ table.norbox tr:last-child td {
     background-color: #888888;
     color: #FFF;
     border: solid 1px #B5B5B5;
+    font-size: 0.9em;
 }
 
 .undue p.titlename3 {
@@ -6330,7 +6331,7 @@ table .model-table tr td {
     vertical-align: middle;
     color: #000000;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .account_signature .buy_funds_ELNbg section.elncontent2 table tr td i {
@@ -6931,7 +6932,7 @@ color: #FFC600
     float: left;
     color: #FFF;
     margin-top: 10px;
-    font-size: 1.1em;
+    font-size: 17.8px;
     font-weight: bold;
 }
 
@@ -7033,7 +7034,7 @@ color: #FFC600
 }
 
 .addmem .contentbox .rowborder .sm9_r p {
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 .addmem .contentbox .col-sm-4 p {
@@ -7066,8 +7067,8 @@ color: #FFC600
 }
 
 .addmem p.person {
-    width: 70%;
-    margin: 0px auto 30px;
+    width: 75%;
+    margin: 0px auto 10px;
     font-size: 1.1em;
     color: #4B4B4B;
     font-weight: bold;
@@ -7443,13 +7444,14 @@ p.topdate span:first-child {
     margin: 0px auto;
     text-align: center;
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 .circlenumber {
     width: 30px;
     height: 30px;
     color: #FFF;
-    line-height: 2.2;
+    line-height: 1.7;
     font-weight: bold;
     border-radius: 50%;
     background-color: #CFCFCF;
@@ -8152,4 +8154,76 @@ td .tooltip-inner {
     box-shadow: #a3a3a3 0 0px 0px 2px inset;
     outline: none;
     border: solid 1px #a3a3a3;
+}
+
+p.comingsoon {
+    color: #2F2F2F;
+    font-size: 24px;
+    margin-top: 46px;
+    font-weight: 550;
+    line-height: 36px;
+}
+
+.esing {
+    opacity: 0.46;
+    transition: all 0.5s ease;
+}
+
+.esing:hover {
+    opacity: 0.7;
+}
+
+.newIncome {
+    width: 170px;
+    float: left;
+    margin-top: 6px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.objectkind_carousel {
+    margin: 10px auto 40px;
+}
+
+.objectkind_carousel .carousel-indicators {
+    bottom: -40px
+}
+
+.objectkind .newslide .carousel-inner .container .row .col-md-4 .port_item .port_circle,
+.objectkind2 .newslide .carousel-inner .container .row .col-md-4 .port_item .port_circle {
+    margin: 0px auto 5px;
+}
+
+.objectkind2 .newslide .carousel-inner .container .row .col-md-4 .port_item .port_img {
+    background: url(../images/title1.png) no-repeat center;
+}
+
+button_order_active {
+    background-color: #a3a3a3;
+}
+
+#stockitem .panel {
+    background-color: rgba(255, 255, 255, 0.76) !important;
+}
+
+.carousel_width {
+    width: 94%;
+    padding-bottom: 18px;
+}
+
+.objectkind .main_product .carousel-control.left,
+.objectkind .main_product .carousel-control.right,
+.objectkind2 .main_product .carousel-control.left,
+.objectkind2 .main_product .carousel-control.right {
+    color: #ffa600;
+}
+
+.objectkind .carousel-control,
+.objectkind2 .carousel-control {
+    opacity: 0.6;
+}
+
+.objectkind .objectkind_carousel,
+.objectkind2 .objectkind_carousel {
+    margin-bottom: 20px;
 }

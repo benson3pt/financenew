@@ -189,6 +189,15 @@
                                             <th width="30%">簽署狀態</th>
                                         </tr>
                                         <tr>
+                                            <td>電子平台交易同意書</td>
+                                            <td>&nbsp;</td>
+                                            <td>電子</td>
+                                            <td>
+                                                <a href="#" type="button" class="btn" data-toggle="modal" data-target="#myModal">尚未簽署</a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
                                             <td width="21%">客戶投資風險屬性分析表(KYC)</td>
                                             <td width="21%">2018/12/10</td>
                                             <td width="21%">電子</td>
@@ -197,16 +206,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>電子交易同意書1</td>
-                                            <td>&nbsp;</td>
-                                            <td>電子</td>
-                                            <td>
-                                                <a href="#" type="button" class="btn" data-toggle="modal" data-target="#myModal">
-					  尚未簽署</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>電子交易同意書2</td>
+                                            <td>客戶盡職調查</td>
                                             <td>2018/12/10</td>
                                             <td>電子</td>
                                             <td width="36%">
@@ -221,22 +221,22 @@
                                                 <p class="text-success"><i class="fa fa-check-square" aria-hidden="true"></i>已簽署</p>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <!-- <tr>
                                             <td>洗錢防制聲明書</td>
                                             <td>&nbsp;</td>
                                             <td>紙本</td>
                                             <td width="36%">
                                                 <p>尚未簽署<small class="text-danger">*請洽客服專線</small></p>
                                             </td>
-                                        </tr>
-                                        <tr>
+                                        </tr> -->
+                                        <!-- <tr>
                                             <td>FATCA聲明書</td>
                                             <td>&nbsp;</td>
                                             <td>紙本</td>
                                             <td width="36%">
                                                 <p>尚未簽署<small class="text-danger">*請洽客服專線</small></p>
                                             </td>
-                                        </tr>
+                                        </tr> -->
                                     </tbody>
                                 </table>
                             </section>

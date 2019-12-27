@@ -11,21 +11,21 @@
     <title>日盛全球優益理財商品</title>
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
-	<link rel="shortcut icon" href="img/favicon.ico"/>
-	<link rel="bookmark" href="img/favicon.ico"/>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="bookmark" href="img/favicon.ico" />
     <!--FB-->
     <meta property="og:title" content="日盛全球優益理財商品">
     <meta property="og:description" content="日盛全球優益理財商品">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
-    <meta property="og:image" content="">  
+    <meta property="og:image" content="">
 
-	
-	<link rel="stylesheet" href="assets/css/animate.css">
+
+    <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/iconfont.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/bootsnav.css">
-  	<!-- Custom Fonts -->
+    <!-- Custom Fonts -->
     <link href="assets/css/all.css" rel="stylesheet" type="text/css">
     <link href="assets/css/notosanstc.css" rel="stylesheet" type="text/css">
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -33,9 +33,9 @@
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
       <script src="assets/js/respond.min.js"></script>
-    <![endif]-->	
-	
-	<!--For Plugins external css-->
+    <![endif]-->
+
+    <!--For Plugins external css-->
     <link rel="stylesheet" href="assets/css/plugins.css" />
     <!--Theme Responsive css-->
     <link rel="stylesheet" href="assets/css/responsive.css" />
@@ -45,319 +45,402 @@
     <link rel="stylesheet" href="assets/css/index.css">
 
 
-	<style>
-	</style>
+    <style>
+
+    </style>
     <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-	</head>
+</head>
 
 
 
 <body>
     <!-- go_top -->
-	<div id="go_top"><i class="fa fa-sort-asc" aria-hidden="true"></i></div>
+    <div id="go_top"><i class="fa fa-sort-asc" aria-hidden="true"></i></div>
+    <header>
+        <nav class="navbar navbar-black ">
+            <div class="container-fluid">
+                <div class="login_btn">登入</div>
+                <div class="navbar-img" style="margin-top: -7px">
+                    <a class="navbar-brand" href="login_index.shtml" target="_self">
+                        <img src="assets/images/logo.png" class="logo" alt="">
+                    </a>
 
+                </div>
+            </div>
+        </nav>
+    </header>
 
+    <!--ie ALERT-->
+    <div class="alertIe9" id="alertIe9">
+        <div class="container">
+            <div class="row">
+                <div class="alertIe9Bg">
+                    <p>
+                        <b>您目前所使用的瀏覽器版本為IE10以下版本：</b><br> <br> 為了提供您最佳的瀏覽體驗，本網站將不再支援IE10 (含)以下的瀏覽器，若使用IE10(含)以下瀏覽器，頁面可能會有跑版或功能無法正確顯示的情況。<br> ※提醒您：微軟已於2016年1月停止對舊版IE提供安全性更新，詳情請見
 
-	
-	
-	
-	
-<header>
-<nav class="navbar navbar-black ">
-  <div class="container">
-  <div class="login_btn">登入</div>
-    <div class="navbar-img" style="margin-top: -7px">
-				<a class="navbar-brand" href="login_index.shtml" target="_self">
-					<img src="assets/images/logo.png" class="logo" alt="">
-				</a>
-		
+                        <a href="https://www.microsoft.com/zh-tw/microsoft-365/windows/end-of-ie-support" target="new">《微軟停止支援公告》</a><br>
+
+                        <a href="https://support.microsoft.com/zh-tw/help/17621/internet-explorer-downloads" target="new">【點我下載升級Internet Explorer】</a><br>
+                        <a href="https://www.google.com.tw/chrome/" target="new">【點我下載 Google Chrome】</a><br>
+                        <a href="https://www.mozilla.org/zh-TW/firefox/new/" target="new">【點我下載 Firefox】</a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div>
-  </div>
-</nav>
-</header>	
-	
-<!--主圖和LOGIN-->  	
-<section class="bg">
-    <div class="container-fluid">
-    <div class="main_bg">
-	<div class="row">
-	<div class="col-md-7">
 
-	    <p class="text-right pull-right hidden-xs hidden-sm">讓您的財富和全球頂尖企業的獲利<BR><span>同步成長</span></p>
-	</div>	
-	<div class="col-md-5">
-		    <!-- login -->
-    <div id="login_panel" class="pull-right">
-		<p class="login_name">交易登入</p>
-		<form>  
-			<div class="loginbox">      			
-				<div class="form-group" style="margin-bottom: 5px">		
-					<input type="text" class="form-control accountbg" placeholder="請輸入ID">
-							
-					<input type="Password" id="login_pw" class="form-control pwbg" placeholder="請輸入密碼">	
-					
-					<input type="checkbox" onclick="Toggle()"> <span class="shownumber"><span style="font-size:0.85em">輸入時顯示密碼</span></span>
-				</div>
-					<a class="btn btn-warning btn-lg center-block newlogin" href="login_index.shtml">登入</a>
-					
-					<p class="text-center"><a href="https://securev.jihsun.com.tw/JssFHCTradeNet/UnlockPwd/code.html" target="_blank" style="font-size: 0.8em;">忘記密碼</a></p>
-					  			
-			</div>
-		</form>
-		<div class="text-center addaccountbox">
-			立即預約專人諮詢! <a href="addmem.shtml" class="btn btn-danger">預約開戶</a>
-		</div>
-		<div class="adbanner" style="width: 100%;padding:34px 0px;background-color: #000000;text-align: center;color: #FFF">BANNER</div>
-			
-	</div>
-	<!-- login -->
-		
-	</div>
-	</div>		
-	</div>
-	</div>
-</section>	
-    
-<!--移動式選單-->  	
-	<section class="option">
-    <div class="container-fluid">
-    <div class="container">
-    <div class="row">
-	<div class="col-sm-12">
-		
-	<ul id="myTab" class="nav nav-tabs">
-	<li class="mytabactive">聚焦全球頂尖企業</li>
-	<li>低買優益理財商品</li>
-	<li>存股優益理財商品</li>
-    </ul>
-	</div>
-	</div>
-	</div>	
-	</div>	
-	</section>
-	
-<!--移動式選單的內容-->  	
-<section id="myTabContent" class="tab-content">
+    <!--主圖和LOGIN-->
+    <section class="bg">
+        <div class="container-fluid">
+            <div class="main_bg">
+                <div class="row">
+                    <div class="col-md-7">
 
-	
-	<!--移動式選單的內容  聚焦全球頂尖企業-->  	
+                        <p class="text-right pull-right hidden-xs hidden-sm">讓您的財富和全球頂尖企業的獲利
+                            <BR><span>同步成長</span></p>
+                    </div>
+                    <div class="col-md-5">
+                        <!-- login -->
+                        <div id="login_panel" class="pull-right">
+                            <p class="login_name">交易登入</p>
+                            <form>
+                                <div class="loginbox">
+                                    <div class="form-group" style="margin-bottom: 5px">
+                                        <input type="text" class="form-control accountbg" placeholder="請輸入ID">
 
-	<div class="tab-pane">
-	<div class="container">
-		
-	<div class="row">
-	<div class="col-sm-9">
-	<p class="text_item">全球產業贏家賺取經濟比例越來越大</p>
-	<p class="text_item2">投資全球頂尖的產業贏家是最佳選擇</p>
+                                        <input type="Password" id="login_pw" class="form-control pwbg" placeholder="請輸入密碼">
+
+                                        <input type="checkbox" onclick="Toggle()"> <span class="shownumber"><span style="font-size:0.85em">輸入時顯示密碼</span></span>
+                                    </div>
+                                    <a class="btn btn-warning btn-lg center-block newlogin" href="login_index.shtml">登入</a>
+
+                                    <p class="text-center"><a href="https://securev.jihsun.com.tw/JssFHCTradeNet/UnlockPwd/code.html" target="_blank" style="font-size: 0.8em;">忘記密碼</a></p>
+
+                                </div>
+                            </form>
+                            <div class="text-center addaccountbox">
+                                立即預約專人諮詢! <a href="addmem.shtml" class="btn btn-danger">預約開戶</a>
+                            </div>
+                            <div class="adbanner" style="width: 100%;padding:34px 0px;background-color: #000000;text-align: center;color: #FFF">BANNER</div>
+
+                        </div>
+                        <!-- login -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--移動式選單-->
+    <section class="option">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <ul id="myTab" class="nav nav-tabs">
+                            <li class="mytabactive">聚焦全球頂尖企業</li>
+                            <li>低買優益理財商品</li>
+                            <li>存股優益理財商品</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--移動式選單的內容-->
+    <section id="myTabContent" class="tab-content">
+
+
+        <!--移動式選單的內容  聚焦全球頂尖企業-->
+
+        <div class="tab-pane">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <p class="text_item">全球產業贏家賺取經濟比例越來越大</p>
+                        <p class="text_item2">投資全球頂尖的產業贏家是最佳選擇</p>
+                    </div>
+                    <div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic1.jpg" alt=""></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <p class="text_item">全球財富集中趨勢</p>
+                        <p class="text_item2">如何在全球財富集中化的趨勢中脫穎而出?</p>
+                    </div>
+                    <div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic2.jpg" alt=""></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <p class="text_item">日盛如何讓您的財富和全球頂尖企業的獲利同步成長</p>
+                        <p class="text_item2">提供以全球頂尖企業股票為標的的投資產品</p>
+                    </div>
+                    <div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic3.jpg" alt=""></div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--移動式選單的內容  低買優益理財商品-->
+
+        <div class="tab-pane">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <p class="text_item">不追高，逢低買進是長期投資致富的第一步2</p>
+                        <p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
+                    </div>
+                    <div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic4.jpg" alt=""></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品2</p>
+                        <p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
+                    </div>
+                    <div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic5.jpg" alt=""></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品2</p>
+                        <p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
+                    </div>
+                    <div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic6.jpg" alt=""></div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!--移動式選單的內容  存股優益理財商品-->
+
+        <div class="tab-pane">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品3</p>
+                        <p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
+                    </div>
+                    <div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic7.jpg" alt=""></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品3</p>
+                        <p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
+                    </div>
+                    <div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic8.jpg" alt=""></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-9">
+                        <p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品3</p>
+                        <p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
+                    </div>
+                    <div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic9.jpg" alt=""></div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!------------pop------------>
+    <div class="modal fade newindex in" id="divPopupMsgModal0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: block; padding-right: 17px;">
+        <div class="modal fade in" id="divPopupMsgModal0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: block;">
+
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close popClose" data-dismiss="modal" aria-hidden="true">
+                            ×
+                        </button>
+                        <h4 class="modal-title text-center" id="myModalLabel">
+                            登入前Pop-up
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        登入前Pop-up的測試
+                        <br>
+                        <img src="assets/images/popimages.jpg" class="img-responsive" alt="登入前Pop-up" title="登入前Pop-up">
+                        <br> 洋基季後積極補強，網羅水手王牌派克斯頓（James Paxton）、續簽哈普（J. A. Happ）和沙巴西亞（CC Sabathia），與年輕新王牌塞維里諾（Luis Severino）簽4年約鞏固輪值，但他卻因傷缺席開季，球團趕緊找來岡薩雷茲（Gio Gonzalez）加強先發輪值深度。
+                        <br>
+                        <p>
+                            <a href="/GlobalEx/Download/CMS_UploadFile/36d65e02-473b-4425-ad53-8445995cc6f8?uploadFileName=banner_pic_02@3x.jpg&amp;downloadFileName" target="_blank" alt="下載檔案" title="下載檔案"><img src="/assets/images/download.png" style="width:30px;" alt="下載檔案" title="下載檔案"> 相關檔案下載</a>
+                        </p>
+                        <div class=" text-center">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                我知道了
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+
     </div>
-	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
-	</div>	
-	<div class="row">
-		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic1.jpg" alt=""></div>
-	</div>
-		
-		
-	<div class="row">
-	<div class="col-sm-9">
-	<p class="text_item">全球財富集中趨勢</p>
-	<p class="text_item2">如何在全球財富集中化的趨勢中脫穎而出?</p>
-    </div>
-	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
-	</div>	
-	<div class="row">
-		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic2.jpg" alt=""></div>
-	</div>
-		
-	<div class="row">
-	<div class="col-sm-9">
-	<p class="text_item">日盛如何讓您的財富和全球頂尖企業的獲利同步成長</p>
-	<p class="text_item2">提供以全球頂尖企業股票為標的的投資產品</p>
-    </div>
-	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
-	</div>	
-	<div class="row">
-		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic3.jpg" alt=""></div>
-	</div>
-		
-	</div>
-	</div>
-
-	
-    <!--移動式選單的內容  低買優益理財商品-->  	
-
-	<div class="tab-pane">
-	<div class="container">
-		
-	<div class="row">
-	<div class="col-sm-9">
-	<p class="text_item">不追高，逢低買進是長期投資致富的第一步2</p>
-	<p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
-    </div>
-	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
-	</div>	
-	<div class="row">
-		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic4.jpg" alt=""></div>
-	</div>
-		
-		
-	<div class="row">
-	<div class="col-sm-9">
-	<p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品2</p>
-	<p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
-    </div>
-	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
-	</div>	
-	<div class="row">
-		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic5.jpg" alt=""></div>
-	</div>
-		
-	<div class="row">
-	<div class="col-sm-9">
-	<p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品2</p>
-	<p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
-    </div>
-	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
-	</div>	
-	<div class="row">
-		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic6.jpg" alt=""></div>
-	</div>
-		
-	</div>
-	</div>
-
-	
-	
-    <!--移動式選單的內容  存股優益理財商品-->  	
-
-	<div class="tab-pane">
-	<div class="container">
-		
-	<div class="row">
-	<div class="col-sm-9">
-	<p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品3</p>
-	<p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
-    </div>
-	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
-	</div>	
-	<div class="row">
-		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic7.jpg" alt=""></div>
-	</div>
-		
-		
-	<div class="row">
-	<div class="col-sm-9">
-	<p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品3</p>
-	<p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
-    </div>
-	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
-	</div>	
-	<div class="row">
-		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic8.jpg" alt=""></div>
-	</div>
-		
-	<div class="row">
-	<div class="col-sm-9">
-	<p class="text_item">日盛提供您逢低買進全球頂尖企業股票的優益投資產品3</p>
-	<p class="text_item2">不追高，逢低買進是長期投資致富的第一步</p>
-    </div>
-	<div class="col-sm-3"><a type="button" class="btn btn-danger btn-lg" href="topic1/topic1_1.shtml">查看更多</a></div>	
-	</div>	
-	<div class="row">
-		<div class="col-sm-12"><img class="img-responsive pic" src="assets/images/pic9.jpg" alt=""></div>
-	</div>
-		
-	</div>
-	</div>
-		
-</section>
+    <!------------//pop------------>
 
 
 
-       
 
-    
+
+
+
+
     <!--footer-->
     <!-- #include file ="footer.html" -->
 
 
 
-	<footer id="contact" class="footer bg-black">
-		<div class="main_footer fix">
-			<div class="col-md-12">
-				<p class="wow fadeInRight" data-wow-duration="1s">
-<span>日盛證券股份有限公司</span>  <span>電話：(02)2516-3050</span>  <span class="footerlastspan">地址：台北市南京東路二段111號3樓</span><br>
-<a href="http://www.jihsun.com.tw/ePaper/eReport.html" target="_blank">防制洗錢及打擊資助恐怖主義專區</a>
-					為求最佳效果，建議瀏覽器使用IE10(含)以上版本，1440x900以上解析度
-				</p>
-			</div>
-		</div>
-	</footer>
+    <footer id="contact" class="footer bg-black">
+        <div class="main_footer fix">
+            <div class="col-md-12">
+                <p class="wow fadeInRight" data-wow-duration="1s">
+                    <span>日盛證券股份有限公司</span> <span>電話：(02)2516-3050</span> <span class="footerlastspan">地址：台北市南京東路二段111號3樓</span><br>
+                    <a href="http://www.jihsun.com.tw/ePaper/eReport.html" target="_blank">防制洗錢及打擊資助恐怖主義專區</a> 為求最佳效果，建議瀏覽器使用IE10(含)以上版本，1440x900以上解析度
+                </p>
+            </div>
+        </div>
+    </footer>
 
 
-<!-- JS includes -->
+    <!-- JS includes -->
 
-<script src="assets/js/vendor/jquery-1.12.2.min.js"></script>
-<script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
 
-<script src="assets/js/jquery.magnific-popup.js"></script>
-<script src="assets/js/jquery.easing.1.3.js"></script>
-<script src="assets/js/bootsnav.js"></script>
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
 
 
 
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/index.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/index.js"></script>
     <!-- Custom JavaScript -->
-    
+
     <script type="text/javascript">
-     //打勾或取消輸入時顯示密碼
-    function Toggle() { 
-        var temp = document.getElementById("login_pw"); 
-        if (temp.type === "password") { 
-            temp.type = "text"; 
-        } 
-        else { 
-            temp.type = "password"; 
-        }} 
+        //打勾或取消輸入時顯示密碼
+        function Toggle() {
+            var temp = document.getElementById("login_pw");
+            if (temp.type === "password") {
+                temp.type = "text";
+            } else {
+                temp.type = "password";
+            }
+        }
 
-	$(document).ready(function(){
-	$(window).scroll(function () {
-    var scrollVal = $(this).scrollTop();
-	if(scrollVal>250){
-		$("#go_top").stop().fadeIn();
-	}else{
-		$("#go_top").stop().fadeOut();
-	}
-  });
-	    $('#go_top').bind('click', function(event) {
-        $('html, body').stop().animate({
-            scrollTop: 0
-        }, 1000, 'easeInOutExpo');
-        event.preventDefault();
-    });
 
-	
-	});
+
+
+
+        $(document).ready(function() {
+            //登入前Pop-up預設關閉
+            $("#divPopupMsgModal0").css('display', 'none');
+            //登入前Pop-up燈箱關閉
+
+            $('.popClose').bind('click', function(event) {
+                $("#divPopupMsgModal0").fadeOut("fast");
+
+            });
+
+
+
+
+
+
+            $(window).scroll(function() {
+                var scrollVal = $(this).scrollTop();
+                if (scrollVal > 250) {
+                    $("#go_top").stop().fadeIn();
+                } else {
+                    $("#go_top").stop().fadeOut();
+                }
+            });
+            $('#go_top').bind('click', function(event) {
+                $('html, body').stop().animate({
+                    scrollTop: 0
+                }, 1000, 'easeInOutExpo');
+                event.preventDefault();
+            });
+
+
+        });
     </script>
 </body>
 
 
 
-	
-	<script type="text/javascript">
-     //打勾或取消輸入時顯示密碼
-    function Toggle() { 
-        var temp = document.getElementById("login_pw"); 
-        if (temp.type === "password") { 
-            temp.type = "text"; 
-        } 
-        else { 
-            temp.type = "password"; 
-        }} 
 
-	$(document).ready(function(){
+<script type="text/javascript">
+    //打勾或取消輸入時顯示密碼
+    function Toggle() {
+        var temp = document.getElementById("login_pw");
+        if (temp.type === "password") {
+            temp.type = "text";
+        } else {
+            temp.type = "password";
+        }
+    }
 
-	
-	});
-    </script>
+
+
+
+    //可以判斷IE9及9以下瀏覽器
+
+    var is_IE = function(ver) {
+        var b = document.createElement('b')
+        b.innerHTML = '<!--[if IE ' + ver + ']><i></i><![endif]-->'
+        return b.getElementsByTagName('i').length === 1
+    }
+
+    if (is_IE(6) || is_IE(7) || is_IE(8) || is_IE(9)) {
+        document.getElementById("alertIe9").style.display = "block";
+    }
+</script>
+
 </html>

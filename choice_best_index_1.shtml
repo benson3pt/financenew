@@ -91,11 +91,9 @@
                     </tr>
                     <tr>
                         <td class="pal">
-                            <span>
-                            本日到期契約結算金額預估
-                            <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="本日到期契約結算金額於13:35後可顯示實際到期結算交割金額，您可於14:10前使用該金額下單"></i>
-                                </span>
+                            <span>本日到期契約結算金額預估</span>
                             <span class="riskspan">1,000,000,000<span class="m-l-5">元</span></span>
+                            <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="本日到期契約結算金額於13:35後可顯示實際到期結算交割金額，您可於14:10前使用該金額下單"></i>
                         </td>
                         <td class="par">
                             <span class="logout"><a href="#">查詢</a></span>
@@ -160,9 +158,9 @@
                         </ul>
                         <h3 class="h3two pink">商品排序</h3>
                         <ul class="optional_ul2">
-                            <li class="pinkli">JAI價值選股</li>
-                            <li>10淨值股價比</li>
-                            <li>股價波動價值高至低</li>
+                            <li class="pinkli">商品編號</li>
+                            <li>ROE</li>
+                            <li>YTD</li>
                         </ul>
                     </div>
                 </div>
@@ -213,7 +211,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例 </td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -244,7 +242,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例 </td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -275,7 +273,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例 </td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -314,7 +312,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例 </td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -345,7 +343,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例 </td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -376,7 +374,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例 </td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -466,7 +464,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -497,7 +495,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -528,7 +526,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -567,7 +565,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -598,7 +596,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -629,7 +627,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -721,7 +719,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -752,7 +750,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -783,7 +781,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -822,7 +820,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -853,7 +851,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -884,7 +882,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -972,7 +970,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1003,7 +1001,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1034,7 +1032,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1073,7 +1071,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1104,7 +1102,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1135,7 +1133,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1225,7 +1223,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1256,7 +1254,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1287,7 +1285,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1326,7 +1324,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1357,7 +1355,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1388,7 +1386,7 @@
 
                                                             <table class="table table-hover">
                                                                 <tr>
-                                                                    <td>買進價位</td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>

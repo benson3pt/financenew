@@ -163,10 +163,10 @@
                                             <td>到期通知</td>
                                             <td><input type="radio" name="optradio"> 訂閱 <input type="radio" name="optradio" checked="checked"> 取消</td>
                                         </tr>
-                                        <tr>
+                                        <!-- <tr>
                                             <td>契約到期續做指定</td>
                                             <td><input type="radio" name="optradio2"> 訂閱 <input type="radio" name="optradio2" checked="checked"> 取消</td>
-                                        </tr>
+                                        </tr> -->
                                     </tbody>
                                 </table>
                                 <button type="button" class="btn mypaperbtn">變更確認</button>

@@ -93,11 +93,9 @@
                     </tr>
                     <tr>
                         <td class="pal">
-                            <span>
-                            本日到期契約結算金額預估
-                            <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="本日到期契約結算金額於13:35後可顯示實際到期結算交割金額，您可於14:10前使用該金額下單"></i>
-                                </span>
+                            <span>本日到期契約結算金額預估</span>
                             <span class="riskspan">1,000,000,000<span class="m-l-5">元</span></span>
+                            <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="本日到期契約結算金額於13:35後可顯示實際到期結算交割金額，您可於14:10前使用該金額下單"></i>
                         </td>
                         <td class="par">
                             <span class="logout"><a href="#">查詢</a></span>
@@ -135,7 +133,7 @@
             <div class="container">
                 <ol class="breadcrumb">
                     <li><a href="login_index.shtml">首頁</a></li>
-                    <li><a href="choice_best_index_1.shtml">優益下單</a></li>
+                    <li><a href="choice_best_index_1.shtml">存股優益</a></li>
                     <li class="active">標的報價-存股優益</li>
                 </ol>
             </div>
@@ -256,210 +254,404 @@
 
                                 <div class="panel-group" id="stockitem">
 
+                                    <!----------------積極型------------------------>
+
                                     <div class="panel panel-default">
 
-                                        <div class="panel-heading p-heading2">
-
-                                            <h4 class="panel-title panel-title_new">穩健型</h4>
-                                        </div>
-
-                                        <div id="stockitem2" class="panel-collapse collapse in">
-                                            <div class="panel-body stockitembg4">
-                                                <div class="row">
-                                                    <div class="col-md-4 col-sm-12 categorystock">
-                                                        <div class="port_item xs-m-top-30">
-                                                            <div class="port_img"></div>
-                                                            <h5 class="newH5"><b>2330  台積電 </b><br><small>風險等級 RR 4</small></h5>
-                                                            <div class="port_circle">
-                                                                <span>17</span>%<br>年化收益率
-                                                            </div>
-
-                                                            <div class="port_caption">
-
-                                                                <table class="table table-hover">
-                                                                    <!--                                        <tr>
-											<td>逢高賣出</td>
-											<td><i class="fa fa-caret-down board_txt text-danger" aria-hidden="true"></i><span>2.0</span>%</td>
-									     	</tr>	
--->
-                                                                    <tr>
-                                                                        <td>賣出call比例 </td>
-                                                                        <td><span>60</span>%</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>承作期間</td>
-                                                                        <td><span>35</span>天</td>
-                                                                    </tr>
-                                                                </table>
-                                                                <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order disabledBtn">立即下單</a></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4 col-sm-12 categorystock">
-                                                        <div class="port_item xs-m-top-30">
-                                                            <div class="port_img"></div>
-                                                            <h5 class="newH5"><b>2330  台積電 </b><br><small>風險等級 RR 4</small></h5>
-                                                            <div class="port_circle">
-                                                                <span>17</span>%<br>年化收益率
-                                                            </div>
-
-                                                            <div class="port_caption">
-
-                                                                <table class="table table-hover">
-                                                                    <!--                                        <tr>
-											<td>逢高賣出</td>
-											<td><i class="fa fa-caret-down board_txt text-danger" aria-hidden="true"></i><span>2.0</span>%</td>
-									     	</tr>	
--->
-                                                                    <tr>
-                                                                        <td>賣出call比例 </td>
-                                                                        <td><span>60</span>%</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>承作期間</td>
-                                                                        <td><span>35</span>天</td>
-                                                                    </tr>
-                                                                </table>
-                                                                <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4 col-sm-12 categorystock">
-                                                        <div class="port_item xs-m-top-30">
-                                                            <div class="port_img"></div>
-                                                            <h5 class="newH5"><b>2330  台積電 </b><br><small>風險等級 RR 4</small></h5>
-                                                            <div class="port_circle">
-                                                                <span>17</span>%<br>年化收益率
-                                                            </div>
-
-                                                            <div class="port_caption">
-
-                                                                <table class="table table-hover">
-                                                                    <!--                                        <tr>
-											<td>逢高賣出</td>
-											<td><i class="fa fa-caret-down board_txt text-danger" aria-hidden="true"></i><span>2.0</span>%</td>
-									     	</tr>	
--->
-                                                                    <tr>
-                                                                        <td>賣出call比例 </td>
-                                                                        <td><span>60</span>%</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>承作期間</td>
-                                                                        <td><span>35</span>天</td>
-                                                                    </tr>
-                                                                </table>
-                                                                <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-
-                                    <div class="panel panel-default" style="margin-top:10px;">
-                                        <div class="panel-heading p-heading1">
+                                        <div class="panel-heading y-heading2">
                                             <h4 class="panel-title panel-title_new">積極型</h4>
                                         </div>
-                                        <div id="stockitem1" class="panel-collapse collapse in">
-                                            <div class="panel-body stockitembg3">
 
-                                                <div class="row">
-                                                    <div class="col-md-4 col-sm-12 categorystock">
-                                                        <div class="port_item xs-m-top-30 port_item2">
-                                                            <div class="port_img"></div>
-                                                            <h5 class="newH5"><b>2330  台積電 </b><br><small>風險等級 RR 4</small></h5>
-                                                            <div class="port_circle">
-                                                                <span>17</span>%<br>年化收益率
+                                        <!-- 積極型輪播 -->
+                                        <div id="carousel-example-generic" class="carousel slide newslide objectkind_carousel carousel_width" data-ride="carousel">
+                                            <!-- Indicators -->
+                                            <!-- <ol class="carousel-indicators">
+                                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                            </ol> -->
+
+
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img"></div>
+                                                                    <h4>2330 台積電</h4>
+                                                                    <h5>風險等級 RR 4</h5>
+                                                                    <div class="port_circle">
+                                                                        <span>17</span>%<br>
+                                                                        <small>年化收益率</small>
+                                                                    </div>
+                                                                    <div class="port_caption">
+                                                                        <table class="table table-hover">
+                                                                            <tr>
+                                                                                <td>賣出call比例</td>
+                                                                                <td><span>99.0</span>%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>承作期間</td>
+                                                                                <td><span>30</span>天</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order disabledBtn">立即下單</a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img"></div>
+                                                                    <h4>2330 台積電</h4>
+                                                                    <h5>風險等級 RR 4</h5>
+                                                                    <div class="port_circle">
+                                                                        <span>12</span>%<br>
+                                                                        <small>年化收益率</small>
+                                                                    </div>
+                                                                    <div class="port_caption">
+                                                                        <table class="table table-hover">
+                                                                            <tr>
+                                                                                <td>賣出call比例</td>
+                                                                                <td><span>98.0</span>%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>承作期間</td>
+                                                                                <td><span>30</span>天</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img"></div>
+                                                                    <h4>2330 台積電</h4>
+                                                                    <h5>風險等級 RR 4</h5>
+                                                                    <div class="port_circle">
+                                                                        <span>8</span>%<br>
+                                                                        <small>年化收益率</small>
+                                                                    </div>
+                                                                    <div class="port_caption">
+                                                                        <table class="table table-hover">
+                                                                            <tr>
+                                                                                <td>賣出call比例</td>
+                                                                                <td><span>97.0</span>%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>承作期間</td>
+                                                                                <td><span>30</span>天</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
 
-                                                            <div class="port_caption">
-
-                                                                <table class="table table-hover">
-                                                                    <!--                                        <tr>
-											<td>逢高賣出</td>
-											<td><i class="fa fa-caret-down board_txt text-danger" aria-hidden="true"></i><span>2.0</span>%</td>
-									     	</tr>	
--->
-                                                                    <tr>
-                                                                        <td>賣出call比例 </td>
-                                                                        <td><span>60</span>%</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>承作期間</td>
-                                                                        <td><span>35</span>天</td>
-                                                                    </tr>
-                                                                </table>
-                                                                <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4 col-sm-12 categorystock">
-                                                        <div class="port_item xs-m-top-30 port_item2">
-                                                            <div class="port_img"></div>
-                                                            <h5 class="newH5"><b>2330  台積電 </b><br><small>風險等級 RR 4</small></h5>
-                                                            <div class="port_circle">
-                                                                <span>17</span>%<br>年化收益率
-                                                            </div>
-
-                                                            <div class="port_caption">
-
-                                                                <table class="table table-hover">
-                                                                    <!--                                        <tr>
-											<td>逢高賣出</td>
-											<td><i class="fa fa-caret-down board_txt text-danger" aria-hidden="true"></i><span>2.0</span>%</td>
-									     	</tr>	
--->
-                                                                    <tr>
-                                                                        <td>賣出call比例 </td>
-                                                                        <td><span>60</span>%</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>承作期間</td>
-                                                                        <td><span>35</span>天</td>
-                                                                    </tr>
-                                                                </table>
-                                                                <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-4 col-sm-12 categorystock">
-                                                        <div class="port_item xs-m-top-30 port_item2">
-                                                            <div class="port_img"></div>
-                                                            <h5 class="newH5"><b>2330  台積電 </b><br><small>風險等級 RR 4</small></h5>
-                                                            <div class="port_circle">
-                                                                <span>17</span>%<br>年化收益率
-                                                            </div>
-
-                                                            <div class="port_caption">
-
-                                                                <table class="table table-hover">
-                                                                    <!--                                        <tr>
-											<td>逢高賣出</td>
-											<td><i class="fa fa-caret-down board_txt text-danger" aria-hidden="true"></i><span>2.0</span>%</td>
-									     	</tr>	
--->
-                                                                    <tr>
-                                                                        <td>賣出call比例 </td>
-                                                                        <td><span>60</span>%</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>承作期間</td>
-                                                                        <td><span>35</span>天</td>
-                                                                    </tr>
-                                                                </table>
-                                                                <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
 
+                                                <div class="item">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img"></div>
+                                                                    <h4>2330 台積電</h4>
+                                                                    <h5>風險等級 RR 4</h5>
+                                                                    <div class="port_circle">
+                                                                        <span>17</span>%<br>
+                                                                        <small>年化收益率</small>
+                                                                    </div>
+                                                                    <div class="port_caption">
+                                                                        <table class="table table-hover">
+                                                                            <tr>
+                                                                                <td>賣出call比例</td>
+                                                                                <td><span>97.0</span>%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>承作期間</td>
+                                                                                <td><span>30</span>天</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img"></div>
+                                                                    <h4>2330 台積電</h4>
+                                                                    <h5>風險等級 RR 4</h5>
+                                                                    <div class="port_circle">
+                                                                        <span>12</span>%<br>
+                                                                        <small>年化收益率</small>
+                                                                    </div>
+                                                                    <div class="port_caption">
+                                                                        <table class="table table-hover">
+                                                                            <tr>
+                                                                                <td>賣出call比例</td>
+                                                                                <td><span>97.0</span>%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>承作期間</td>
+                                                                                <td><span>30</span>天</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img"></div>
+                                                                    <h4>2330 台積電</h4>
+                                                                    <h5>風險等級 RR 4</h5>
+                                                                    <div class="port_circle">
+                                                                        <span>8</span>%<br>
+                                                                        <small>年化收益率</small>
+                                                                    </div>
+                                                                    <div class="port_caption">
+                                                                        <table class="table table-hover">
+                                                                            <tr>
+                                                                                <td>賣出call比例</td>
+                                                                                <td><span>97.0</span>%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>承作期間</td>
+                                                                                <td><span>30</span>天</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
                                             </div>
+
+                                            <!-- Controls -->
+                                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+
+                                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                                <span class="sr-only">Next</span>
+                                            </a>
                                         </div>
+                                        <!-- //積極型輪播 -->
+
+
+
                                     </div>
+
+
+
+
+                                    <!----------------穩健型------------------------>
+                                    <div class="panel panel-default" style="margin-top:10px">
+
+
+                                        <div class="panel-heading y-heading2">
+                                            <h4 class="panel-title panel-title_new">穩健型</h4>
+                                        </div>
+                                        <!-- 穩健型輪播 -->
+                                        <div id="carousel-example-generic2" class="carousel slide newslide objectkind_carousel carousel_width" data-ride="carousel">
+                                            <!-- Indicators -->
+                                            <!-- <ol class="carousel-indicators">
+                                                <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+                                            </ol> -->
+
+
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img"></div>
+                                                                    <h4>2330 台積電</h4>
+                                                                    <h5>風險等級 RR 4</h5>
+                                                                    <div class="port_circle">
+                                                                        <span>5</span>%<br>
+                                                                        <small>年化收益率</small>
+                                                                    </div>
+                                                                    <div class="port_caption">
+                                                                        <table class="table table-hover">
+                                                                            <tr>
+                                                                                <td>賣出call比例</td>
+                                                                                <td><span>96.0</span>%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>承作期間</td>
+                                                                                <td><span>30</span>天</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img"></div>
+                                                                    <h4>2330 台積電</h4>
+                                                                    <h5>風險等級 RR 4</h5>
+                                                                    <div class="port_circle">
+                                                                        <span>4</span>%<br>
+                                                                        <small>年化收益率</small>
+                                                                    </div>
+                                                                    <div class="port_caption">
+                                                                        <table class="table table-hover">
+                                                                            <tr>
+                                                                                <td>賣出call比例</td>
+                                                                                <td><span>95.0</span>%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>承作期間</td>
+                                                                                <td><span>30</span>天</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img"></div>
+                                                                    <h4>2330 台積電</h4>
+                                                                    <h5>風險等級 RR 4</h5>
+                                                                    <div class="port_circle">
+                                                                        <span>2</span>%<br>
+                                                                        <small>年化收益率</small>
+                                                                    </div>
+                                                                    <div class="port_caption">
+                                                                        <table class="table table-hover">
+                                                                            <tr>
+                                                                                <td>賣出call比例</td>
+                                                                                <td><span>94.0</span>%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>承作期間</td>
+                                                                                <td><span>30</span>天</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img"></div>
+                                                                    <h4>2330 台積電</h4>
+                                                                    <h5>風險等級 RR 4</h5>
+                                                                    <div class="port_circle">
+                                                                        <span>5</span>%<br>
+                                                                        <small>年化收益率</small>
+                                                                    </div>
+                                                                    <div class="port_caption">
+                                                                        <table class="table table-hover">
+                                                                            <tr>
+                                                                                <td>賣出call比例</td>
+                                                                                <td><span>96.0</span>%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>承作期間</td>
+                                                                                <td><span>30</span>天</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img"></div>
+                                                                    <h4>2330 台積電</h4>
+                                                                    <h5>風險等級 RR 4</h5>
+                                                                    <div class="port_circle">
+                                                                        <span>4</span>%<br>
+                                                                        <small>年化收益率</small>
+                                                                    </div>
+                                                                    <div class="port_caption">
+                                                                        <table class="table table-hover">
+                                                                            <tr>
+                                                                                <td>賣出call比例</td>
+                                                                                <td><span>95.0</span>%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>承作期間</td>
+                                                                                <td><span>30</span>天</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="port_item xs-m-top-30">
+                                                                    <div class="port_img"></div>
+                                                                    <h4>2330 台積電</h4>
+                                                                    <h5>風險等級 RR 4</h5>
+                                                                    <div class="port_circle">
+                                                                        <span>2</span>%<br>
+                                                                        <small>年化收益率</small>
+                                                                    </div>
+                                                                    <div class="port_caption">
+                                                                        <table class="table table-hover">
+                                                                            <tr>
+                                                                                <td>賣出call比例</td>
+                                                                                <td><span>94.0</span>%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>承作期間</td>
+                                                                                <td><span>30</span>天</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+
+                                            <!-- Controls -->
+                                            <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+                                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+
+                                            <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+                                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                        <!-- //穩健型輪播 -->
+
+                                    </div>
+
                                 </div>
 
 
@@ -555,7 +747,9 @@
 			 }
 	  });	
 	  */
-
+            $('.carousel').carousel({
+                interval: false
+            })
 
         });
     </script>
