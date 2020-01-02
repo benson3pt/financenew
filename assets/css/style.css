@@ -8227,3 +8227,34 @@ button_order_active {
 .objectkind2 .objectkind_carousel {
     margin-bottom: 20px;
 }
+
+
+/**/
+
+.notfound {
+    margin-top: 200px;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.notfound h1 {
+    font-size: 160px;
+    color: #FFF;
+    margin-bottom: 100px;
+}
+
+.notfound p {
+    font-size: 40px;
+    color: #FFF;
+    margin-bottom: 40px;
+}
+
+.notfound404 {
+    background: url(../images/404.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    position: relative;
+    z-index: 1;
+}
