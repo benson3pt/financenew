@@ -154,13 +154,13 @@
                                                 <table class="table table-responsive norbox">
                                                     <tr>
                                                         <th width="11%">契約<br>編號</th>
-                                                        <th width="1%">契約<br>起始日</th>
-                                                        <th width="1%">契約<br>到期日</th>
-                                                        <th width="1%">契約<br>本金</th>
-                                                        <th width="11%">履約價</th>
+                                                        <th width="11%">契約<br>起始日</th>
+                                                        <th width="11%">契約<br>到期日</th>
+                                                        <th width="11%">契約<br>本金</th>
+                                                        <th width="8%">履約價</th>
                                                         <th width="11%">期初<br>收益金額</th>
                                                         <th width="11%">稅前<br>投資損益</th>
-                                                        <th width="11%">稅前<br>報酬率</th>
+                                                        <th width="9%">稅前<br>報酬率</th>
                                                         <th width="11%">代扣<br>稅額</th>
                                                     </tr>
                                                     <tr>
@@ -219,15 +219,15 @@
                                                 <table class="table table-responsive norbox">
                                                     <tr>
                                                         <th width="11%">契約<br>編號</th>
-                                                        <th width="1%">契約<br>起始日</th>
-                                                        <th width="1%">契約<br>到期日</th>
-                                                        <th width="1%">契約<br>本金</th>
-                                                        <th width="11%">履約價</th>
+                                                        <th width="11%">契約<br>起始日</th>
+                                                        <th width="11%">契約<br>到期日</th>
+                                                        <th width="11%">契約<br>本金</th>
+                                                        <th width="8%">履約價</th>
                                                         <th width="11%">賣出<br>Call比率</th>
                                                         <th width="11%">期初<br>收益金額</th>
                                                         <th width="11%">稅前<br>投資損益</th>
-                                                        <th width="11%">稅前<br>報酬率</th>
-                                                        <th width="11%">代扣<br>稅額</th>
+                                                        <th width="8%">稅前<br>報酬率</th>
+                                                        <th width="8%">代扣<br>稅額</th>
                                                     </tr>
                                                     <tr>
                                                         <td>PGNT2021</td>
