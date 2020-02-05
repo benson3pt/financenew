@@ -1191,7 +1191,8 @@ nav.navbar.bootsnav ul.nav li a:hover {
     padding-bottom: 20px;
 }
 
-#navbar-menu .navbar-nav>li>a {
+#navbar-menu .navbar-nav>li>a,
+#navbar-menux .navbar-nav>li>a {
     font-size: 1.2em;
 }
 
@@ -1203,7 +1204,8 @@ nav.navbar.bootsnav ul.nav li a:hover {
     color: #F99B00;
 }
 
-#navbar-menu .navbar-nav>li>a.scroll0 {
+#navbar-menu .navbar-nav>li>a.scroll0,
+#navbar-menux .navbar-nav>li>a.scroll0 {
     color: #F99B00;
 }
 
@@ -6641,7 +6643,7 @@ button.mypaperbtn:hover {
 
 .myAccount_edit p.sample {
     margin-top: 5px;
-    color: #434343;
+    color: #999999;
 }
 
 .myAccount_edit .col-lg-5 p.content {
@@ -8257,4 +8259,13 @@ button_order_active {
     -ms-background-size: cover;
     position: relative;
     z-index: 1;
+}
+
+.myAccount_edit p.sample-danger {
+    color: red;
+    display: none;
+}
+
+.myAccount_edit p.pl-4 {
+    padding-left: 3.6em;
 }

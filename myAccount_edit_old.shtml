@@ -79,7 +79,7 @@
 
             <!-- Start Header Navigation -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menux">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 					<i class="fa fa-bars"></i>
 				</button>
                 <a class="navbar-brand" href="login_index.shtml" target="_self">
@@ -89,9 +89,10 @@
             </div>
             <!-- End Header Navigation -->
             <!-- navbar menu -->
-            <div class="collapse navbar-collapse" id="navbar-menux">
+            <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="myAccount_signature.shtml">線上文件簽署狀態 <i class="fa fa-exclamation-circle" aria-hidden="true"></i></a></li>
+                    <li><a href="myAccount_signature.shtml">線上文件簽署狀態 <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+</a></li>
                     <li><a href="myAccount_paper.shtml">電子交易通知設定</a></li>
                     <li><a href="myAccount_changPW.shtml">變更密碼</a></li>
                     <li><a href="myAccount_edit.shtml" class="scroll0">變更聯絡資料</a></li>
@@ -118,6 +119,56 @@
     <!--// breadcrumb -->
 
 
+    <!-------------------------------------------------- modal -------------------------------------------------------------->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">洗錢防制聲明書</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="table-responsive lawbox">
+                        <h4>連結標的風險</h4>
+                        <p>本商品為衍生性金融商品交易，商品之期末投資損益視連結標的股價走勢而定，須承擔連結標的價格平均漲跌幅超過設定區間之收益風險。本商品保本率為100%，故到期時不會產生契約本金之損失。</p>
+                        <h4>交易提前終止風險</h4>
+                        <p>本商品到期前如申請提前終止，客戶最低可領回100%的契約本金。</p>
+                        <h4>利率風險</h4>
+                        <p>本商品到期損益結算不受市場利率波動所影響。</p>
+                        <h4>流動性風險</h4>
+                        <p>本商品交易契約不得轉讓、質借或設定質權及其他擔保物權予第三人。</p>
+                        <h4>信用風險</h4>
+                        <p>客戶與交易券商承作本商品須承擔交易券商之信用風險，即若交易券商發生信用事件，則於商品到期日可能無法依約辦理交割，此「信用風險」之評估，端視客戶對於自身之風險承受度及交易券商信用評等價值之評估。</p>
+                        <h4>匯率風險</h4>
+                        <p>本商品承作與到期皆以新台幣計價，故無匯率風險。</p>
+                        <h4>國家風險</h4>
+                        <p>交易券商註冊國中華民國如發生戰亂或天災等不可抗力之事件，可能導致客戶投資損失。</p>
+                        <h4>賦稅風險</h4>
+                        <p>課徵之稅率與方式可能因法令、法規或政策等因素影響而有所變動，致造成客戶實質收益增加或減少。</p>
+                        <h4>法律風險</h4>
+                        <p>客戶承作本商品時，承擔因契約、法令等因素所造成的法律風險，故客戶應詳閱並妥善保管產品說明、成交確認等各項交易有關文件，以降低法律風險。</p>
+                        <h4>再投資風險</h4>
+                        <p>若本商品交易契約依約定條款、或發生連結標的於商品到期日之前終止上市、或合法性及喪失市場機制等因素而提前終止時，客戶的下一個投資標的可能無法提供相同收益，因而產生資金再投資風險。</p>
+                        <h4>其他</h4>
+                        <p>交易券商已盡力充分說明本商品之各項可能風險，惟客戶仍應於交易前充分瞭解結構型商品之性質，及相關之財務、會計、稅制或法律等事宜，自行審度本身財務狀況及風險承受度，始決定是否進行投
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <form class="form-inline text-center">
+                        <div class="form-group">
+                            <!--				<label>輸入密碼</label>
+--><input type="text" class="form-control" placeholder="請輸入密碼">
+                            <a type="submit" class="btn btn-danger btnnew" href="#">簽署</a>
+                        </div>
+                        <!--<a type="submit" class="btn btn-default" href="#" data-dismiss="modal" aria-label="Close">取消交易</a>-->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------- //modal -------------------------------------------------------------->
 
 
     <!-- 內容 -->
@@ -134,27 +185,20 @@
                                 <div class="editarea">
                                     <p class="edit_title"><span class="colorRed">※</span>通訊地址</p>
                                     <p class="content"><span>郵遞區號:235</span> 地址 : 新北市中和區******9號6樓 </p>
+                                    <p class="change">變更</p>
+                                    <div class="edit_select">
+                                        <span class="newtitle">郵遞區號:</span>
+                                        <input type="text" class="numberinput" value="123" disabled><br>
 
-                                    <p class="change" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                        變更
-                                    </p>
-                                    <div class="collapse" id="collapseExample">
-                                        <div class="edit_select">
-                                            <span class="newtitle">郵遞區號:</span>
-                                            <input type="text" class="numberinput" value="123" disabled><br>
-
-                                            <span class="newtitle">地址:</span>
-                                            <select name="" id="">
-                                                    <option value="台北市">台北市</option>
-                                                </select>
-                                            <select name="" id="">
-                                                        <option value="中正區">中正區</option>
-                                                    </select>
-                                            <input type="text" class="inputaAddress" name="" id="" value="南京東路九段8888號8樓">
-                                            <p class="sample sample-danger pl-4">地址修改範例：台北市中正區南京東路九段8888號8</p>
-                                            <!-- <p class="sample">範例：台北市中正區南京東路九段8888號8樓</p> -->
-                                        </div>
-
+                                        <span class="newtitle">地址:</span>
+                                        <select name="" id="">
+												<option value="">請選擇</option>
+											</select>
+                                        <select name="" id="">
+													<option value="">請選擇</option>
+												</select>
+                                        <input type="text" name="" id="">
+                                        <p class="sample">範例：南京東路九段8888號8樓</p>
                                     </div>
                                 </div>
 
@@ -179,23 +223,17 @@
                                     </div>
 
 
-                                    <p class="change" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
-                                        變更
-                                    </p>
-                                    <div class="collapse" id="collapseExample2">
+                                    <p class="change">變更</p>
+                                    <div class="hidee">
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <p>住家電話</p>
-                                                <input name="tel" type="text" class="form-control" value="02-22002020">
-                                                <p class="sample sample-danger">住家電話修改範例：02-22002020</p>
-
+                                                <input name="tel" type="text" class="form-control" placeholder="範例 : 02-22002020">
                                             </div>
                                             <div class="col-lg-6">
                                                 <p>公司電話</p>
                                                 <div class="col-xs-9" style="padding: 0px">
-                                                    <input type="tel" name="tel" class="form-control" required="required" value="02-22002020">
-                                                    <p class="sample sample-danger">公司電話修改範例：02-22002020</p>
-
+                                                    <input type="tel" name="tel" class="form-control" required="required" placeholder="範例 : 02-22002020">
                                                 </div>
 
                                                 <div class="col-xs-3" style="padding: 0px;padding-left: 15px;">
@@ -207,19 +245,14 @@
                                         <div class="row row2">
                                             <div class="col-lg-6">
                                                 <p>行動電話1</p>
-                                                <input name="tel" type="text" class="form-control" value="0900-000-000">
-                                                <p class="sample sample-danger">行動電話修改範例：0900-000-000</p>
-
+                                                <input name="tel" type="text" class="form-control" placeholder="範例 : 0912-345-689">
                                             </div>
 
                                             <div class="col-lg-6">
                                                 <p>行動電話2</p>
-                                                <input name="tel" type="text" class="form-control" value="0900-000-000">
-                                                <p class="sample sample-danger">行動電話修改範例：0900-000-000</p>
-
+                                                <input name="tel" type="text" class="form-control" placeholder="範例 : 0912-345-689">
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
 
@@ -230,20 +263,14 @@
                                     <p class="content mailcontent">E-Mail : janelfkj@gmail.com
                                         <span><i class="fa fa-check-square" aria-hidden="true"></i>已確認</span>
                                         <span><i class="fa fa-envelope-o" aria-hidden="true"></i>待確認中，快收mail看看有沒有驗證信哦！</span></p>
+                                    <p class="change">變更</p>
+                                    <div class="hidee">
 
-                                    <p class="change" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
-                                        變更
-                                    </p>
-                                    <div class="collapse" id="collapseExample3">
                                         <div class="row">
-                                            <div class="col-lg-6"><input name="mail" type="text" class="form-control" value="janelfkj@gmail.com"></div>
-
+                                            <div class="col-lg-6"><input name="mail" type="text" class="form-control" placeholder="請輸入E-Mail"></div>
                                             <div class="col-lg-2"><button type="button" class="btn">發送確認信</button></div>
                                         </div>
-                                        <p class="sample sample-danger">E-Mail修改範例：janelfkj@gmail.com </p>
-
-                                        <!-- <p class="sample">變更e-mail請重新收取驗證信 </p> -->
-
+                                        <p class="sample">變更e-mail請重新收取驗證信 </p>
                                     </div>
                                 </div>
 
@@ -268,35 +295,27 @@
                                         </div>
                                     </div>
 
-                                    <p class="change" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
-                                        變更
-                                    </p>
-                                    <div class="collapse" id="collapseExample4">
+
+                                    <p class="change">變更</p>
+                                    <div class="hidee">
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <p>緊急聯絡人:</p>
-                                                <input name="tel" type="text" class="form-control" value="張O玉">
-                                                <p class="sample sample-danger">您的緊急聯絡人欄位尚未填寫</p>
-
+                                                <input name="tel" type="text" class="form-control" placeholder="">
                                             </div>
                                             <div class="col-lg-6">
                                                 <p>關係:</p>
-                                                <input name="tel" type="text" class="form-control" value="母女">
-                                                <p class="sample sample-danger">您的關係欄位尚未填寫</p>
-
+                                                <input name="tel" type="text" class="form-control" placeholder="">
                                             </div>
                                         </div>
                                         <div class="row row2">
                                             <div class="col-lg-6">
                                                 <p>住家電話:</p>
-                                                <input name="tel" type="text" class="form-control" value="02-20220000">
-                                                <p class="sample sample-danger">住家電話修改範例：02-20220000</p>
-
+                                                <input name="tel" type="text" class="form-control" placeholder="">
                                             </div>
                                             <div class="col-lg-6">
                                                 <p>行動電話:</p>
-                                                <input name="tel" type="text" class="form-control" value="0900-000-000">
-                                                <p class="sample sample-danger">行動電話修改範例：0900-000-000</p>
+                                                <input name="tel" type="text" class="form-control" placeholder="">
                                             </div>
                                         </div>
                                     </div>
@@ -343,6 +362,19 @@
     <!-- //內容 -->
 
 
+
+
+
+
+
+
+
+
+    <!--footer-->
+    <!-- #include file ="footer.html" -->
+
+
+
     <footer id="contact" class="footer bg-black">
         <div class="main_footer fix">
             <div class="col-md-12">
@@ -354,26 +386,32 @@
         </div>
     </footer>
 
+
+    <!-- JS includes -->
+    <script src="assets/js/vendor/jquery-1.12.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function($) {
+
+            /*
+		$(".modal-header button").click(function(){		
+         window.open("login_index.shtml","_self");
+	     });   
+	   */
+            $("p.change").click(function() {
+                $(this).next($("hidee")).slideToggle();
+            });
+
+        });
+    </script>
+
+
+
 </body>
-<!-- JS includes -->
-<script src="assets/js/vendor/jquery-1.12.2.min.js"></script>
-<script src="assets/js/vendor/bootstrap.min.js"></script>
-<script src="assets/js/jquery.magnific-popup.js"></script>
-<script src="assets/js/jquery.easing.1.3.js"></script>
-<script src="assets/js/bootsnav.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/main.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-
-
-
-    });
-</script>
-
-
-
-
 
 </html>
