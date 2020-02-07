@@ -8269,3 +8269,11 @@ button_order_active {
 .myAccount_edit p.pl-4 {
     padding-left: 3.6em;
 }
+
+.newslide .carousel-inner .container .row .col-md-4 .port_item .port_caption table.table-hoverAlgin tr td:first-child {
+    width: 51%;
+}
+
+.newslide .carousel-inner .container .row .col-md-4 .port_item .port_caption table.table-hoveralgin tr td:first-child {
+    width: 53%;
+}

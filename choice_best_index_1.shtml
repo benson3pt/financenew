@@ -209,7 +209,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例 </td>
                                                                     <td><span>97.0</span>%</td>
@@ -240,7 +244,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例 </td>
                                                                     <td><span>97.0</span>%</td>
@@ -271,7 +279,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例 </td>
                                                                     <td><span>97.0</span>%</td>
@@ -310,7 +322,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例 </td>
                                                                     <td><span>97.0</span>%</td>
@@ -341,7 +357,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例 </td>
                                                                     <td><span>97.0</span>%</td>
@@ -372,7 +392,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例 </td>
                                                                     <td><span>97.0</span>%</td>
@@ -462,7 +486,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -493,7 +521,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -524,7 +556,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -563,7 +599,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -594,7 +634,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -625,7 +669,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -717,7 +765,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -748,7 +800,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -779,7 +835,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -818,7 +878,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -849,7 +913,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -880,7 +948,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -968,7 +1040,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -999,7 +1075,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -1030,7 +1110,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -1069,7 +1153,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -1100,7 +1188,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -1131,7 +1223,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -1221,7 +1317,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -1252,7 +1352,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -1283,7 +1387,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -1322,7 +1430,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -1353,7 +1465,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>
@@ -1384,7 +1500,11 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover">
+                                                            <table class="table table-hover table-hoverAlgin">
+                                                                <tr>
+                                                                    <td>賣出價位</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>賣出call比例</td>
                                                                     <td><span>97.0</span>%</td>

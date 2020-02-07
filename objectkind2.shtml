@@ -286,10 +286,15 @@
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
-                                                                        <table class="table table-hover">
+                                                                        <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td>賣出價位</td>
+                                                                                <td><span>0</span>%</td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>賣出call比例</td>
-                                                                                <td><span>99.0</span>%</td>
+                                                                                <td><span>100</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -310,10 +315,15 @@
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
-                                                                        <table class="table table-hover">
+                                                                        <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td>賣出價位</td>
+                                                                                <td><span>0</span>%</td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>賣出call比例</td>
-                                                                                <td><span>98.0</span>%</td>
+                                                                                <td><span>100</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -334,10 +344,15 @@
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
-                                                                        <table class="table table-hover">
+                                                                        <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td>賣出價位</td>
+                                                                                <td><span>0</span>%</td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>賣出call比例</td>
-                                                                                <td><span>97.0</span>%</td>
+                                                                                <td><span>100</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -366,10 +381,15 @@
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
-                                                                        <table class="table table-hover">
+                                                                        <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td>賣出價位</td>
+                                                                                <td><span>0</span>%</td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>賣出call比例</td>
-                                                                                <td><span>97.0</span>%</td>
+                                                                                <td><span>100</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -390,10 +410,15 @@
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
-                                                                        <table class="table table-hover">
+                                                                        <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td>賣出價位</td>
+                                                                                <td><span>0</span>%</td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>賣出call比例</td>
-                                                                                <td><span>97.0</span>%</td>
+                                                                                <td><span>100</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -414,10 +439,15 @@
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
-                                                                        <table class="table table-hover">
+                                                                        <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td>賣出價位</td>
+                                                                                <td><span>0</span>%</td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>賣出call比例</td>
-                                                                                <td><span>97.0</span>%</td>
+                                                                                <td><span>100</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -487,10 +517,15 @@
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
-                                                                        <table class="table table-hover">
+                                                                        <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td>賣出價位</td>
+                                                                                <td><span>0</span>%</td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>賣出call比例</td>
-                                                                                <td><span>96.0</span>%</td>
+                                                                                <td><span>100</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -511,10 +546,15 @@
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
-                                                                        <table class="table table-hover">
+                                                                        <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td>賣出價位</td>
+                                                                                <td><span>0</span>%</td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>賣出call比例</td>
-                                                                                <td><span>95.0</span>%</td>
+                                                                                <td><span>100</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -535,10 +575,15 @@
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
-                                                                        <table class="table table-hover">
+                                                                        <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td>賣出價位</td>
+                                                                                <td><span>0</span>%</td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>賣出call比例</td>
-                                                                                <td><span>94.0</span>%</td>
+                                                                                <td><span>100</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -567,10 +612,15 @@
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
-                                                                        <table class="table table-hover">
+                                                                        <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td>賣出價位</td>
+                                                                                <td><span>0</span>%</td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>賣出call比例</td>
-                                                                                <td><span>96.0</span>%</td>
+                                                                                <td><span>100</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -591,10 +641,15 @@
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
-                                                                        <table class="table table-hover">
+                                                                        <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td>賣出價位</td>
+                                                                                <td><span>0</span>%</td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>賣出call比例</td>
-                                                                                <td><span>95.0</span>%</td>
+                                                                                <td><span>100</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -615,10 +670,15 @@
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
-                                                                        <table class="table table-hover">
+                                                                        <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td>賣出價位</td>
+                                                                                <td><span>0</span>%</td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>賣出call比例</td>
-                                                                                <td><span>94.0</span>%</td>
+                                                                                <td><span>100</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
