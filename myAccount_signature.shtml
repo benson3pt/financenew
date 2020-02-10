@@ -41,7 +41,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <style>
-
+        table.fga tr td {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            border: 1px solid #b3b3b3;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
     </style>
 </head>
 
@@ -123,44 +130,91 @@
 
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document" style="width: 900px;margin:100px auto;">
-            <div class="modal-content">
+            <div class="modal-content" style="height: 500px;">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">洗錢防制聲明書</h4>
+                    <h4 class="modal-title" id="myModalLabel">日盛證券結構型商品電子式交易服務同意書</h4>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body" style="background-color: #FFF;">
                     <div class="table-responsive lawbox">
-                        <h4>連結標的風險</h4>
-                        <p>本商品為衍生性金融商品交易，商品之期末投資損益視連結標的股價走勢而定，須承擔連結標的價格平均漲跌幅超過設定區間之收益風險。本商品保本率為100%，故到期時不會產生契約本金之損失。</p>
-                        <h4>交易提前終止風險</h4>
-                        <p>本商品到期前如申請提前終止，客戶最低可領回100%的契約本金。</p>
-                        <h4>利率風險</h4>
-                        <p>本商品到期損益結算不受市場利率波動所影響。</p>
-                        <h4>流動性風險</h4>
-                        <p>本商品交易契約不得轉讓、質借或設定質權及其他擔保物權予第三人。</p>
-                        <h4>信用風險</h4>
-                        <p>客戶與交易券商承作本商品須承擔交易券商之信用風險，即若交易券商發生信用事件，則於商品到期日可能無法依約辦理交割，此「信用風險」之評估，端視客戶對於自身之風險承受度及交易券商信用評等價值之評估。</p>
-                        <h4>匯率風險</h4>
-                        <p>本商品承作與到期皆以新台幣計價，故無匯率風險。</p>
-                        <h4>國家風險</h4>
-                        <p>交易券商註冊國中華民國如發生戰亂或天災等不可抗力之事件，可能導致客戶投資損失。</p>
-                        <h4>賦稅風險</h4>
-                        <p>課徵之稅率與方式可能因法令、法規或政策等因素影響而有所變動，致造成客戶實質收益增加或減少。</p>
-                        <h4>法律風險</h4>
-                        <p>客戶承作本商品時，承擔因契約、法令等因素所造成的法律風險，故客戶應詳閱並妥善保管產品說明、成交確認等各項交易有關文件，以降低法律風險。</p>
-                        <h4>再投資風險</h4>
-                        <p>若本商品交易契約依約定條款、或發生連結標的於商品到期日之前終止上市、或合法性及喪失市場機制等因素而提前終止時，客戶的下一個投資標的可能無法提供相同收益，因而產生資金再投資風險。</p>
-                        <h4>其他</h4>
-                        <p>交易券商已盡力充分說明本商品之各項可能風險，惟客戶仍應於交易前充分瞭解結構型商品之性質，及相關之財務、會計、稅制或法律等事宜，自行審度本身財務狀況及風險承受度，始決定是否進行投
+                        <p>立約人<span style="color: #797979; text-decoration: underline;">日盛證券股份有限公司</span>（以下簡稱「甲方」）與 　　　 <span style="color: #797979; text-decoration: underline;"></span>（以下簡稱「乙方」）茲為以網際網路等電子式交易型態承作結構型商品，經雙方協議，同意訂定下列條款，俾資遵守。</p>
+                        <p>
+                            第一條<br>本同意書係甲方與採行以網際網路等電子式交易型態乙方間之一般性共通約定，除個別契約另有約定外，悉依本同意書之約定。<br> 第二條
+                            <br>本同意書名詞定義如下：<br> 一、 「主管機關」：指金融監督管理委員會。<br> 二、 「電子簽章」：指依附於電子文件並與其相關連，用以辨識及確認電子文件簽署人身分、資格及電子文件真偽者。<br> 三、 「電子訊息」：指甲方或乙方經由電腦及網路連線傳遞之訊息。<br> 四、 「加密」：指利用數學演算法或其他方法，將電子文件以亂碼方式處理。<br> 五、 「憑證」：指載有簽章驗證資料，用以確認簽署人身分、資格之電子形式證明。<br>                            六、 「憑證機構」：指簽發憑證之機關、法人。<br> 第三條
+
+                            <br>乙方同意並瞭解以網際網路交易時，所開立之帳戶需經取得使用密碼及下載安裝憑證機構所簽發之電子憑證後，始得進行電子式交易，且交易之電子訊息，甲方將依規記錄其網路位址（IP）及電子簽章。<br> 第四條
+                            <br>乙方與甲方間承作結構型商品之下單交易、簽署文件及成交回報等電子文件之傳輸，均應依主管機關規定使用憑證機構所簽發之電子簽章簽署，憑以辨識及確認。<br> 第五條
+                            <br>乙方申請之電子憑證，除得於約定範圍或 甲方及憑證機構(如：臺灣網路認證公司)網站公告之應用範圍內使用，乙方不得將該憑證作其他目的之使用。<br> 第六條
+                            <br>乙方同意並瞭解如有下列情形之一，甲方得不執行任何接收之電子訊息：<br> 一、 乙方傳送之電子訊息無法完整辨識其內容。<br> 二、 有相當理由懷疑電子訊息之真實性或所指定事項之正確性。<br> 三、 依據電子訊息執行或處理業務，將違反相關法律或命令。<br> 四、 乙方有無法履行所交易事項交割義務之事實。<br> 第七條
+
+                            <br>甲方對於乙方之買賣交易紀錄至少應保存五年，買賣有爭議者應保留至爭議消除為止。<br> 第八條
+                            <br>乙方使用甲方提供之網際網路等電子式交易平台，進行結構型商品交易，須於系統提供之交易時間內完成各交易步驟之電子簽章，該筆交易始為有效。<br> 第九條
+                            <br>甲方對於其資訊系統之維護應盡善良管理人之注意義務，確保電子訊息安全，防止非法進入系統、竊取、竄改或毀損業務記錄及資料，並採加密機制傳送乙方之交易資料。<br> 乙方瞭解電子憑證(CA憑證)所為之交易視同本人之交易，同意妥為保管個人密碼、電子憑證（CA憑證）等個人安控機密資料，如有遺失、遭竊或任意交付他人，對於遺失、遭竊或任意交付他人所致生之自身損害，乙方願自負其責。
+                            <br> 第十條
+                            <br>甲方對於執行本同意書服務而取得之乙方資料，當盡善良管理人之注意，並遵守電腦處理個人資料有關法令暨主管機關相關規定，不得洩漏予無關之第三者。<br> 乙方同意主管機關、甲方、臺灣證券交易所股份有限公司、財團法人中華民國證券櫃檯買賣中心及其他經主管機關指定之相關機構，及乙方已有往來之金融機構於符合其營業登記項目或章程所定業務之需要等特定目的範圍內，得蒐集、電腦處理及利用乙方之個人資料。
+                            <br> 第十一條
+                            <br>乙方同意並瞭解甲方得為符合風險管理之目的、資金額度、持股或其他有價證券投資法令限制等因素，予以暫停交易。<br> 第十二條
+                            <br>乙方同意並瞭解因網路傳輸等電子式交易在傳送資料上有著先天上的不可靠與不安全，透過網路傳送資料隱含著中斷、延遲等危險，假如電子式交易服務在任何時候無法使用或有所延遲，乙方同意使用其它管道，例如電話或親臨甲方營業處所等方式確認。<br> 第十三條
+                            <br>甲方平日即應將無法執行電子式傳輸時所採之備援方式於網站上明顯公告周知，如遇電子傳輸系統運作困難或故障而無法立即修復時，應立即於所屬網站揭露該項訊息，並提醒乙方改採其他方式承作交易。<br> 第十四條
+                            <br>乙方確實瞭解電子交易方式與店頭市場結構型商品交易總約定書所列舉之交易方式具同等法律效力，乙方應依證券交易相關法令履行交割義務，如有違約交割情事，乙方願負擔相關之法律責任。<br> 第十五條
+                            <br>甲方對於其處理乙方從事電子式交易之相關設備軟硬體，應盡善良管理人之注意義務。在甲方合理的安全管理範圍外，因不可抗力事由（包括但不限於天然災害、戰爭、斷線、斷電、網路壅塞等）致更改或撤銷下單交易等通知遲延、無法接收或傳送等不可歸責於甲方者，甲方不負賠償責任，乙方仍應依原交易事項之實際成交結果履行交割義務。<br> 第十六條
+                            <br>本同意書未盡事宜，悉依中華民國相關法規、主管機關之函令解釋辦理；乙方並應隨時主動注意相關規章、法令之修正，及甲方網站公告之事項。<br> 第十七條
+                            <br>金融監督管理委員會、臺灣證券交易所股份有限公司、財團法人中華民國證券櫃檯買賣中心公告事項及修訂章則等均為本同意書之一部分，本同意書簽定後上開法令章則或相關公告函釋有修正者，亦同。<br> 除另有約定外，本協議書內容或相關服務項目有增刪修改時，甲方於生效日前除得以書面、電子郵件之方式通知乙方外，亦得以顯著方式於甲方網站上公告，以代通知；乙方於生效日前未向甲方表示異議或終止本約定書，則視為乙方已同意契約變更。
                         </p>
+                        <p>立約人：</p>
+                        <p>
+                            甲　　　方：日盛證券股份有限公司<br> 法定代表人：唐承健
+                            <br> 地址：臺北市南京東路二段111號3樓
+                            <br><br> 乙　　　方：(請蓋開戶留存印鑑)
+
+                            <br> 法定代表人：(請蓋開戶留存印鑑/自然人免填)
+                            <br> 身分證字號(營利事業統一編號)：
+                            <br> 地　　　址：
+                            <br> 電　　　話：
+                            <br><br> 【未成年子女專用】
+
+                            <br> 法定代理人：
+                            <br> 身分證字號：
+                            <br> 地　　　址：
+                            <br> 電　　　話：
+                            <br><br> 法定代理人：
+
+                            <br> 身分證字號：
+                            <br> 地　　　址：
+                            <br> 電　　　話：
+                            <br><br> 【法人專用】
+
+                            <br> 開戶代理人：
+                            <br> 身分證字號：
+                            <br> 地　　　址：
+                            <br> 電　　　話：
+                            <br>
+                        </p>
+                        <h5>中 華 民 國<span style="margin:0  1rem;">109</span>年<span style="margin:0  1rem;">1</span>月<span style="margin:0  1rem;">1</span>日</h5><br>
+                        <table style="width: 100%; margin-top: 1rem;" class="fga">
+                            <tr>
+                                <td colspan="8">日盛證券股份有限公司：</td>
+                            </tr>
+                            <tr>
+                                <td width="12%">經辦</td>
+                                <td width="12%"></td>
+                                <td width="12%">覆核<br> (後台主管)</td>
+                                <td width="12%"></td>
+                                <td width="12%">權責主管</td>
+                                <td width="12%"></td>
+                                <td width="12%">權責單位</td>
+                                <td width="12%"></td>
+                            </tr>
+
+                        </table>
+
                     </div>
                 </div>
                 <div class="modal-footer">
                     <form class="form-inline text-center">
                         <div class="form-group">
-                            <!--				<label>輸入密碼</label>
---><input type="text" class="form-control" placeholder="請輸入密碼">
-                            <a type="submit" class="btn btn-danger btnnew" href="#">簽署</a>
+                            <a type="submit" class="btn btn-danger" href="#">簽署並下載本文件</a>
+                            <a type="submit" class="btn btn-gary " href="#">取消交易</a>
                         </div>
                         <!--<a type="submit" class="btn btn-default" href="#" data-dismiss="modal" aria-label="Close">取消交易</a>-->
                     </form>
@@ -169,6 +223,44 @@
         </div>
     </div>
     <!-------------------------------------------------- //modal -------------------------------------------------------------->
+
+
+
+    <!-------------------------------------------------- moda2 -------------------------------------------------------------->
+
+    <div class="modal fade" id="myModa2" tabindex="-1" role="dialog" aria-labelledby="myModa2">
+        <div class="modal-dialog" role="document" style="width: 900px;margin:100px auto;">
+            <div class="modal-content" style="height: 500px;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">個人資料使用同意書</h4>
+                </div>
+                <div class="modal-body" style="background-color: #FFF;">
+                    <div class="table-responsive lawbox">
+                        <p>
+                            茲因與貴公司承作涉及連結標的資產為具有臺股股權性質之有價證券之衍生性金融商品交易，為保障本人交易權益，在行政院金融監督管理委員會（以下簡稱主管機關）與財團法人中華民國證券櫃檯買賣中心（以下簡稱櫃買中心）於有價證券與有價證券持有人登記、金融監理、保險監理、其他金融業務管理目的及相關作業必要範圍內，本人允許貴公司提供本人姓名及國民身分證統一編號予主管機關與櫃買中心，並同意其等於中華民國境內蒐集、處理及利用相關個人資料。本人已受告知不提供時將影響之個人權益，並且就本人提供予主管機關與櫃買中心之個人資料，本人依個人資料保護法有請求行使查詢、閱覽、製作複製本、補充或更正、停止蒐集、處理及利用或刪除等權利。
+                        </p>
+
+                        <p>此致</p>
+                        <p>日盛證券股份有限公司</p>
+                        <p>立同意書人：<span></span> （簽名蓋章）</p>
+                        <h5>中 華 民 國<span style="margin:0  1rem;">109</span>年<span style="margin:0  1rem;">1</span>月<span style="margin:0  1rem;">1</span>日</h5><br>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <form class="form-inline text-center">
+                        <div class="form-group">
+                            <a type="submit" class="btn btn-danger" href="#">簽署並下載本文件</a>
+                            <a type="submit" class="btn btn-gary " href="#">取消交易</a>
+                        </div>
+                        <!--<a type="submit" class="btn btn-default" href="#" data-dismiss="modal" aria-label="Close">取消交易</a>-->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------- //moda2 -------------------------------------------------------------->
 
 
     <!-- 內容 -->
@@ -189,28 +281,29 @@
                                             <th width="30%">簽署狀態</th>
                                         </tr>
                                         <tr>
-                                            <td>電子平台交易同意書</td>
-                                            <td>&nbsp;</td>
+                                            <td>客戶投資風險屬性分析表(KYC)</td>
+                                            <td>2019/12/24</td>
                                             <td>電子</td>
                                             <td>
-                                                <a href="#" type="button" class="btn" data-toggle="modal" data-target="#myModal">尚未簽署</a>
+                                                <a href="https://vmjsftweb01.jihsun.com.tw/JssFGKTradeNet/KYC.aspx?r_NationalID=A111111111&r_DisplayName=&r_LoginType=&r_StrCaStatus=&r_empFlag=&r_ap_kind=&r_Total_Account=01%2c001%2c1000919%3b07%2c098%2c0000302&r_Login_Tran_Code=21247640&HiddenBranchACC="
+                                                    type="button" class="btn editbtn" target="blank">修改</a>
                                             </td>
                                         </tr>
 
                                         <tr>
-                                            <td width="21%">客戶投資風險屬性分析表(KYC)</td>
+                                            <td width="21%">客戶盡職調查</td>
                                             <td width="21%">2018/12/10</td>
-                                            <td width="21%">電子</td>
+                                            <td width="21%">紙本</td>
                                             <td width="36%">
                                                 <p class="text-success"><i class="fa fa-check-square" aria-hidden="true"></i>已簽署</p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>客戶盡職調查</td>
+                                            <td>電子交易同意書2</td>
                                             <td>2018/12/10</td>
-                                            <td>電子</td>
+                                            <td>電子/紙本</td>
                                             <td width="36%">
-                                                <p class="text-success"><i class="fa fa-check-square" aria-hidden="true"></i>已簽署</p>
+                                                <a href="#" type="button" class="btn" data-toggle="modal" data-target="#myModal">尚未簽署</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -218,7 +311,7 @@
                                             <td>2018/12/10</td>
                                             <td>電子</td>
                                             <td width="36%">
-                                                <p class="text-success"><i class="fa fa-check-square" aria-hidden="true"></i>已簽署</p>
+                                                <a href="#" type="button" class="btn" data-toggle="modal" data-target="#myModa2">尚未簽署</a>
                                             </td>
                                         </tr>
                                         <!-- <tr>
@@ -297,7 +390,8 @@
     <script type="text/javascript">
         $(document).ready(function($) {
 
-            /*
+            alrty("555")
+                /*
 		$(".modal-header button").click(function(){		
          window.open("login_index.shtml","_self");
 	     });   

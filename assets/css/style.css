@@ -6343,18 +6343,29 @@ table .model-table tr td {
 .account_signature .buy_funds_ELNbg section.elncontent2 table tr td a {
     padding: 4px 10px;
     background-color: none;
+    color: #b80606;
+    font-size: 0.9em;
+    border: solid 1px #b80606;
+    font-weight: bold;
+}
+
+.account_signature .buy_funds_ELNbg section.elncontent2 table tr td a:hover {
+    color: #700505;
+    border: solid 1px #700505;
+}
+
+.account_signature .buy_funds_ELNbg section.elncontent2 table tr td a.editbtn {
+    padding: 4px 25px;
+    background-color: none;
     color: #3c763d;
     font-size: 0.9em;
     border: solid 1px #3c763d;
     font-weight: bold;
 }
 
-.account_signature .buy_funds_ELNbg section.elncontent2 table tr td a:hover {
-    padding: 4px 10px;
-    background-color: #CDCDCD;
-    font-size: 0.9em;
-    border: solid 1px #3c763d;
-    font-weight: bold;
+.account_signature .buy_funds_ELNbg section.elncontent2 table tr td a.editbtn:hover {
+    color: #0b610c;
+    border: solid 1px #0b610c;
 }
 
 .account_signature .buy_funds_ELNbg section.elncontent2 table tr:nth-child(even) td {
@@ -6366,7 +6377,7 @@ table .model-table tr td {
 }
 
 .account_signature .modal-body {
-    height: 300px;
+    height: 450px;
     overflow-y: scroll;
 }
 
@@ -6667,7 +6678,7 @@ button.mypaperbtn:hover {
 
 .myAccount_edit p.mailcontent span {
     font-size: 0.8em;
-    margin-left: 2em;
+    margin-left: 0.5em;
 }
 
 .myAccount_edit p.mailcontent span:first-child {
@@ -6680,6 +6691,14 @@ button.mypaperbtn:hover {
 
 .myAccount_edit p.mailcontent span i {
     margin-right: 5px;
+}
+
+.myAccount_edit p .btn {
+    height: 36px;
+    padding: 0px 30px;
+    border-color: #f36c28;
+    background-color: #f36c28;
+    color: #FFF;
 }
 
 .myAccount_edit input {
@@ -8276,4 +8295,10 @@ button_order_active {
 
 .newslide .carousel-inner .container .row .col-md-4 .port_item .port_caption table.table-hoveralgin tr td:first-child {
     width: 53%;
+}
+
+.btn-gary {
+    background-color: #d6d6d6;
+    border: solid 1px #3b3b3b;
+    color: #3b3b3b;
 }

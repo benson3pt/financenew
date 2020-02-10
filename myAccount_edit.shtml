@@ -225,11 +225,12 @@
 
 
                                 <div class="editarea">
-                                    <p class="edit_title"><span class="colorRed">※</span>E-Mail
-                                    </p>
+                                    <p class="edit_title"><span class="colorRed">※</span>E-Mail</p>
                                     <p class="content mailcontent">E-Mail : janelfkj@gmail.com
                                         <span><i class="fa fa-check-square" aria-hidden="true"></i>已確認</span>
-                                        <span><i class="fa fa-envelope-o" aria-hidden="true"></i>待確認中，快收mail看看有沒有驗證信哦！</span></p>
+                                        <span style="color: #f36c28;"><i class="fa fa-envelope-o" aria-hidden="true"></i>待確認中，快收mail看看有沒有驗證信哦！</span>
+                                        <button type="button" class="btn">發送確認信</button>
+                                    </p>
 
                                     <p class="change" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
                                         變更
@@ -238,7 +239,6 @@
                                         <div class="row">
                                             <div class="col-lg-6"><input name="mail" type="text" class="form-control" value="janelfkj@gmail.com"></div>
 
-                                            <div class="col-lg-2"><button type="button" class="btn">發送確認信</button></div>
                                         </div>
                                         <p class="sample sample-danger">E-Mail修改範例：janelfkj@gmail.com </p>
 
