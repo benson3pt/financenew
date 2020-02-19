@@ -381,7 +381,7 @@
                                             <div class="checkbox" style="padding-left:10px">
                                                 <label style="padding-left:0px"><span>二、投資風險警語：</span></label>
                                             </div>
-                                            <table width="0" border="0" class="checkboxtable">
+                                            <table width="0" border="0" class="checkboxtable" style="margin-left: 20px;">
                                                 <tbody>
                                                     <tr>
                                                         <td><input type="checkbox" name="check"></td>
@@ -420,84 +420,38 @@
                                         </div>
 
                                         <div class="checkboxarea">
-                                            <div class="checkbox" style="padding-left:10px">
-                                                <label style="padding-left:0px"><span>三、商品風險說明：</span></label>
+                                            <div class="checkbox">
+                                                <label style="padding-left:20px"><input type="checkbox" name="check"><span>三、商品風險說明：</span></label>
                                             </div>
-                                            <table width="0" border="0" class="checkboxtable">
-                                                <tbody>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>1.連結標的風險<br>本商品存續期間內之評價價格受其連結標的之價格與其價格波動率所影響，到期可能損及客戶原始投資金額，交易券商並不提供任何保本功能及保證到期損益。</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>2.交易提前終止風險<br>本商品客戶不得要求提前終止契約。<br> 本商品到期前如發生契約提前終止情況，詳見「五、3.提前終止契約之價格計算方式」。
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>3.利率風險<br>本商品到期損益結算不受市場利率波動所影響。</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>4.流動性風險<br>本商品交易契約不得轉讓、質借或設定質權及其他擔保物權予第三人，雖得依約提前終止，惟客戶須承擔無法取回全數投資資金之流動性風險。因此，客戶應確保有其他足夠之流動性資產可因應不可預期之緊急需要。</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>5.信用風險<br>客戶與交易券商承作本商品須承擔交易券商之信用風險，即若交易券商發生信用事件，則於商品到期日可能無法依約辦理交割，此「信用風險」之評估，端視客戶對於自身之風險承受度及交易券商信用評等價值之評估。</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>6.匯率風險<br>本商品承作與到期皆以新台幣計價，故無匯率風險。</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>7.國家風險<br>交易券商註冊國中華民國如發生戰亂或天災等不可抗力之事件，可能導致客戶投資損失。</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>8.賦稅風險<br>課徵之稅負項目與稅率可能因法令、法規或政策等因素影響而有所變動，致造成客戶實質收益增加或減少。</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>9.法律風險<br>客戶承作本商品時，承擔因契約、法令等因素所造成的法律風險，故客戶應詳閱並妥善保管產品說明、成交確認等各項交易有關文件，以降低法律風險。</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>10.再投資風險<br>若本商品交易契約依約定條款、或符合連結標的自動提前終止情況、或合法性及喪失市場機制等因素而提前終止時，客戶的下一個投資標的可能無法提供相同收益，因而產生資金再投資風險。</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>11.其他<br>交易券商已盡力充分說明本商品之各項可能風險，惟客戶仍應於交易前充分瞭解結構型商品之性質，及相關之財務、會計、稅制或法律等事宜，自行審度本身財務狀況及風險承受度，始決定是否進行投資。</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+
+                                            <ol class="risk_sq checkboxli">
+                                                <li>連結標的風險<br>本商品存續期間內之評價價格受其連結標的之價格與其價格波動率所影響，到期可能損及客戶原始投資金額，交易券商並不提供任何保本功能及保證到期損益。</li>
+                                                <li>
+                                                    交易提前終止風險<br>本商品客戶不得要求提前終止契約。<br> 本商品到期前如發生契約提前終止情況，詳見「五、3.提前終止契約之價格計算方式」。</li>
+                                                <li>利率風險<br>本商品到期損益結算不受市場利率波動所影響。</li>
+                                                <li>流動性風險<br>本商品交易契約不得轉讓、質借或設定質權及其他擔保物權予第三人，雖得依約提前終止，惟客戶須承擔無法取回全數投資資金之流動性風險。因此，客戶應確保有其他足夠之流動性資產可因應不可預期之緊急需要。</li>
+                                                <li>信用風險<br>客戶與交易券商承作本商品須承擔交易券商之信用風險，即若交易券商發生信用事件，則於商品到期日可能無法依約辦理交割，此「信用風險」之評估，端視客戶對於自身之風險承受度及交易券商信用評等價值之評估。</li>
+                                                <li>匯率風險<br>本商品承作與到期皆以新台幣計價，故無匯率風險。</li>
+                                                <li>國家風險<br>交易券商註冊國中華民國如發生戰亂或天災等不可抗力之事件，可能導致客戶投資損失。</li>
+                                                <li>賦稅風險<br>課徵之稅負項目與稅率可能因法令、法規或政策等因素影響而有所變動，致造成客戶實質收益增加或減少。</li>
+                                                <li>法律風險<br>客戶承作本商品時，承擔因契約、法令等因素所造成的法律風險，故客戶應詳閱並妥善保管產品說明、成交確認等各項交易有關文件，以降低法律風險。</li>
+                                                <li>再投資風險<br>若本商品交易契約依約定條款、或符合連結標的自動提前終止情況、或合法性及喪失市場機制等因素而提前終止時，客戶的下一個投資標的可能無法提供相同收益，因而產生資金再投資風險。</li>
+                                                <li>其他<br>交易券商已盡力充分說明本商品之各項可能風險，惟客戶仍應於交易前充分瞭解結構型商品之性質，及相關之財務、會計、稅制或法律等事宜，自行審度本身財務狀況及風險承受度，始決定是否進行投資。</li>
+                                            </ol>
                                         </div>
 
                                         <div class="checkboxarea">
-                                            <div class="checkbox" style="padding-left:10px">
-                                                <label style="padding-left:0px"><span>四、承作商品之重要注意事項：</span></label>
+                                            <div class="checkbox">
+                                                <label style="padding-left:20px"><input type="checkbox" name="check"><span>四、承作商品之重要注意事項：</span></label>
                                             </div>
-                                            <table width="0" border="0" class="checkboxtable">
-                                                <tbody>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>1.結構型商品依商品設計或條件不同，客戶所暴露之風險程度可能不同，如為現金交割，可能發生部分或全部利息、本金減損或其他損失之風險；如為非現金交割，則可能發生本金將依約定轉換成標的資產之情事，可能必須承擔交易券商及標的資產發行人之信用風險。</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>2.影響衍生性金融商品價格變動之因素極為複雜，交易券商所揭露之風險預告事項僅例示大端，對於交易風險與影響市場行情的因素或許無法詳盡描述，因此提醒客戶於交易前仍應充分瞭解結構型商品之性質，及相關之財務、會計、稅制或法律等事宜，自行審度本身財務狀況及風險承受度，始決定是否進行投資。 </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>3.連結標的股票於商品交易期間遇有配發現金股利、無償配股、合併或其他相關事項時，在公平合理原則下，相關交易條件將由交易券商依調整公式調整之，原賣出call比例可能較期初提高，以維持選擇權公允價值一致。</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><input type="checkbox" name="check"></td>
-                                                        <td>4.連結標的股票於商品交易期間遇有現金增資，本契約不調整履約價等相關交易條件。</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+                                            <ol class="risk_sq checkboxli">
+                                                <li>結構型商品依商品設計或條件不同，客戶所暴露之風險程度可能不同，如為現金交割，可能發生部分或全部利息、本金減損或其他損失之風險；如為非現金交割，則可能發生本金將依約定轉換成標的資產之情事，可能必須承擔交易券商及標的資產發行人之信用風險。</li>
+                                                <li>影響衍生性金融商品價格變動之因素極為複雜，交易券商所揭露之風險預告事項僅例示大端，對於交易風險與影響市場行情的因素或許無法詳盡描述，因此提醒客戶於交易前仍應充分瞭解結構型商品之性質，及相關之財務、會計、稅制或法律等事宜，自行審度本身財務狀況及風險承受度，始決定是否進行投資。</li>
+                                                <li>連結標的股票於商品交易期間遇有配發現金股利、無償配股、合併或其他相關事項時，在公平合理原則下，相關交易條件將由交易券商依調整公式調整之，原賣出call比例可能較期初提高，以維持選擇權公允價值一致。</li>
+                                                <li>連結標的股票於商品交易期間遇有現金增資，本契約不調整履約價等相關交易條件。</li>
+
+
+                                            </ol>
                                         </div>
 
                                         <div class="checkboxarea">
