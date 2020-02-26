@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="日盛證券, 日盛全球優益理財商品">
+    <meta name="keywords" content="日盛證券,日盛全球優益理財商品">
+    <meta name="author" content="">
+    <title>日盛全球優益理財商品</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="shortcut icon" href="../favicon.ico"/>
+	<link rel="bookmark"  href="../favicon.ico"/>
+    <!--FB-->
+    <meta property="og:title" content="日盛全球優益理財商品">
+    <meta property="og:description" content="日盛全球優益理財商品">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">  
+
+	
+	<link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/iconfont.css">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/bootsnav.css">
+  	<!-- Custom Fonts -->
+    <link href="../assets/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/notosanstc.css" rel="stylesheet" type="text/css">
+    <link href="../assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../assets/css/plugins.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+
+	
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->	
+    <!--主要 css -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+	<style>
+	</style>
+	</head>
+
+<body data-spy="scroll" data-target="#navbar-menu" data-offset="110" class="ifPGN_new addmem topic">
+
+    <!-- go_top -->
+	<div id="go_top"><i class="fa fa-sort-asc" aria-hidden="true"></i></div>
+
+
+<!-- Preloader -->
+<div id="loading">
+	<div id="loading-center">
+		<div id="loading-center-absolute">
+			<div class="object" id="object_one"></div>
+			<div class="object" id="object_two"></div>
+			<div class="object" id="object_three"></div>
+			<div class="object" id="object_four"></div>
+		</div>
+	</div>
+</div>
+<!--// off Preloader -->
+
+
+
+
+	<nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
+		<!-- Start Top Search -->
+<!--		<div class="top-search">
+			<div class="container">
+				<div class="input-group">
+					<div class="input-group_box pull-right">
+						<span class="itemspan"><a class="" href="myAccount_signature.shtml" role="button">個人設定<i class="fa fa-info-circle" aria-hidden="true"></i></a></span>
+                    <span class="itemspan "><a class="" href="index.shtml" role="button">登出</a></span>
+					</div>
+					<span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+				</div>
+			</div>
+		</div>
+-->		<!-- // Top Search -->
+
+
+		<div class="container addmem_container"> 
+
+			<!-- Start Header Navigation -->
+			<div class="navbar-header">
+				<a class="navbar-brand" href="../index.shtml" target="_self">
+					<img src="../assets/images/logo.png" class="logo" alt="">
+				</a>
+
+			</div>
+			<!-- End Header Navigation -->
+			<!-- navbar menu -->
+			<!-- /.navbar-collapse -->
+		</div> 
+
+	</nav>
+
+	<!-- breadcrumb -->
+	<section class="bread">
+    <div class="container">
+	<ol class="breadcrumb">
+     <li><a href="../index.shtml">首頁</a></li>
+     <li>低買優益理財商品</li>
+     <li class="active">全球產業贏家賺取經濟比例越來越大 </li>
+    </ol>
+	</div>
+	</section>
+    <!--// breadcrumb -->
+
+	
+
+	
+	
+
+	
+    <!-- 內容 -->
+    <div class="main-w3pvt mian-content-wthree text-center buy_funds_ELNbg" id="product" >
+        <div class="container">
+<!--            <div class="main_product roomy-40">-->
+			<div class="main_product">
+                <div class="head_title text-center fix">
+                <div class="row">
+				<div class="col-md-12">
+
+					
+    <div class="container">
+        <h1>全球產業贏家賺取經濟比例越來越大</h1>
+        		<h3>投資全球頂尖的產業贏家是最佳選擇</h3>
+		        <ul>
+		        	<li>贏者全拿的時代裡，產業贏家往往可以取得最多的客戶基礎和最大的經營利益，產業第一名的利潤是後面競爭者的數倍</li>
+		        	<li>產業贏家取得龍頭地位，除了能獲取產業大部分的利潤外，資本市場也會給產業龍頭更高的評價，因此投資全球頂尖的產業贏家會是最佳選擇</li>
+		        </ul>
+			<p>根據分析公司Counterpoint Research 報告，蘋果一家公司佔所有手機品牌公司整體利潤的62%，第二名的三星僅佔整體獲利的17%，後段班的公司只能在損平邊緣掙扎。<br>
+				<span>由下圖可以看出，過去15年來，美國S&P500指數的總報酬率約310%，而全球產業贏家的股價報酬率遠遠勝過指數。</span>
+			</p>
+            <!--<img class="img-responsive" src="../assets/images/top_past15.png" alt="">-->
+		
+        <canvas id="canvas" style="width: 100%;height:300px;"></canvas>
+		
+		<p>日盛全球優益財富管理進一步定義了這些全球產業贏家中的頂尖企業，我們認為除了與第二名有顯著差距的龍頭地位之外，頂尖企業往往擁有絕對多數且保持成長的活躍客戶、有能力併購並跨足新領域整合異業經營、持續投入研發強化其領先的競爭力；而在財務面常見的表徵則是，具有高股東權益報酬率(ROE)、營收成長率高、充裕的自由現金流量、以及財務槓桿低等等。以此標準來看，台灣的台積電、大立光；美國的蘋果、谷歌、亞馬遜、臉書、微軟；香港的騰訊都是我們心目中的頂尖企業。<br>
+				以亞馬遜為例，亞馬遜在美國網購市場的市佔率上看49.1%，幾乎要拿下半壁江山。除了網購市場外，他的雲服務AWS市占率也高達40%，並且以每年逾 40% 成長率持續擴大市場占有率。在財務面方面，亞馬遜的ROE達25%、營收五年複合年增率高達27%，EBITDA複合年增率也達40%，負債比為33%，亞馬遜持續大量資本支出以及跨業併購以建立對手無法超越的競爭優勢，而充沛的現金流足以支應其投資與購併所需資金。</p>
+			<h3>我們理想的全球頂尖企業指標</h3>
+			<div class="table-responsive">
+			  <table class="table listbox">
+					<tr>
+						<th>頂尖企業特徵</th>
+						<th>分項</th>
+						<th>頂尖企業典範</th>
+					</tr>
+					<tr>
+						<td>公司規模</td>
+						<td>
+							1.市值高<br>
+							2.現金流量持續成長<br>
+							3.附息債務比率低
+						</td>
+						<td>亞馬遜、谷歌、台積電、臉書</td>
+					</tr>
+					<tr>
+						<td>網路虛擬通路</td>
+						<td>
+							1.公司活躍用戶數成長<br>
+							2.會員數成長
+						</td>
+						<td>亞馬遜、谷歌、臉書、騰訊控股</td>
+					</tr>
+					<tr>
+						<td>競爭優勢可持續性</td>
+						<td>
+							1.研發費用率大於2%<br>
+							2.專利數多
+						</td>
+						<td>大立光、亞馬遜、谷歌、臉書、台積電</td>
+					</tr>
+					<tr>
+						<td>現有業務市場地位</td>
+						<td>
+							1.市佔率前2大<br>
+							2.營收成長<br>
+							3.毛利率高
+						</td>
+						<td>微軟、谷歌、亞馬遜</td>
+					</tr>
+					<tr>
+						<td>創新領域競爭強度</td>
+						<td>
+							1.自駕車<br>
+							2.AI及大數據運用<br>
+							3.區塊鍊<br>
+							4.雲服務
+						</td>
+						<td>微軟、蘋果、谷歌、亞馬遜</td>
+					</tr>
+					<tr>
+						<td>公司文化及形象</td>
+						<td>
+							1.經營者誠信形象<br>
+							2.公司信用評級佳<br>
+							3.環境、社會和公司治理原則(ESG)評分
+						</td>
+						<td>微軟、台積電、谷歌</td>
+					</tr>
+				</table>
+		</div>
+        <!--<p class="text-right"><a class="btn btn-default mr10" href="../index.shtml" alt="回上一頁" role="button">回上一頁</a></p>-->
+					</div>
+					
+					
+					
+
+					
+
+				</div>	
+					
+					
+					
+				</div>
+					
+				</div>
+				
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- //內容 -->
+	
+
+
+
+
+
+
+
+
+
+    <!--footer-->
+    <!-- #include file ="footer.html" -->
+
+
+
+	<footer id="contact" class="footer bg-black">
+		<div class="main_footer fix">
+			<div class="col-md-12">
+				<p class="wow fadeInRight" data-wow-duration="1s">
+<span>日盛證券股份有限公司</span>  <span>電話：(02)25048888</span>  <span>客服專線：0800088268</span><span class="footerlastspan">地址：台北市南京東路二段111號3樓</span><br>
+<a href="http://www.jihsun.com.tw/ePaper/eReport.html" target="_blank">防制洗錢及打擊資助恐怖主義專區</a>
+				</p>
+			</div>
+		</div>
+	</footer>
+
+
+<!-- JS includes -->
+<script src="../assets/js/vendor/jquery-1.11.2.min.js"></script>
+<script src="../assets/js/vendor/bootstrap.min.js"></script>
+<script src="../assets/js/jquery.magnific-popup.js"></script>
+<script src="../assets/js/jquery.easing.1.3.js"></script>
+<script src="../assets/js/bootsnav.js"></script>
+<script src="../assets/js/plugins.js"></script>
+<script src="../assets/js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+
+	<script type="text/javascript">
+   $(document).ready(function ($) {
+
+		/*
+		$(".modal-header button").click(function(){		
+         window.open("login_index.shtml","_self");
+	     });   
+	   */
+	   
+	   
+    });
+    </script>
+
+<script>
+
+	
+var config = {
+            type: 'line',
+	
+            data: {
+                labels: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+						 "11","12", "13", "14", "15", "16", "17", "18", "19", "20",
+						 "21","22", "23", "24", "25", "26", "27", "28", "29", "30",
+						 "31","32", "33", "34", "35", "36", "37", "38", "39", "40"],
+				datasets: [{
+                        label: "收益率",labels: 'red',
+                        fill: false,
+                        lineTension: 0.5,
+                        backgroundColor: "#f36c28",
+                        borderColor: "#F0A202", // The main line color
+                        borderCapStyle: 'square',
+                        borderDash: [], // try [5, 15] for instance
+                        borderDashOffset: 0.0,
+                        borderJoinStyle: 'miter',
+					  pointRadius:0,
+					//  pointBorderColor: "black",
+					//  pointBackgroundColor: "black",
+					//  pointBorderWidth: 1,
+					//  pointHoverRadius: 8,
+					//  pointHoverBackgroundColor: "yellow",
+					//  pointHoverBorderColor: "brown",
+					//  pointHoverBorderWidth: 2,
+					//  pointRadius: 4,
+					//  pointHitRadius: 10,
+					    lineTension:0,
+					  // notice the gap in the data and the spanGaps: true
+					  data: ["0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02",
+						 "0.02","0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02",
+						 "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02",
+						 "0.019","0.018", "0.017", "0.016", "0.015", "0.014", "0.013", "0.012", "0.011", "0.01"],
+					  spanGaps: true,
+                    }]
+            },
+            options: {
+            layout: {
+            padding: {
+                left: 10,
+                right: 20,
+                top:-30,
+                bottom: 0
+            }
+        },
+                responsive: true,
+				legend: {       //標題
+                display: true,
+		        onClick: null,  //click disable
+				position: 'top',
+				   labels: {
+                   fontColor: '#000000',
+			       fontFamily:	"Noto Sans TC",
+				   fontSize:15,
+				   lineHeight:0,
+                        }
+                      },
+
+                hover: {
+                    mode: 'label'
+                },
+                scales: {
+                    xAxes: [{
+		                    //beginAtZero:true,
+                            display: true,
+                    //底線顏色
+						/*     gridLines: {
+                               drawBorder: false,
+                               color: "#b7b7b7",
+						    },*/
+
+                            scaleLabel: {
+                                display: true,
+                                labelString: '股價',
+			                    fontFamily:"Noto Sans TC",
+							    fontSize:14,            
+                            }
+                        }],
+                    yAxes: [{
+                    //底線顏色
+                    /*    gridLines: {
+                        drawBorder: false,
+                        color: "#b7b7b7",
+						},*/
+
+                            display: true,
+                            ticks: {
+                                beginAtZero: true,
+                                stepSize: 0.005,//数字之间的间隔,设置之后例如: [2,3,4]
+								min:0.005,
+                                max:0.025,
+                   /*    callback: function(value, index, values) {
+                        return  value +'.00%';
+                    }*/
+
+                            },
+
+                        }]
+                },
+                title: {
+                    display: true,
+                    //text: 'Chart.js Line Chart - Legend'
+                }
+            }
+        };
+
+       var ctx = document.getElementById("canvas").getContext("2d");
+       new Chart(ctx, config);	
+	// Global Options:
+Chart.defaults.global.defaultFontColor = 'black';
+Chart.defaults.global.defaultFontSize = 14;
+
+	
+</script>	
+
+	
+</body>
+</html>

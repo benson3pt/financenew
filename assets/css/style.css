@@ -3242,7 +3242,7 @@ section.bread .breadcrumb>.active {
     height: 140px;
     margin: 15px auto 20px;
     border-radius: 50%;
-    background-color: rgba(255, 220, 182, 1.00);
+    background-color: #ffdcb6;
     font-size: 1.4em;
     line-height: 1.5em;
     padding-top: 40px;
@@ -3259,8 +3259,9 @@ section.bread .breadcrumb>.active {
 }
 
 .newslide .carousel-inner .container .row .col-md-4 .port_item .port_circle span {
-    font-size: 2.9em;
+    font-size: 2.4em;
     font-weight: 700;
+    letter-spacing: -2px
 }
 
 .newslide .carousel-inner .container .row .col-md-4 .port_item .port_caption table {
@@ -4095,15 +4096,26 @@ h4.categoryname {
 }
 
 .buy_funds_ELNbg {
-    background: url(../images/undzx.jpg) no-repeat center;
-    background-size: cover;
+    background: url(../images/ricepaper_v3.png) repeat;
+    /* background: #FFF no-repeat center; */
+    /* background-color: #FFF; */
+    /* background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    -ms-background-size: cover;
+    -ms-background-size: cover; */
     min-height: 50vw;
     position: relative;
     z-index: 1;
+}
+
+.ordername {
+    width: 100%;
+    position: fixed;
+    z-index: 111111;
+    top: 112px;
+    background: url(../images/greyzz.png) repeat;
+    background-color: #FFF;
 }
 
 #stockitem .p-heading1 {
@@ -7817,14 +7829,6 @@ section.fixedbread {
     width: 100%;
     position: fixed;
     z-index: 111111;
-}
-
-.ordername {
-    width: 100%;
-    position: fixed;
-    z-index: 111111;
-    top: 112px;
-    background: url(../images/undzx.png) no-repeat center;
 }
 
 .downicon {

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="日盛證券, 日盛全球優益理財商品">
+    <meta name="keywords" content="日盛證券,日盛全球優益理財商品">
+    <meta name="author" content="">
+    <title>日盛全球優益理財商品</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link rel="bookmark" href="../favicon.ico" />
+    <!--FB-->
+    <meta property="og:title" content="日盛全球優益理財商品">
+    <meta property="og:description" content="日盛全球優益理財商品">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/iconfont.css">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/bootsnav.css">
+    <!-- Custom Fonts -->
+    <link href="../assets/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/notosanstc.css" rel="stylesheet" type="text/css">
+    <link href="../assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../assets/css/plugins.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+
+
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+    <!--主要 css -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-menu" data-offset="110" class="ifPGN_new addmem topic">
+
+    <!-- go_top -->
+    <div id="go_top"><i class="fa fa-sort-asc" aria-hidden="true"></i></div>
+
+
+    <!-- Preloader -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_four"></div>
+            </div>
+        </div>
+    </div>
+    <!--// off Preloader -->
+
+
+
+
+    <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
+        <!-- Start Top Search -->
+        <!--		<div class="top-search">
+			<div class="container">
+				<div class="input-group">
+					<div class="input-group_box pull-right">
+						<span class="itemspan"><a class="" href="myAccount_signature.shtml" role="button">個人設定<i class="fa fa-info-circle" aria-hidden="true"></i></a></span>
+                    <span class="itemspan "><a class="" href="index.shtml" role="button">登出</a></span>
+					</div>
+					<span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+				</div>
+			</div>
+		</div>
+-->
+        <!-- // Top Search -->
+
+
+        <div class="container addmem_container">
+
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="../index.shtml" target="_self">
+                    <img src="../assets/images/logo.png" class="logo" alt="">
+                </a>
+
+            </div>
+            <!-- End Header Navigation -->
+            <!-- navbar menu -->
+            <!-- /.navbar-collapse -->
+        </div>
+
+    </nav>
+
+    <!-- breadcrumb -->
+    <section class="bread">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="../index.shtml">首頁</a></li>
+                <li>低買優益理財商品</li>
+                <li class="active">全球產業贏家賺取經濟比例越來越大 </li>
+            </ol>
+        </div>
+    </section>
+    <!--// breadcrumb -->
+
+
+
+
+
+
+
+    <!-- 內容 -->
+    <div class="main-w3pvt mian-content-wthree text-center buy_funds_ELNbg" id="product">
+        <div class="container">
+            <!--            <div class="main_product roomy-40">-->
+            <div class="main_product">
+                <div class="head_title text-center fix">
+                    <div class="row">
+                        <div class="col-md-12">
+
+
+                            <div class="container">
+                                <p>自2008年金融海嘯後，全球經濟經過十多年的成長已逐漸趨緩。由於經濟成長放緩、企業獲利縮減以及人口老化等原因，預計未來十年，全球資產投資將轉變為低報酬、高波動。當市場發生結構性轉變，以往的投資模式將不再適用，適時逢高停利將有助於提高報酬率及降低損益波動。在您逢低承接建立長期持股配置後，預期股價進入高檔盤整或弱勢時，日盛證券提供您「存股優益理財商品」賣出部份上檔波動的價值，讓您可以在長期投資的過程中持盈保泰。
+                                </p>
+                                <img style="border-color: #c7c7c7;" src="../topic1/images/topic1_1.png"> </div>
+
+
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- //內容 -->
+
+
+
+
+
+
+
+
+
+
+    <!--footer-->
+    <!-- #include file ="footer.html" -->
+
+
+
+    <footer id="contact" class="footer bg-black">
+        <div class="main_footer fix">
+            <div class="col-md-12">
+                <p class="wow fadeInRight" data-wow-duration="1s">
+                    <span>日盛證券股份有限公司</span> <span>電話：(02)25048888</span> <span>客服專線：0800088268</span><span class="footerlastspan">地址：台北市南京東路二段111號3樓</span><br>
+                    <a href="http://www.jihsun.com.tw/ePaper/eReport.html" target="_blank">防制洗錢及打擊資助恐怖主義專區</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JS includes -->
+    <script src="../assets/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="../assets/js/vendor/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.js"></script>
+    <script src="../assets/js/jquery.easing.1.3.js"></script>
+    <script src="../assets/js/bootsnav.js"></script>
+    <script src="../assets/js/plugins.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function($) {
+
+            /*
+		$(".modal-header button").click(function(){		
+         window.open("login_index.shtml","_self");
+	     });   
+	   */
+
+
+        });
+    </script>
+
+    <script>
+        var config = {
+            type: 'line',
+
+            data: {
+                labels: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+                    "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+                    "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+                    "31", "32", "33", "34", "35", "36", "37", "38", "39", "40"
+                ],
+                datasets: [{
+                    label: "收益率",
+                    labels: 'red',
+                    fill: false,
+                    lineTension: 0.5,
+                    backgroundColor: "#f36c28",
+                    borderColor: "#F0A202", // The main line color
+                    borderCapStyle: 'square',
+                    borderDash: [], // try [5, 15] for instance
+                    borderDashOffset: 0.0,
+                    borderJoinStyle: 'miter',
+                    pointRadius: 0,
+                    //  pointBorderColor: "black",
+                    //  pointBackgroundColor: "black",
+                    //  pointBorderWidth: 1,
+                    //  pointHoverRadius: 8,
+                    //  pointHoverBackgroundColor: "yellow",
+                    //  pointHoverBorderColor: "brown",
+                    //  pointHoverBorderWidth: 2,
+                    //  pointRadius: 4,
+                    //  pointHitRadius: 10,
+                    lineTension: 0,
+                    // notice the gap in the data and the spanGaps: true
+                    data: ["0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02",
+                        "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02",
+                        "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02", "0.02",
+                        "0.019", "0.018", "0.017", "0.016", "0.015", "0.014", "0.013", "0.012", "0.011", "0.01"
+                    ],
+                    spanGaps: true,
+                }]
+            },
+            options: {
+                layout: {
+                    padding: {
+                        left: 10,
+                        right: 20,
+                        top: -30,
+                        bottom: 0
+                    }
+                },
+                responsive: true,
+                legend: { //標題
+                    display: true,
+                    onClick: null, //click disable
+                    position: 'top',
+                    labels: {
+                        fontColor: '#000000',
+                        fontFamily: "Noto Sans TC",
+                        fontSize: 15,
+                        lineHeight: 0,
+                    }
+                },
+
+                hover: {
+                    mode: 'label'
+                },
+                scales: {
+                    xAxes: [{
+                        //beginAtZero:true,
+                        display: true,
+                        //底線顏色
+                        /*     gridLines: {
+                               drawBorder: false,
+                               color: "#b7b7b7",
+						    },*/
+
+                        scaleLabel: {
+                            display: true,
+                            labelString: '股價',
+                            fontFamily: "Noto Sans TC",
+                            fontSize: 14,
+                        }
+                    }],
+                    yAxes: [{
+                        //底線顏色
+                        /*    gridLines: {
+                        drawBorder: false,
+                        color: "#b7b7b7",
+						},*/
+
+                        display: true,
+                        ticks: {
+                            beginAtZero: true,
+                            stepSize: 0.005, //数字之间的间隔,设置之后例如: [2,3,4]
+                            min: 0.005,
+                            max: 0.025,
+                            /*    callback: function(value, index, values) {
+                                 return  value +'.00%';
+                             }*/
+
+                        },
+
+                    }]
+                },
+                title: {
+                    display: true,
+                    //text: 'Chart.js Line Chart - Legend'
+                }
+            }
+        };
+
+        var ctx = document.getElementById("canvas").getContext("2d");
+        new Chart(ctx, config);
+        // Global Options:
+        Chart.defaults.global.defaultFontColor = 'black';
+        Chart.defaults.global.defaultFontSize = 14;
+    </script>
+
+
+</body>
+
+</html>
