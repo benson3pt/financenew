@@ -1593,6 +1593,9 @@
                 $('[data-toggle="tooltip"]').tooltip();
 
 
+                $('.carousel').carousel({
+                    interval: false
+                })
 
                 $(".optional ul.optional_ul2 li").click(function() {
                     $(this).addClass("pinkli");

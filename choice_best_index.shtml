@@ -1487,9 +1487,13 @@
         <script type="text/javascript">
             $(document).ready(function() {
 
-                $(function() {
-                    $('[data-toggle="tooltip"]').tooltip();
+                $('.carousel').carousel({
+                    interval: false
                 })
+
+
+                $('[data-toggle="tooltip"]').tooltip();
+
 
                 $(".optional ul.optional_ul2 li").click(function() {
                     $(this).addClass("activeal2");
