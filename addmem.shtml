@@ -192,28 +192,19 @@
                                             <!--資料確認-->
                                             <p class="greenOK"><i class="fa fa-check" aria-hidden="true"></i></p>
                                             <!--資料錯誤-->
-                                            <p class="rederror"><i class="fa fa-times" aria-hidden="true"></i> 請再確認是否重複申請</p>
+                                            <p class="rederror"><i class="fa fa-times" aria-hidden="true"></i> 此欄位只能輸入中文！不可含英數字、符號或空白字元</p>
                                         </div>
                                     </div>
-                                    <!-- <div class="row rowborder">
+                                    <div class="row rowborder">
                                         <div class="col-sm-3">
                                             <p><span class="colorRed">※</span>身分證字號：</p>
                                         </div>
                                         <div class="col-sm-9"><input name="DC_RN_MK_CT" maxlength="100" class="form-control" id="ID" value="" type="text" placeholder="請輸入身分證字號">
                                             <p class="greenOK"><i class="fa fa-check" aria-hidden="true"></i></p>
-                                            <p class="rederror"><i class="fa fa-times" aria-hidden="true"></i> ID重複申請</p>
-                                        </div>
-                                    </div> -->
-                                    <div class="row rowborder">
-                                        <div class="col-sm-3">
-                                            <p><span class="colorRed">※</span>手機：</p>
-                                        </div>
-                                        <div class="col-sm-9"><input name="DC_RN_MK_CT" maxlength="100" class="form-control" id="cellphone" value="" type="text" placeholder="請輸入您的手機號碼">
-                                            <p class="greenOK"><i class="fa fa-check" aria-hidden="true"></i></p>
-                                            <p class="rederror"><i class="fa fa-times" aria-hidden="true"></i> 請輸入正確格式</p>
+                                            <p class="rederror"><i class="fa fa-times" aria-hidden="true"></i> 格式錯誤
+                                            </p>
                                         </div>
                                     </div>
-
 
                                     <div class="row rowborder">
                                         <div class="col-sm-3">
@@ -223,18 +214,30 @@
                                             <!--資料確認-->
                                             <p class="greenOK"><i class="fa fa-check" aria-hidden="true"></i></p>
                                             <!--資料錯誤-->
-                                            <p class="rederror"><i class="fa fa-times" aria-hidden="true"></i> 請輸入正確格式</p>
+                                            <p class="rederror"><i class="fa fa-times" aria-hidden="true"></i> 聯絡電話格式有誤
+                                            </p>
                                         </div>
                                     </div>
-                                    <!-- <div class="row rowborder">
+                                    <div class="row rowborder">
+                                        <div class="col-sm-3">
+                                            <p><span class="colorRed">※</span>手機：</p>
+                                        </div>
+                                        <div class="col-sm-9"><input name="DC_RN_MK_CT" maxlength="100" class="form-control" id="cellphone" value="" type="text" placeholder="請輸入您的手機號碼">
+                                            <p class="greenOK"><i class="fa fa-check" aria-hidden="true"></i></p>
+                                            <p class="rederror"><i class="fa fa-times" aria-hidden="true"></i> 手機格式有誤
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row rowborder">
                                         <div class="col-sm-3">
                                             <p><span class="colorRed">※</span>電子郵件：</p>
                                         </div>
                                         <div class="col-sm-9"><input name="DC_RN_MK_CT" maxlength="100" class="form-control" id="mail" value="" type="text" placeholder="請輸入您的電子郵件">
                                             <p class="greenOK"><i class="fa fa-check" aria-hidden="true"></i></p>
-                                            <p class="rederror"><i class="fa fa-times" aria-hidden="true"></i> 請輸入正確格式</p>
+                                            <p class="rederror"><i class="fa fa-times" aria-hidden="true"></i> 電子信箱格式有誤!!</p>
                                         </div>
-                                    </div> -->
+                                    </div>
                                     <div class="row rowborder">
                                         <div class="col-sm-3">
                                             <p><span class="colorRed">※</span>所在區域：</p>
@@ -254,7 +257,8 @@
 				  <option>3</option>
 				  <option>4</option>
 				  <option>5</option>
-				</select>
+                </select>
+                                                <input name="" class="form-control" id="Name" value="" type="text" placeholder="請輸入您的聯絡地址">
                                                 <!-- <input name="" maxlength="100" class="form-control" id="address" value="" type="text" placeholder="請輸入您的地址"> -->
                                             </div>
 
@@ -263,7 +267,7 @@
                                                 <p class="greenOK"><i class="fa fa-check" aria-hidden="true"></i></p>
                                             </div>
                                             <!--資料錯誤-->
-                                            <p class="rederror"><i class="fa fa-times" aria-hidden="true"></i> 請輸入正確格式</p>
+                                            <p class="rederror"><i class="fa fa-times" aria-hidden="true"></i> 地址需填寫門牌號碼</p>
                                         </div>
                                     </div>
                                     <!-- <span>※為必填項目</span> -->

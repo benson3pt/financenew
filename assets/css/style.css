@@ -4116,6 +4116,7 @@ h4.categoryname {
     top: 112px;
     background: url(../images/greyzz.png) repeat;
     background-color: #FFF;
+    /* border-bottom: solid 4px #ffc1a4; */
 }
 
 #stockitem .p-heading1 {
@@ -7028,13 +7029,13 @@ color: #FFC600
     width: 100%;
     clear: both;
     text-align: left;
-    color: red;
+    color: #a94442;
     padding-left: 10px;
-    display: none;
+    /* display: none; */
 }
 
 .addmem .contentbox .col-sm-9 p.rederror i {
-    color: red;
+    color: #a94442;
 }
 
 .addmem .contentbox .rowborder {
