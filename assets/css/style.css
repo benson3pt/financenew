@@ -8307,3 +8307,17 @@ button_order_active {
     border: solid 1px #3b3b3b;
     color: #3b3b3b;
 }
+
+.redtext {
+    color: #c70000;
+    font-weight: bold;
+}
+
+.buy_funds_ELN .redtext table.checkboxtable tr td {
+    color: #c70000;
+    font-weight: bold;
+}
+
+.buy_funds_ELN ol#wbold li {
+    font-weight: bold;
+}

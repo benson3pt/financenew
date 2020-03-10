@@ -364,9 +364,9 @@
 
                                         <div class="checkboxarea">
                                             <div class="checkbox">
-                                                <label><input type="checkbox" name="check"><span>一、本商品交易條件如下：</span></label>
+                                                <label><input type="checkbox" name="check"><spap style="font-weight: bold;">一、本商品交易條件如下：</span></label>
                                             </div>
-                                            <ol class="risk_sq checkboxli">
+                                            <ol class="risk_sq checkboxli" id="wbold">
                                                 <li>承作Elnno股權連結商品</li>
                                                 <li>計價幣別為新台幣</li>
                                                 <li>本商品無計價幣別到期本金保本率</li>
@@ -380,9 +380,9 @@
                                         </div>
 
 
-                                        <div class="checkboxarea">
+                                        <div class="checkboxarea redtext">
                                             <div class="checkbox" style="padding-left:10px">
-                                                <label style="padding-left:0px"><span>二、投資風險警語：</span></label>
+                                                <label style="padding-left:0px"><span style="font-weight: bold;">二、投資風險警語：</span></label>
                                             </div>
                                             <table width="0" border="0" class="checkboxtable">
                                                 <tbody>
