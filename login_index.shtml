@@ -70,11 +70,26 @@
 
     <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
 
-        <div class="attr-nav">客戶風險等級
-            <span class="riskspan">4</span>
-            <span class="logout">
-				<a href="index.shtml">登出</a>
-			</span>
+        <div class="attr-nav newattr-nav">
+            <table>
+                <tr>
+                    <td class="pal"> 客戶風險等級<span class="riskspan">4</span></td>
+                    <td class="par">
+                        <span class="logout"><a href="index.shtml">登出</a></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="pal">
+                        <span>本日到期契約結算金額預估</span>
+                        <span class="riskspan">1,000,000,000<span class="m-l-5">元</span></span>
+                        <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="本日到期契約結算金額於13:35後可顯示實際到期結算交割金額，您可於14:10前使用該金額下單"></i>
+                    </td>
+                    <td class="par">
+                        <span class="logout"><a href="#">查詢</a></span>
+                    </td>
+                </tr>
+            </table>
+
         </div>
 
 
