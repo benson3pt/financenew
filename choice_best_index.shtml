@@ -1222,7 +1222,7 @@
                                                 <div class="col-md-4">
                                                     <div class="port_item xs-m-top-30">
                                                         <div class="port_img"></div>
-                                                        <h4>2330 台積電</h4>
+                                                        <h4>00637L 元大滬深300正2</h4>
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
@@ -1486,6 +1486,17 @@
 
         <script type="text/javascript">
             $(document).ready(function() {
+
+
+
+
+
+                // long.click(function() {
+
+                //     var str = $(this).text();
+                //     var strlengh = str.length;
+                //     alert(strlengh)
+                // });
 
                 $('.carousel').carousel({
                     interval: false

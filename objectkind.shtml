@@ -322,7 +322,7 @@
                                                             <div class="col-md-4">
                                                                 <div class="port_item xs-m-top-30">
                                                                     <div class="port_img"></div>
-                                                                    <h4>2330 台積電</h4>
+                                                                    <h4>00637L 元大滬深300正2</h4>
                                                                     <h5>風險等級 RR 4</h5>
                                                                     <div class="port_circle">
                                                                         <span>88.88</span>%<br>
@@ -732,6 +732,22 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
+
+            //查看報價頁的標題
+            var long = $(".newslide .carousel-inner .container .row .col-md-4 .port_item h4");
+            long.each(function(e) {
+                var str = $(this).text();
+                var strlengh = str.length;
+
+                if (strlengh > 9) { //如果標題字數超過9個字
+                    $(this).addClass("longWord2")
+                } else {
+                    $(this).removeClass("longWord2")
+
+                }
+            });
+
+
             $("#loading").fadeOut(500);
             //tooltip
             $('[data-toggle="tooltip"]').tooltip();

@@ -13,6 +13,20 @@ jQuery(document).ready(function($) {
     //for Preloader
 
 
+    //查看報價頁的標題
+    var long = $(".newslide .carousel-inner .container .row .col-md-4 .port_item h4");
+    long.each(function(e) {
+        var str = $(this).text();
+        var strlengh = str.length;
+
+        if (strlengh > 9) { //如果標題字數超過9個字
+            $(this).addClass("longWord")
+        } else {
+            $(this).removeClass("longWord")
+
+        }
+    });
+
 
 
 

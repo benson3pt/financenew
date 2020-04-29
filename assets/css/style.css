@@ -3217,7 +3217,7 @@ section.bread .breadcrumb>.active {
     font-weight: bold;
     margin-bottom: 2px;
     text-align: left;
-    padding-left: 80px;
+    padding-left: 76px;
 }
 
 .newslide .carousel-inner .container .row .col-md-4 .port_item h5 {
@@ -8320,4 +8320,15 @@ button_order_active {
 
 .buy_funds_ELN ol#wbold li {
     font-weight: bold;
+}
+
+.longWord {
+    letter-spacing: -1.4px;
+    font-size: 1.22rem;
+    padding-left: 75px;
+}
+
+.longWord2 {
+    letter-spacing: -1.4px;
+    font-size: 1.12rem;
 }
