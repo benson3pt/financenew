@@ -951,7 +951,7 @@ textarea::-ms-input-placeholder {
     bottom: 100px;
     z-index: 9999999999999999999999999;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 11px;
     transition: background-color 0.5s;
     -moz-transition: background-color 0.5s;
     -webkit-transition: background-color 0.5s;
@@ -962,7 +962,7 @@ textarea::-ms-input-placeholder {
 
 #go_top i {
     color: #FFF;
-    font-size: 2.2em;
+    font-size: 3.7em;
 }
 
 #go_top:hover {
@@ -3674,7 +3674,7 @@ h2.choice_best_h2 {
 }
 
 .stockname {
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: #FFF;
     padding: 10px 0px 0px 5px;
     font-weight: bold;
@@ -3691,7 +3691,7 @@ h2.choice_best_h2 {
 
 span.currentprice {
     color: #FFF;
-    margin-left: 1em;
+    margin-left: 0.5em;
     font-size: 0.8em;
 }
 
@@ -8331,4 +8331,8 @@ button_order_active {
 .longWord2 {
     letter-spacing: -1.4px;
     font-size: 1.12rem;
+}
+
+.m-r-50 {
+    margin-right: 50px;
 }

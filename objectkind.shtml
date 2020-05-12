@@ -263,7 +263,7 @@
                                 <p class="text-left stockname">
                                     <span>低買優益</span>
                                     <i class="fa fa-angle-right m-l-5" aria-hidden="true"></i>
-                                    <i class="fa fa-angle-right m-r-5" aria-hidden="true"></i> 2330 台積電
+                                    <i class="fa fa-angle-right m-r-5" aria-hidden="true"></i> 00637L 元大滬深300正2
                                     <span class="currentprice">現在股價：</span><span class="currentprice2">235</span>
                                     <span class="currentprice">尚可投資	</span><span class="currentprice2">5.00億</span>
                                     <button type="button" class="btn btn-default refresh">
@@ -298,24 +298,24 @@
                                                             <div class="col-md-4">
                                                                 <div class="port_item xs-m-top-30">
                                                                     <div class="port_img"></div>
-                                                                    <h4>2330 台積電</h4>
+                                                                    <h4>00637L 元大滬深300正2</h4>
                                                                     <h5>風險等級 RR 4</h5>
                                                                     <div class="port_circle">
-                                                                        <span>99.99</span>%<br>
+                                                                        <span>88.88</span>%<br>
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>99.0</span>%</td>
+                                                                                <td><span>98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
                                                                                 <td><span>30</span>天</td>
                                                                             </tr>
                                                                         </table>
-                                                                        <div class="neworder"><a href="buy_funds_ELN.shtml" class="button_order disabledBtn">立即下單</a></div>
+                                                                        <div class="neworder"><a href="buy_funds_ELN.shtml" class="button_order">立即下單</a></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -346,17 +346,17 @@
                                                             <div class="col-md-4">
                                                                 <div class="port_item xs-m-top-30">
                                                                     <div class="port_img"></div>
-                                                                    <h4>2330 台積電</h4>
+                                                                    <h4>00637L 元大滬深300正2</h4>
                                                                     <h5>風險等級 RR 4</h5>
                                                                     <div class="port_circle">
-                                                                        <span>8</span>%<br>
+                                                                        <span>88.88</span>%<br>
                                                                         <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>97.0</span>%</td>
+                                                                                <td><span>98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>

@@ -272,6 +272,7 @@
                             <!-- //存股優益Modal -->
 
                             <span class="pull-right text-black">資料期間：2018-11-9 ~ 2019-1-9</span>
+                            <span class="pull-right text-black m-r-50">最後更新時間：當日下午 3：30</span>
 
                             <div class="dateout">
                                 <div class="newIncome"><i class="fa fa-dot-circle-o" aria-hidden="true"></i>已到期損益</div>

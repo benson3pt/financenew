@@ -794,10 +794,20 @@
                     $(".secondcircle").css("color", "#FF4F00");
                     $(".thirdcircle").css("color", "#FF4F00");
                     $(".downicon,.downtext").show();
+                    $(".Confirm2").removeAttr('disabled');
+                    $(".Confirm2").css({
+                        "color": "white",
+                        "background-color": "#FF4F00",
+                    });
+                    $(".fourcircle").css("color", "#FF4F00");
+                    $(".thirdcircle .circlenumber,.fourline").css("background-color", "#FF4F00");
                 }
             });
         });
 
+
+        //滾輪往下滑 確認按鈕變橘色
+        /* 
         $(window).scroll(function() {
             var scrollVal = $(this).scrollTop();
             var dddd = $(".downicon").is(":hidden");
@@ -811,6 +821,7 @@
                 $(".thirdcircle .circlenumber,.fourline").css("background-color", "#FF4F00");
             }
         });
+*/
 
 
         $(".Confirm2").click(function() {

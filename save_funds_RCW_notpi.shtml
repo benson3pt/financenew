@@ -971,23 +971,37 @@
                     $(".secondcircle").css("color", "sienna");
                     $(".thirdcircle").css("color", "sienna");
                     $(".downicon,.downtext").show();
+                    $(".Confirm2").removeAttr('disabled');
+                    $(".Confirm2").css({
+                        "color": "white",
+                        "background-color": "sienna",
+                    });
+                    $(".fourcircle").css("color", "sienna");
+                    $(".thirdcircle .circlenumber,.fourline").css("background-color", "sienna");
+
                 }
             });
         });
 
-        $(window).scroll(function() {
-            var scrollVal = $(this).scrollTop();
-            var dddd = $(".downicon").is(":hidden");
-            if (scrollVal > 550 && dddd === false) {
-                $(".Confirm2").removeAttr('disabled');
-                $(".Confirm2").css({
-                    "color": "white",
-                    "background-color": "sienna",
+
+        //滾輪往下滑 確認按鈕變色
+        /*
+                $(window).scroll(function() {
+                    var scrollVal = $(this).scrollTop();
+                    var dddd = $(".downicon").is(":hidden");
+                    if (scrollVal > 550 && dddd === false) {
+                        $(".Confirm2").removeAttr('disabled');
+                        $(".Confirm2").css({
+                            "color": "white",
+                            "background-color": "sienna",
+                        });
+                        $(".fourcircle").css("color", "sienna");
+                        $(".thirdcircle .circlenumber,.fourline").css("background-color", "sienna");
+                    }
                 });
-                $(".fourcircle").css("color", "sienna");
-                $(".thirdcircle .circlenumber,.fourline").css("background-color", "sienna");
-            }
-        });
+        */
+
+
 
 
         $(".Confirm2").click(function() {
