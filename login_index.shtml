@@ -200,7 +200,7 @@
                     <!--				<div class="main_features fix roomy-70">
 -->
                     <div class="col-md-4 ">
-                        <div class="square esing" style="height: 487px;">
+                        <div class="square esing" style="height: 477px;">
                             <div class="imgflag "><img src="assets/images/usicon.png " alt="美國 "></div>
                             <p class="nationname ">美國</p>
                             <p class="comingsoon">建構中<br>敬請期待</p>
@@ -214,7 +214,7 @@
                             <p class="nationname">台灣</p>
 
                             <p class="newnumber newnewnumber">
-                                <span class="text-danger">2~</span><span class="counter text-danger">30</span><span class="percent">%</span><br>
+                                <sup style="top:-1.4em;color:#000">最高</sup><span class="counter text-danger">20.2</span><span class="percent">%</span><br>
                                 <span class="newsoan" data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
 		<i class="fa fa-info-circle" aria-hidden="true" ></i>
 		</span>
@@ -223,16 +223,20 @@
                                 <table class="table">
                                     <tbody>
                                         <tr>
-                                            <td>台積電</td>
-                                            <td>2-17%</td>
+                                            <td>元大台灣50正2TES</td>
+                                            <td style="width: 1%;text-align: right;color:rgba(224, 0, 3, 1.00)">4.75%</td>
+                                            <td><i class="fa fa-long-arrow-up" aria-hidden="true" style="margin-left: 0.2em"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>大立光</td>
-                                            <td>12-30%</td>
+                                            <td>元大滬深300正2</td>
+                                            <td style="color:rgba(224, 0, 3, 1.00) ;">4.14%</td>
+                                            <td><i class="fa fa-long-arrow-up" aria-hidden="true" style="margin-left: 0.2em"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>聯發科</td>
-                                            <td>4-22%</td>
+                                            <td>南亞科</td>
+                                            <td style="color:rgba(224, 0, 3, 1.00)">3.65%</td>
+                                            <td><i class="fa fa-long-arrow-up" aria-hidden="true" style="margin-left: 0.2em"></i></td>
+
                                         </tr>
                                     </tbody>
                                 </table>
@@ -242,7 +246,7 @@
                     </div>
 
                     <div class="col-md-4">
-                        <div class="square esing" style="height: 487px;">
+                        <div class="square esing" style="height: 477px;">
                             <div class="imgflag "><img src="assets/images/hongicon.png " alt="香港 "></div>
                             <p class="nationname ">香港</p>
                             <p class="comingsoon">建構中<br>敬請期待</p>
@@ -398,6 +402,21 @@
 
     <script type="text/javascript">
         $(document).ready(function($) {
+
+            //熱門標的台灣
+            // var word = $(".detail_out table tr td:first-child");
+            // word.each(function(e) {
+            //     var str = $(this).text();
+            //     var strlengh = str.length;
+
+            //     if (strlengh > 6) { //如果標題字數超過6個字
+            //         $(this).addClass("short_title");
+            //     } else {
+            //         $(this).removeClass("short_title");
+
+            //     }
+            // });
+
 
             $('[data-toggle="tooltip"]').tooltip();
 

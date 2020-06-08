@@ -1669,7 +1669,7 @@ p.nationname1 {
 }
 
 .detail_out table tr td {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 600;
 }
 
@@ -1678,16 +1678,19 @@ p.nationname1 {
 }
 
 .detail_out table tr td:first-child {
-    width: 50%;
+    width: 75%;
     text-align: right;
-    padding-right: 0.5em;
+    /* padding-right: 0.5em; */
     color: #000000;
+    font-size: 1.4em;
 }
 
 .detail_out table tr td:last-child {
-    width: 50%;
+    width: 25%;
     text-align: left;
-    color: rgba(224, 0, 3, 1.00)
+    color: rgba(224, 0, 3, 1.00);
+    padding-left: 0px;
+    font-size: 1.4em;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -5287,6 +5290,16 @@ i.fa-exclamation-triangle {
     font-size: 1.36em;
 }
 
+.undue table.tablefe tr td.newright {
+    text-align: right;
+    padding-right: 3em;
+}
+
+.undue table.tablefe tr td.newright2 {
+    text-align: right;
+    padding-right: 2em;
+}
+
 .undue .buy_funds_ELNbg {
     /*  background: url(../images/buy_funds_ELNbg.jpg) no-repeat center;*/
     background: url(../images/unduetest.jpg) no-repeat center;
@@ -7380,19 +7393,25 @@ span.stocktime {
     color: #808080;
     position: absolute;
     left: 30px;
-    top: 200px;
+    top: 150px;
     font-weight: bold;
     font-size: 1em;
 }
 
 .buy_funds_ELN span.spanl2 {
-    top: 318px;
+    top: 258px;
     left: 53px;
 }
 
 .buy_funds_ELN span.spanl3 {
-    top: 361px;
+    top: 301px;
     left: 53px;
+}
+
+.buy_funds_ELN span.spanl4 {
+    top: 351px;
+    left: 283px;
+    font-size: 1.3em;
 }
 
 .elncontent3 table.omb {
@@ -7686,6 +7705,17 @@ button.Confirm2 {
     border-radius: 5px;
 }
 
+p.add_word {
+    font-size: 1.5em;
+    margin-bottom: 0.4em;
+    color: coral;
+    font-weight: bold;
+}
+
+button.edit_word {
+    margin-top: 0px;
+}
+
 button.zzzz {
     width: 100%;
     color: #FFF;
@@ -7696,9 +7726,10 @@ button.zzzz {
     border-radius: 5px;
 }
 
-button.Confirm2 {
+
+/* button.Confirm2 {
     margin-top: 30px;
-}
+} */
 
 .elnborm {
     border-bottom: solid 1px #BDBDBD;
@@ -7843,7 +7874,9 @@ section.fixedbread {
 
 .downtext {
     display: none;
-    font-size: 1.1em;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: rgb(248, 79, 0);
 }
 
 @media (max-width: 768px) {
@@ -8336,3 +8369,14 @@ button_order_active {
 .m-r-50 {
     margin-right: 50px;
 }
+
+.edit_algin {
+    color: red;
+}
+
+
+/* .short_title {
+    letter-spacing: -1.4px;
+    font-size: 12px;
+    color: darkgreen;
+} */

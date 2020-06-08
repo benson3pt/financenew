@@ -268,18 +268,19 @@
 
                                     <section class="elncontent3 table-responsive" style="position:relative;">
 
-                                        <span class="spanl spanl1">報<br>酬<br>率</span>
+                                        <span class="spanl spanl1">年<br>化<br>收<br>益<br>率</span>
                                         <span class="spanl spanl2">到期日股價</span>
                                         <span class="spanl spanl3">股價漲跌(%)</span>
+                                        <span class="spanl spanl4">最大可能損失為全部投資本金</span>
                                         <canvas id="c" style="min-width: 700px"></canvas>
                                     </section>
                                     <!-------------------------------------------------------- //產品到期損益圖--------------------------------------------------->
 
                                 </div>
 
-
+                                <p class="add_word"></p>
                                 <div class="signtextitem">
-                                    <button type="button" class="Confirm2" data-toggle="modal" data-target="#Confirmation2" disabled>確認承作
+                                    <button type="button" class="Confirm2 edit_word" data-toggle="modal" data-target="#Confirmation2" disabled>確認承作
 				<i class="fa fa-chevron-right" aria-hidden="true"></i>
 	            </button>
                                 </div>
@@ -916,7 +917,7 @@
                     left: 50,
                     right: 40,
                     top: 20,
-                    bottom: 0
+                    bottom: 60
                 }
             },
             responsive: true,
