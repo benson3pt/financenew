@@ -7399,12 +7399,14 @@ span.stocktime {
 }
 
 .buy_funds_ELN span.spanl2 {
-    top: 258px;
+    top: 318px;
+    /* top: 258px; */
     left: 53px;
 }
 
 .buy_funds_ELN span.spanl3 {
-    top: 301px;
+    /* top: 301px; */
+    top: 361px;
     left: 53px;
 }
 
@@ -8380,3 +8382,9 @@ button_order_active {
     font-size: 12px;
     color: darkgreen;
 } */
+
+p.buyall {
+    padding-top: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+}

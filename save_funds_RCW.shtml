@@ -271,8 +271,9 @@
                                         <span class="spanl spanl1">年<br>化<br>收<br>益<br>率</span>
                                         <span class="spanl spanl2">到期日股價</span>
                                         <span class="spanl spanl3">股價漲跌(%)</span>
-                                        <span class="spanl spanl4">最大可能損失為全部投資本金</span>
+                                        <!-- <span class="spanl spanl4">最大可能損失為全部投資本金</span> -->
                                         <canvas id="c" style="min-width: 700px"></canvas>
+                                        <p class="buyall">最大可能損失為全部投資本金</p>
                                     </section>
                                     <!-------------------------------------------------------- //產品到期損益圖--------------------------------------------------->
 
@@ -903,7 +904,7 @@
                     left: 50,
                     right: 40,
                     top: 20,
-                    bottom: 60
+                    bottom: 0
                 }
             },
             responsive: true,
