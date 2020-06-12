@@ -118,7 +118,7 @@
     </nav>
 
     <!-- breadcrumb -->
-    <section class="bread" id="newbread" style="margin-top: 80px;">
+    <section class="bread" id="newbread" style="margin-top:;">
         <div class="container">
             <ol class="breadcrumb">
                 <li><a href="login_index.shtml">首頁</a></li>

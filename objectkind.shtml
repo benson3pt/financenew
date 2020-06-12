@@ -219,7 +219,7 @@
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
-                                                <h4 class="panel-title"><i class="fa fa-line-chart" aria-hidden="true"></i>藍籌高成長</h4>
+                                                <h4 class="panel-title"><i class="fa fa-line-chart" aria-hidden="true"></i>藍籌高波動</h4>
                                             </a>
                                         </div>
                                         <div id="collapsefour" class="panel-collapse collapse">
@@ -308,7 +308,7 @@
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>98.0</span>%</td>
+                                                                                <td><span class="red">98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -332,7 +332,7 @@
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>98.0</span>%</td>
+                                                                                <td><span class="red">98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -356,7 +356,7 @@
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>98.0</span>%</td>
+                                                                                <td><span class="red">98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -388,7 +388,7 @@
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>97.0</span>%</td>
+                                                                                <td><span class="red">97.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -412,7 +412,7 @@
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>97.0</span>%</td>
+                                                                                <td><span class="red">97.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -436,7 +436,7 @@
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>97.0</span>%</td>
+                                                                                <td><span class="red">97.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -509,7 +509,7 @@
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>96.0</span>%</td>
+                                                                                <td><span class="red">96.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -533,7 +533,7 @@
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>95.0</span>%</td>
+                                                                                <td><span class="red">96.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -557,7 +557,7 @@
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>94.0</span>%</td>
+                                                                                <td><span class="red">94.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -589,7 +589,7 @@
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>96.0</span>%</td>
+                                                                                <td><span class="red">96.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -613,7 +613,7 @@
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>95.0</span>%</td>
+                                                                                <td><span class="red">96.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -637,7 +637,7 @@
                                                                         <table class="table table-hover">
                                                                             <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span>94.0</span>%</td>
+                                                                                <td><span class="red">94.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>

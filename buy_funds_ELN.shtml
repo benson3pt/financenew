@@ -50,7 +50,9 @@
 
 
     <style>
-
+        #newbread {
+            margin-top: 80px;
+        }
     </style>
 
 </head>
@@ -130,7 +132,7 @@
         </nav>
 
         <!-- breadcrumb -->
-        <section class="bread fixedbread" id="newbread" style="margin-top: 80px;">
+        <section class="bread fixedbread" id="newbread">
             <div class="container">
                 <ol class="breadcrumb">
                     <li><a href="login_index.shtml">首頁</a></li>
@@ -223,7 +225,7 @@
                                         </div>
 
                                         <div class="downicon"></div>
-                                        <p class="downtext">請下拉頁面閱讀產品條件，並確認承作</p>
+                                        <p class="downtext">請下拉頁面閱讀產品條件，按確認承作後本次交易始生效</p>
                                     </div>
 
                                 </div>
