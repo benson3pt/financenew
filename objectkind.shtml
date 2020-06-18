@@ -187,7 +187,7 @@
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                                <h4 class="panel-title"><i class="fa fa-globe" aria-hidden="true"></i>全球頂尖企業</h4>
+                                                <h4 class="panel-title"><i class="fa fa-globe" aria-hidden="true"></i>全球頂尖</h4>
                                             </a>
                                         </div>
                                         <div id="collapseTwo" class="panel-collapse collapse">
@@ -203,7 +203,7 @@
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                                <h4 class="panel-title"><i class="fa fa-bar-chart" aria-hidden="true"></i>藍籌穩健</h4>
+                                                <h4 class="panel-title"><i class="fa fa-bar-chart" aria-hidden="true"></i>藍籌高波動</h4>
                                             </a>
                                         </div>
                                         <div id="collapseThree" class="panel-collapse collapse">
@@ -219,7 +219,7 @@
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
-                                                <h4 class="panel-title"><i class="fa fa-line-chart" aria-hidden="true"></i>藍籌高波動</h4>
+                                                <h4 class="panel-title"><i class="fa fa-line-chart" aria-hidden="true"></i>藍籌權值</h4>
                                             </a>
                                         </div>
                                         <div id="collapsefour" class="panel-collapse collapse">
@@ -235,7 +235,7 @@
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapsefive">
-                                                <h4 class="panel-title"><i class="fa fa-signal" aria-hidden="true"></i>高收益率</h4>
+                                                <h4 class="panel-title"><i class="fa fa-signal" aria-hidden="true"></i>客戶自選</h4>
                                             </a>
                                         </div>
                                         <div id="collapsefive" class="panel-collapse collapse">

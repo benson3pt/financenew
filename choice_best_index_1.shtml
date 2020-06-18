@@ -121,9 +121,9 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active "><a href="#product ">本日熱門標的</a></li>
-                        <li><a href="#features">全球頂尖企業</a></li>
-                        <li><a href="#business">藍籌穩健</a></li>
-                        <li><a href="#team">藍籌高波動</a></li>
+                        <li><a href="#features">全球頂尖</a></li>
+                        <li><a href="#business">藍籌高波動</a></li>
+                        <li><a href="#team">藍籌權值</a></li>
                         <li><a href="#yield">客戶自選</a></li>
                         <li class="hide_li"><a href="#">目前市場 台灣</a></li>
                         <li class="hide_li"><a href="#">客戶風險等級 4</a></li>
@@ -448,7 +448,7 @@
 
 
 
-        <!-- 全球頂尖企業 -->
+        <!-- 全球頂尖 -->
         <section class="w3ls-bnrbtm" id="features">
             <div class="container">
                 <div class="main_product roomy-80">
@@ -459,7 +459,7 @@
                         <div class="col-md-2 col-sm-12"></div>
 
                         <div class="col-md-10 col-sm-12">
-                            <h2 class="text-uppercase text-black text-center choice_best_h2">全球頂尖企業</h2>
+                            <h2 class="text-uppercase text-black text-center choice_best_h2">全球頂尖</h2>
                             <div id="carousel-example-features" class="carousel slide newslide" data-ride="carousel">
                                 <!-- Indicators -->
                                 <ol class="carousel-indicators">
@@ -725,9 +725,9 @@
 
 
         </section>
-        <!-- //全球頂尖企業 -->
+        <!-- //全球頂尖 -->
 
-        <!-- 藍籌穩健 -->
+        <!-- 藍籌高波動 -->
         <div class="services servicespink" id="business">
             <div class="container">
                 <div class="main_product roomy-80">
@@ -739,7 +739,7 @@
                         <div class="col-md-2 col-sm-12"></div>
 
                         <div class="col-md-10 col-sm-12">
-                            <h2 class="text-uppercase  text-center text-white choice_best_h2">藍籌穩健</h2>
+                            <h2 class="text-uppercase  text-center text-white choice_best_h2">藍籌高波動</h2>
 
                             <div id="carousel-example-business" class="carousel slide newslide" data-ride="carousel">
                                 <!-- Indicators -->
@@ -999,9 +999,9 @@
                 </div>
             </div>
         </div>
-        <!-- //藍籌穩健 -->
-
         <!-- 藍籌高波動 -->
+
+        <!-- //藍籌權值 -->
         <section class="branches" id="team">
             <div class="container">
                 <div class="main_product roomy-80">
@@ -1012,7 +1012,7 @@
                         <div class="col-md-2 col-sm-12"></div>
 
                         <div class="col-md-10 col-sm-12">
-                            <h2 class="text-uppercase text-black text-center choice_best_h2">藍籌高波動</h2>
+                            <h2 class="text-uppercase text-black text-center choice_best_h2">藍籌權值</h2>
 
                             <div id="carousel-example-team" class="carousel slide newslide" data-ride="carousel">
                                 <!-- Indicators -->
@@ -1275,7 +1275,7 @@
                 </div>
             </div>
         </section>
-        <!-- //藍籌高波動 -->
+        <!-- //藍籌權值 -->
 
         <!-- 客戶自選 -->
         <div class="middlesection-w3pvt" id="yield">
