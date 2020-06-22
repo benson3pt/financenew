@@ -1366,6 +1366,20 @@ Home Section style
                 border: solid 1px #f36c28;
             }
             
+            .neworder a.btn-dark {
+                color: #FFF;
+                background: #959595;
+                box-shadow: #959595 0 0px 0px 2px inset;
+                outline: none;
+                border: solid 1px #959595;
+            }
+            
+            .neworder a.btn-dark:hover {
+                color: #959595;
+                box-shadow: #FFF 0 80px 0px 2px inset;
+                border: solid 1px #959595;
+            }
+            
             .newordernew {
                 width: 100%;
             }
@@ -8172,4 +8186,38 @@ color: #FFC600
             
             span.newfa {
                 color: #797979;
+            }
+            
+            #AlertRisk {
+                padding-top: 5%;
+            }
+            
+            #AlertRisk .modal-header {
+                background-color: #EBEBEB;
+            }
+            
+            #AlertRisk .modal-header button span {
+                font-size: 1.6em;
+            }
+            
+            #AlertRisk .modal-body p.money {
+                font-size: 22px;
+                margin: 15px auto;
+                padding: 20px;
+                font-weight: bold;
+                color: #666666;
+                line-height: 1.5em;
+            }
+            
+            #AlertRisk .modal-body p.money a {
+                color: #FF4F00;
+                text-decoration: underline;
+            }
+            
+            #AlertRisk .modal-body p.money a:hover {
+                text-decoration: none;
+            }
+            
+            #accordion i {
+                width: 18.3px;
             }
