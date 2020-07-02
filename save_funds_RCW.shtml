@@ -328,6 +328,8 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
+                    <span class="before_sign">依主管機關規定，為保障您的權益，<br>請您詳審後，簽署下列文件</span>
+
                     <button type="button" class="close" data-toggle="modal" data-target="#undone"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title">
                         交易文件簽署<span>1.交易風險預告書</span></h4>

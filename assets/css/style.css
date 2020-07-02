@@ -7318,10 +7318,15 @@ color: #FFC600
                 text-align: center;
                 font-size: 1em;
             }
-            /*.onecircle .circlenumber{
-	background-color: #FF4F00;
-}
-*/
+            
+            @media (max-width: 415px) {
+                .signcircle .signcirclearea .signcircle4 {
+                    font-size: 12px;
+                }
+                .circlenumber {
+                    line-height: 2.5;
+                }
+            }
             
             .onecircle span {
                 color: #FF4F00;
@@ -8220,4 +8225,21 @@ color: #FFC600
             
             #accordion i {
                 width: 18.3px;
+            }
+            
+            #C {
+                height: 700px !important;
+            }
+            
+            span.before_sign {
+                position: absolute;
+                z-index: 999;
+                color: red;
+                font-size: 1.15em;
+            }
+            
+            @media (max-width: 992px) {
+                span.before_sign {
+                    display: none;
+                }
             }
