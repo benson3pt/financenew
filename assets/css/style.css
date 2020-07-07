@@ -8243,3 +8243,13 @@ color: #FFC600
                     display: none;
                 }
             }
+            
+            .buy_funds_ELN span.rcwspan {
+                left: 50px;
+                top: 315px;
+            }
+            
+            .buy_funds_ELN span.rcwspan2 {
+                left: 50px;
+                top: 360px;
+            }

@@ -269,8 +269,8 @@
                                     <section class="elncontent3 table-responsive" style="position:relative;">
 
                                         <span class="spanl spanl1">年<br>化<br>收<br>益<br>率</span>
-                                        <span class="spanl spanl2">到期日股價</span>
-                                        <span class="spanl spanl3">股價漲跌(%)</span>
+                                        <span class="spanl spanl2 rcwspan">到期日股價</span>
+                                        <span class="spanl spanl3 rcwspan2">股價漲跌(%)</span>
                                         <!-- <span class="spanl spanl4">最大可能損失為全部投資本金</span> -->
                                         <canvas id="c" style="min-width: 700px"></canvas>
                                         <p class="buyall">最大可能損失為全部投資本金</p>
@@ -864,12 +864,12 @@
     var myChart = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: ["", "69.48;-10%", "69.48;-9%", "71.02;-8%", "71.02;-7%", "72.56;-6%", "72.56;-5%", "74.11;-4%", "74.11;-3%", "75.65;-2%", "75.65;-1%", "77.2;0%", "78.74;1%", "78.74;2%", "80.28;3%", "80.28;4%", "81.83;5%", "81.83;6%", "83.37;7%", "83.37;8%", "84.92;9%", "84.92;10%"],
+            labels: ["", "69.48;-10%", "69.48;-9%", "71.02;-8%", "71.02;-7%", "72.56;-6%", "72.56;-5%", "74.11;-4%", "74.11;-3%", "75.65;-2%", "75.65;-1%"],
             //"A,B"  ;  A=到期日股價 B=股價漲跌(%)     
             datasets: [{
                 label: '投資本商品',
                 xAxisID: 'xAxis1',
-                data: [null, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], //X軸上方--->到期日股價  因為要放"到期日股價"這個標題  所以第一個值我設為null
+                data: [null, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 2], //X軸上方--->到期日股價  因為要放"到期日股價"這個標題  所以第一個值我設為null
                 fill: false,
                 lineTension: 0.5,
                 backgroundColor: "#f36c28",
@@ -884,7 +884,7 @@
             }, {
                 label: '持有現股',
                 xAxisID: 'xAxis2',
-                data: [null, -10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], //X軸下方--->股價漲跌(%)  因為要放"股價漲跌(%)"這個標題  所以第一個值我設為null
+                data: [null, -10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0], //X軸下方--->股價漲跌(%)  因為要放"股價漲跌(%)"這個標題  所以第一個值我設為null
                 fill: false,
                 lineTension: 0.5,
                 backgroundColor: "red",
