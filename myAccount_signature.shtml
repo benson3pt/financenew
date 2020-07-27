@@ -390,8 +390,8 @@
     <script type="text/javascript">
         $(document).ready(function($) {
 
-            alrty("555")
-                /*
+
+            /*
 		$(".modal-header button").click(function(){		
          window.open("login_index.shtml","_self");
 	     });   

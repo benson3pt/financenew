@@ -8254,3 +8254,16 @@ color: #FFC600
                 left: 50px;
                 top: 360px;
             }
+            
+            @media (min-width: 1100px) {
+                .account_signature .attr-nav {
+                    position: absolute;
+                    z-index: 999999;
+                    right: 0px;
+                    top: 3px
+                }
+                .account_signature .navbar-default .navbar-collapse,
+                .navbar-default .navbar-form {
+                    padding-right: 150px;
+                }
+            }
