@@ -39,7 +39,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <style>
-
+        small {
+            font-size: 75%;
+        }
     </style>
 
     <!--[if lt IE 9]>
@@ -217,7 +219,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>99.99</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -248,7 +250,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>88.88</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                                              <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -279,7 +281,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>77.77</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -318,7 +320,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>66.66</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -349,7 +351,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>55.55</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -380,7 +382,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>44.44</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -468,7 +470,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -499,7 +501,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -530,7 +532,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -569,7 +571,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -600,7 +602,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -631,7 +633,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -723,7 +725,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -754,7 +756,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -785,7 +787,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -824,7 +826,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -855,7 +857,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -886,7 +888,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -976,7 +978,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -1007,7 +1009,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -1038,7 +1040,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -1077,7 +1079,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -1108,7 +1110,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -1139,7 +1141,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -1228,7 +1230,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -1259,7 +1261,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -1290,7 +1292,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -1329,7 +1331,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -1360,7 +1362,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
@@ -1391,7 +1393,7 @@
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">年化收益率
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。">最大年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
