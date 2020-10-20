@@ -123,6 +123,10 @@
 
     </nav>
 
+
+
+
+
     <!--首頁-->
     <section id="home" class="home bg-black fix" style="padding-top: 100px">
 
@@ -280,6 +284,8 @@
                             <th rowspan="2">標的名稱</th>
                             <th colspan="3" align="center">調整前</th>
                             <th colspan="3" align="center">調整後</th>
+                            <th rowspan="2">期數</th>
+
                         </tr>
                         <tr>
                             <th>履約價格</th>
@@ -300,6 +306,7 @@
                             <td>230</td>
                             <td>230</td>
                             <td>90%</td>
+                            <td>3</td>
                         </tr>
                         <tr>
                             <td>2018/11/12</td>
@@ -312,6 +319,8 @@
                             <td>230</td>
                             <td>230</td>
                             <td>90%</td>
+                            <td>3</td>
+
                         </tr>
                         <tr>
                             <td>2018/11/12</td>
@@ -324,6 +333,8 @@
                             <td>230</td>
                             <td>230</td>
                             <td>90%</td>
+                            <td>3</td>
+
                         </tr>
                         <tr>
                             <td>2018/11/12</td>
@@ -336,6 +347,8 @@
                             <td>230</td>
                             <td>230</td>
                             <td>90%</td>
+                            <td>3</td>
+
                         </tr>
                         <tr>
                             <td>2018/11/12</td>
@@ -348,6 +361,8 @@
                             <td>230</td>
                             <td>230</td>
                             <td>90%</td>
+                            <td>3</td>
+
                         </tr>
                     </table>
                 </div>
@@ -362,14 +377,32 @@
 
 
 
+    <!---------------------lightbox 您有交易契約即將到期，您可提前申請預約續作交------------------------------->
+
+    <div class="modal fade" id="Confirmation0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="z-index: 99999999999999">
+        <div class="modal-dialog" role="document">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p class="index_money" style="margin-bottom:25px;">
+                        您有<span>3</span>筆交易契約將於YY-MM-DD到期，
+                        <br>您可提前申請預約續作交易
+                    </p>
 
 
+                    <div class="butarea index_button">
+                        <button type="button" class="c1">預約續作</button>
+                        <button type="button" class="c1" data-dismiss="modal" aria-label="Close">我知道了</button>
+                    </div>
+                </div>
+            </div>
 
-
-
-
-
-
+        </div>
+    </div>
+    <!---------------------// lightbox 您有交易契約即將到期，您可提前申請預約續作交----------------------------->
 
     <!--footer-->
     <!-- #include file ="footer.html" -->
@@ -404,6 +437,17 @@
 
     <script type="text/javascript">
         $(document).ready(function($) {
+
+            $('#Confirmation0').modal(true);
+            $('#Confirmation0').on('shown.bs.modal', function(e) {
+                $("body").css("padding-right", "0px");
+            })
+            $('#Confirmation0').on('hide.bs.modal', function(e) {
+                $("body").css("overflow", "auto");
+            })
+
+
+
 
             //熱門標的台灣
             // var word = $(".detail_out table tr td:first-child");

@@ -204,6 +204,16 @@
                                         <div class="signtextitem elnborm">
                                             <div class="signtextiteminput">
                                                 <div class="signtextiteminput_L">
+                                                    <!-- <div class="select_date">
+                                                        承作天數
+                                                        <select>
+                                                            <option value="30">30</option>
+                                                            <option value="60">60</option>
+                                                            <option value="90">90</option>
+                                                            <option value="180">180</option>
+                                                          </select>
+                                                    </div> -->
+
                                                     新台幣<input type="text" value="" maxlength="7" placeholder="(可投資50~2,000萬元)" name="moneyinput">萬元
                                                     <!-- <p class="limit">※您的可投資金額<span>有2,000萬</span>元</p> -->
                                                     <p class="limit" style="margin-bottom: 0px">※本標的尚可投資額度<span>2,000萬</span>元</p>

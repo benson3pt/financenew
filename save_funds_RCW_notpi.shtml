@@ -204,6 +204,16 @@
                                         <div class="signtextitem elnborm">
                                             <div class="signtextiteminput">
                                                 <div class="signtextiteminput_L">
+                                                    <!-- <div class="select_date">
+                                                        承作天數
+                                                        <select>
+                                                            <option value="30">30</option>
+                                                            <option value="60">60</option>
+                                                            <option value="90">90</option>
+                                                            <option value="180">180</option>
+                                                          </select>
+                                                    </div> -->
+
                                                     新台幣<input type="text" value="" maxlength="7" placeholder="(可投資50~2,000萬元)" name="moneyinput">萬元
                                                     <!-- <p class="limit">※您的可投資金額有<span style="color: sienna">2,000萬</span>元</p> -->
                                                     <p class="limit" style="margin-bottom: 0px;">※本標的尚可投資額度<span style="color:sienna ">2,000萬</span>元</p>
@@ -240,20 +250,53 @@
                                     <section class="elncontent3 elncontent5 table-responsive">
                                         <table class="table omb">
                                             <tr>
-                                                <td width="50%" class="name">非保本比例保護型買權連結商品(RCW)</td>
-                                                <td width="50%">商品風險等級：RR3</td>
+                                                <td width="50%" class="name">非保本基本型股權連結商品(ELN)</td>
+                                                <td width="50%">商品風險等級：RR4</td>
                                             </tr>
                                             <tr>
-                                                <td width="50%">年化收益率：2%</td>
-                                                <td>期初收益金額： 元</td>
+                                                <td>
+                                                    <a class="toggle_start">+</a>契約起始日-到期日：
+                                                    <table class=" start_end ">
+                                                        <tr>
+                                                            <td width="25% ">第i期</td>
+                                                            <td>起始日</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>第一期</td>
+                                                            <td>2020/09/21~2020/10/21</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>第二期</td>
+                                                            <td>2020/10/21~2020/11/21</td>
+                                                        </tr>
+                                                    </table>
+
+
+                                                </td>
+                                                <td><a class="toggle_start">+</a>期初收益比例：
+                                                    <table class="start_end ">
+                                                        <tr>
+                                                            <td width="25% ">第i期</td>
+                                                            <td>比例</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>第一期</td>
+                                                            <td>40% </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>第二期</td>
+                                                            <td>40% </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="50% ">年化收益率：12%</td>
+                                                <td>期初收益金額：元</td>
                                             </tr>
                                             <tr>
                                                 <td>承作時股價：230元</td>
-                                                <td>履約價：235元(97%)</td>
-                                            </tr>
-                                            <tr>
-                                                <td>賣出call比率：60%</td>
-                                                <td>契約起始日-到期日：<br>2019/03/01-2019/04/01</td>
+                                                <td>履約價(97%)：235元</td>
                                             </tr>
                                         </table>
 
@@ -839,6 +882,19 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
+
+
+        $("a.toggle_start").click(function(e) {
+            console.log($(this).next());
+            if ($(this).text() === '+') {
+                $(this).text('-');
+                $(this).next().show();
+            } else {
+                $(this).text('+');
+                $(this).next().hide();
+            }
+        })
+
 
         $('[data-toggle="tooltip"]').tooltip();
 
