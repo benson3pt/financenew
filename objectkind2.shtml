@@ -141,6 +141,7 @@
         <!--// breadcrumb -->
 
         <!-- choice_select -->
+        <!-- choice_select -->
         <section class="choice_select">
             <div class="container">
                 <div class="search_area">
@@ -150,17 +151,18 @@
                         <div class="autocomplete">
                             <input id="myInput" type="text" name="myCountry" class="search_area_input" placeholder="請填入代號">
                         </div>
-                        <select class="custom-select">
+                        <select class="custom-select select_option">
                             <option value="存股優益" selected>存股優益</option>
                             <option value="低買優益">低買優益</option>
-                          </select>
-                        <select class="custom-select">
+                        </select>
+                        <select class="custom-select select_toggel">
+                            <option>--請選擇--</option>
                             <option value="30">30天</option>
                             <option value="60">60天</option>
                             <option value="90">90天</option>
                             <option value="180">180天</option>
-                      </select>
-                        <a href="#" class="button_order_r">確定</a>
+                        </select>
+                        <a href="#" class="button_order button_order_r">確定</a>
                     </form>
                 </div>
 
@@ -278,6 +280,7 @@
             </div>
         </section>
         <!--// choice_select -->
+        <!--// choice_select -->
 
 
 
@@ -295,7 +298,7 @@
 
 
                                 <!-----------------------------------------------------左側選單-------------------------------------------------------->
-
+                                <!-- 
                                 <div class="objectkind2_secect_days">
                                     <span>承作天數</span>
                                     <select>
@@ -305,7 +308,7 @@
                                         <option value="180">180</option>
                                     </select>
                                     <span>天</span>
-                                </div>
+                                </div> -->
 
                                 <div class="panel-group" id="accordion">
                                     <div class="panel panel-default">
@@ -442,7 +445,7 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
-                                                                                <td>賣出價位</td>
+                                                                                <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
 
@@ -452,7 +455,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
-                                                                                <td><span>30~180</span>天</td>
+                                                                                <td><span>30</span>天</td>
                                                                             </tr>
                                                                         </table>
                                                                         <div class="neworder"><a href="#" class="btn-dark" data-toggle="modal" data-target="#AlertRisk">立即下單</a></div>
@@ -471,7 +474,7 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
-                                                                                <td>賣出價位</td>
+                                                                                <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
 
@@ -481,7 +484,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
-                                                                                <td><span>30~180</span>天</td>
+                                                                                <td><span>30</span>天</td>
                                                                             </tr>
                                                                         </table>
                                                                         <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
@@ -500,7 +503,7 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
-                                                                                <td>賣出價位</td>
+                                                                                <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
 
@@ -510,7 +513,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
-                                                                                <td><span>30~180</span>天</td>
+                                                                                <td><span>30</span>天</td>
                                                                             </tr>
                                                                         </table>
                                                                         <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
@@ -537,7 +540,7 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
-                                                                                <td>賣出價位</td>
+                                                                                <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
 
@@ -547,7 +550,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
-                                                                                <td><span>30~180</span>天</td>
+                                                                                <td><span>30</span>天</td>
                                                                             </tr>
                                                                         </table>
                                                                         <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
@@ -566,7 +569,7 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
-                                                                                <td>賣出價位</td>
+                                                                                <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
 
@@ -576,7 +579,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
-                                                                                <td><span>30~180</span>天</td>
+                                                                                <td><span>30</span>天</td>
                                                                             </tr>
                                                                         </table>
                                                                         <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
@@ -595,7 +598,7 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
-                                                                                <td>賣出價位</td>
+                                                                                <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
 
@@ -605,7 +608,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
-                                                                                <td><span>30~180</span>天</td>
+                                                                                <td><span>30</span>天</td>
                                                                             </tr>
                                                                         </table>
                                                                         <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
@@ -675,7 +678,7 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
-                                                                                <td>賣出價位</td>
+                                                                                <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
 
@@ -685,7 +688,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
-                                                                                <td><span>30~180</span>天</td>
+                                                                                <td><span>30</span>天</td>
                                                                             </tr>
                                                                         </table>
                                                                         <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
@@ -704,7 +707,7 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
-                                                                                <td>賣出價位</td>
+                                                                                <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
 
@@ -714,7 +717,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
-                                                                                <td><span>30~180</span>天</td>
+                                                                                <td><span>30</span>天</td>
                                                                             </tr>
                                                                         </table>
                                                                         <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
@@ -733,7 +736,7 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
-                                                                                <td>賣出價位</td>
+                                                                                <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
 
@@ -743,7 +746,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
-                                                                                <td><span>30~180</span>天</td>
+                                                                                <td><span>30</span>天</td>
                                                                             </tr>
                                                                         </table>
                                                                         <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
@@ -770,7 +773,7 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
-                                                                                <td>賣出價位</td>
+                                                                                <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
 
@@ -780,7 +783,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
-                                                                                <td><span>30~180</span>天</td>
+                                                                                <td><span>30</span>天</td>
                                                                             </tr>
                                                                         </table>
                                                                         <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
@@ -799,7 +802,7 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
-                                                                                <td>賣出價位</td>
+                                                                                <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
 
@@ -809,7 +812,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
-                                                                                <td><span>30~180</span>天</td>
+                                                                                <td><span>30</span>天</td>
                                                                             </tr>
                                                                         </table>
                                                                         <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
@@ -828,7 +831,7 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
-                                                                                <td>賣出價位</td>
+                                                                                <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
 
@@ -838,7 +841,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
-                                                                                <td><span>30~180</span>天</td>
+                                                                                <td><span>30</span>天</td>
                                                                             </tr>
                                                                         </table>
                                                                         <div class="neworder"><a href="save_funds_RCW.shtml" class="button_order">立即下單</a></div>
@@ -951,6 +954,16 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
+
+            $('.select_option').change(function() {
+                var s = $(".select_option").val();
+                if (s === '存股優益') {
+                    $('.select_toggel').show();
+                } else {
+                    $('.select_toggel').hide();
+                }
+            })
+
 
             //查看報價頁的標題
             var long = $(".newslide .carousel-inner .container .row .col-md-4 .port_item h4");

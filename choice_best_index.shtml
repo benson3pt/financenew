@@ -170,12 +170,12 @@
                             <option value="存股優益" selected>存股優益</option>
                             <option value="低買優益">低買優益</option>
                           </select>
-                        <select class="custom-select">
+                        <!-- <select class="custom-select">
                             <option value="30">30天</option>
                             <option value="60">60天</option>
                             <option value="90">90天</option>
                             <option value="180">180天</option>
-                      </select>
+                      </select> -->
                         <a href="#" class="button_order">確定</a>
                     </form>
                 </div>
@@ -375,7 +375,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作天數</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -476,7 +476,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -507,7 +507,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -538,7 +538,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -626,7 +626,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -657,7 +657,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -688,7 +688,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -727,7 +727,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -758,7 +758,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -789,7 +789,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -881,7 +881,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -912,7 +912,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -943,7 +943,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -982,7 +982,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1013,7 +1013,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1044,7 +1044,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1134,7 +1134,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1165,7 +1165,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1196,7 +1196,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1235,7 +1235,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1266,7 +1266,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1297,7 +1297,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1386,7 +1386,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1417,7 +1417,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1448,7 +1448,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1487,7 +1487,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1518,7 +1518,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1549,7 +1549,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>

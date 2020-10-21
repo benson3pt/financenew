@@ -163,16 +163,17 @@
                         <div class="autocomplete">
                             <input id="myInput" type="text" name="myCountry" class="search_area_input" placeholder="請填入代號">
                         </div>
-                        <select class="custom-select">
+                        <select class="custom-select select_option">
                             <option value="存股優益" selected>存股優益</option>
                             <option value="低買優益">低買優益</option>
-                          </select>
-                        <select class="custom-select">
+                        </select>
+                        <select class="custom-select select_toggel">
+                            <option>--請選擇--</option>
                             <option value="30">30天</option>
                             <option value="60">60天</option>
                             <option value="90">90天</option>
                             <option value="180">180天</option>
-                      </select>
+                        </select>
                         <a href="#" class="button_order button_order_r">確定</a>
                     </form>
                 </div>
@@ -304,7 +305,7 @@
                             <li><a href="choice_best_index.shtml"><span>低買</span>優益</a></li>
                             <li class="pinkli"><span>存股</span>優益</li>
                         </ul>
-                        <div class="secect_days">
+                        <!-- <div class="secect_days">
                             <span>承作天數</span>
                             <select>
 <option value="30">30</option>
@@ -313,7 +314,7 @@
 <option value="180">180</option>
 </select><span>天</span>
 
-                        </div>
+                        </div> -->
                         <h3 class="h3two pink">標的排序</h3>
                         <ul class="optional_ul2">
                             <li class="pinkli">商品編號</li>
@@ -369,7 +370,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -377,8 +378,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -404,7 +405,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -412,8 +413,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -439,7 +440,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -447,8 +448,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -482,7 +483,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -490,8 +491,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -517,7 +518,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -525,8 +526,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -552,7 +553,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -560,8 +561,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -646,7 +647,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -654,8 +655,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -681,7 +682,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -689,8 +690,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -716,7 +717,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -724,8 +725,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -759,7 +760,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -767,8 +768,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -794,7 +795,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -802,8 +803,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -829,7 +830,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -837,8 +838,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -925,7 +926,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -933,8 +934,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -960,7 +961,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -968,8 +969,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -995,7 +996,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1003,8 +1004,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1038,7 +1039,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1046,8 +1047,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1073,7 +1074,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1081,8 +1082,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1108,7 +1109,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1116,8 +1117,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1200,7 +1201,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1208,8 +1209,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1235,7 +1236,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1243,8 +1244,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1270,7 +1271,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1278,8 +1279,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1313,7 +1314,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1321,8 +1322,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1348,7 +1349,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1356,8 +1357,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1383,7 +1384,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1391,8 +1392,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1477,7 +1478,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1485,8 +1486,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1512,7 +1513,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1520,8 +1521,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1547,7 +1548,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1555,8 +1556,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1590,7 +1591,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1598,8 +1599,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1625,7 +1626,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1633,8 +1634,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1660,7 +1661,7 @@
 
                                                             <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>賣出價位</td>
+                                                                    <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
@@ -1668,8 +1669,8 @@
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30~180</span>天</td>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -1767,6 +1768,14 @@
 
         <script type="text/javascript">
             $(document).ready(function() {
+                $('.select_option').change(function() {
+                    var s = $(".select_option").val();
+                    if (s === '存股優益') {
+                        $('.select_toggel').show();
+                    } else {
+                        $('.select_toggel').hide();
+                    }
+                })
 
                 $('[data-toggle="tooltip"]').tooltip();
 
