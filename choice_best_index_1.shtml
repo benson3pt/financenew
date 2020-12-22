@@ -169,11 +169,11 @@
                             <option value="低買優益">低買優益</option>
                         </select>
                         <select class="custom-select select_toggel">
-                            <option>--請選擇--</option>
-                            <option value="30">30天</option>
-                            <option value="60">60天</option>
-                            <option value="90">90天</option>
-                            <option value="180">180天</option>
+                            <option disabled>--請選擇--</option>
+                            <option value="30">1個月期</option>
+                            <option value="60">6個月期</option>
+                            <option value="90">9個月期</option>
+                            <option value="180">12個月期</option>
                         </select>
                         <a href="#" class="button_order button_order_r">確定</a>
                     </form>
