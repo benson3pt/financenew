@@ -193,13 +193,13 @@
         <div class="optional ">
             <div class="container ">
                 <div class="row ">
-                    <div class="optional_area ">
+                    <div class="optional_area">
                         <h3>優益投資商品</h3>
                         <ul class="optional_ul ">
                             <li class="activeal "><span>低買</span>優益</li>
                             <li><a href="choice_best_index_1.shtml "><span>存股</span>優益</a></li>
                         </ul>
-                        <h3 class="h3two ">標的排序</h3>
+                        <h3 class="h3two" style="text-align: center;">標的排序</h3>
                         <ul class="optional_ul2 ">
                             <li class="activeal2 ">商品編號</li>
                             <li>ROE</li>
@@ -217,56 +217,55 @@
 
 
         <!-- 本日熱門標的 -->
-        <div class="main-w3pvt mian-content-wthree text-center " id="product ">
-            <div class="container ">
-                <div class="main_product roomy-60 ">
-                    <div class="head_title text-center fix ">
-
-                        <!--            <h2 class="text-uppercase text-white choice_best_h2 ">本日熱門標的</h2>
--->
+        <div class="main-w3pvt mian-content-wthree mian-content-pic text-center choicebest1" id="product">
+            <div class="container">
+                <div class="main_product roomy-60">
+                    <div class="head_title text-center fix">
+                        <!--					<h2 class="text-uppercase choice_best_h2">本日熱門標的</h2>-->
                         <!--<h5>本日熱門標的</h5>-->
                     </div>
 
-                    <div class="row ">
-                        <div class="col-md-2 col-sm-12 "></div>
+                    <div class="row">
+                        <div class="col-md-2 col-sm-12"></div>
 
-                        <div class="col-md-10 col-sm-12 ">
-                            <h2 class="text-uppercase text-white choice_best_h2 ">本日熱門標的</h2>
-
-
-                            <div id="carousel-example-generic " class="carousel slide newslide " data-ride="carousel ">
+                        <div class="col-md-10 col-sm-12">
+                            <h2 class="text-uppercase text-white choice_best_h2">本日熱門標的</h2>
+                            <div id="carousel-example-generic" class="carousel slide newslide" data-ride="carousel">
                                 <!-- Indicators -->
-                                <ol class="carousel-indicators ">
-                                    <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
-                                    <li data-target="#carousel-example-generic " data-slide-to="1 "></li>
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                                 </ol>
-
-
                                 <!-- Wrapper for slides -->
-                                <div class="carousel-inner " role="listbox ">
-                                    <div class="item active ">
-                                        <div class="container ">
-                                            <div class="row ">
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>99.99</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作天數</td>
+                                                                    <td>承作期間</td>
                                                                     <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
@@ -274,69 +273,81 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="# " class="btn-dark " data-toggle="modal " data-target="#AlertRisk ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="#" class="btn-dark" data-toggle="modal" data-target="#AlertRisk">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
-                                                        <h4>3008 大立光</h4>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
+                                                        <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>88.88</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                                             <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
+
                                                                 <tr>
                                                                     <td>買進價位</td>
-                                                                    <td><span class="red ">94.0</span>%</td>
+                                                                    <td><span class="red ">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>35</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
-                                                                    <td><span>3.00</span>億</td>
+                                                                    <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
-                                                        <h4>2454 聯發科</h4>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
+                                                        <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
-                                                            <span>77.77</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                        <div class="port_circle">
+                                                            <span>17</span>%<br>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span></span>
+                                                                    </td>
+                                                                </tr>
+
                                                                 <tr>
                                                                     <td>買進價位</td>
-                                                                    <td><span class="red ">98.0</span>%</td>
+                                                                    <td><span class="red ">97.0</span>%</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>承作期間</td>
-                                                                    <td><span>35</span>天</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
-                                                                    <td><span>4.00</span>億</td>
+                                                                    <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -345,23 +356,29 @@
                                         </div>
                                     </div>
 
-                                    <div class="item ">
-                                        <div class="container ">
-                                            <div class="row ">
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                    <div class="item">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
-                                                            <span>66.66</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                        <div class="port_circle">
+                                                            <span>17</span>%<br>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
+
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -375,24 +392,30 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
-                                                            <span>55.55</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                        <div class="port_circle">
+                                                            <span>17</span>%<br>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
+
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -406,24 +429,30 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
-                                                            <span>44.44</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                        <div class="port_circle">
+                                                            <span>17</span>%<br>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span></span>
+                                                                    </td>
+                                                                </tr>
+
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -437,7 +466,7 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -450,17 +479,20 @@
                                 </div>
 
                                 <!-- Controls -->
-                                <a class="left carousel-control " href="#carousel-example-generic " role="button " data-slide="prev ">
-                                    <i class="fa fa-angle-left " aria-hidden="true "></i>
-                                    <span class="sr-only ">Previous</span>
+                                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                    <span class="sr-only">Previous</span>
                                 </a>
 
-                                <a class="right carousel-control " href="#carousel-example-generic " role="button " data-slide="next ">
-                                    <i class="fa fa-angle-right " aria-hidden="true "></i>
-                                    <span class="sr-only ">Next</span>
+                                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <span class="sr-only">Next</span>
                                 </a>
                             </div>
+
+
                         </div>
+
                     </div>
 
 
@@ -472,46 +504,49 @@
 
 
         <!-- 全球頂尖 -->
-        <section class="w3ls-bnrbtm " id="features " style="background-color: rgba(255,236,215,0.3) ">
-            <div class="container ">
-                <div class="main_product roomy-80 ">
-                    <div class="head_title text-center fix ">
+        <section class="w3ls-bnrbtm" id="features">
+            <div class="container">
+                <div class="main_product roomy-80">
+                    <div class="head_title text-center fix">
                     </div>
 
-                    <div class="row ">
-                        <div class="col-md-2 col-sm-12 "></div>
+                    <div class="row">
+                        <div class="col-md-2 col-sm-12"></div>
 
-                        <div class="col-md-10 col-sm-12 ">
-
-                            <h2 class="text-uppercase text-black text-center choice_best_h2 ">全球頂尖</h2>
-
-                            <div id="carousel-example-features " class="carousel slide newslide " data-ride="carousel ">
+                        <div class="col-md-10 col-sm-12">
+                            <h2 class="text-uppercase text-black text-center choice_best_h2">全球頂尖</h2>
+                            <div id="carousel-example-features" class="carousel slide newslide" data-ride="carousel">
                                 <!-- Indicators -->
-                                <ol class="carousel-indicators ">
-                                    <li data-target="#carousel-example-features " data-slide-to="0 " class="active "></li>
-                                    <li data-target="#carousel-example-features " data-slide-to="1 "></li>
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-features" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-features" data-slide-to="1"></li>
                                 </ol>
 
 
                                 <!-- Wrapper for slides -->
-                                <div class="carousel-inner " role="listbox ">
-                                    <div class="item active ">
-                                        <div class="container ">
-                                            <div class="row ">
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -525,24 +560,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -556,24 +596,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -587,7 +632,7 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -596,23 +641,28 @@
                                         </div>
                                     </div>
 
-                                    <div class="item ">
-                                        <div class="container ">
-                                            <div class="row ">
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                    <div class="item">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -626,24 +676,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -657,24 +712,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -688,7 +748,7 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -701,14 +761,14 @@
                                 </div>
 
                                 <!-- Controls -->
-                                <a class="left carousel-control " href="#carousel-example-features " role="button " data-slide="prev ">
-                                    <i class="fa fa-angle-left " aria-hidden="true " style="color:#FF9E00 "></i>
-                                    <span class="sr-only ">Previous</span>
+                                <a class="left carousel-control" href="#carousel-example-features" role="button" data-slide="prev">
+                                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                    <span class="sr-only">Previous</span>
                                 </a>
 
-                                <a class="right carousel-control " href="#carousel-example-features " role="button " data-slide="next ">
-                                    <i class="fa fa-angle-right " aria-hidden="true " style="color:#FF9E00 "></i>
-                                    <span class="sr-only ">Next</span>
+                                <a class="right carousel-control" href="#carousel-example-features" role="button" data-slide="next">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <span class="sr-only">Next</span>
                                 </a>
                             </div>
 
@@ -729,44 +789,49 @@
         <!-- //全球頂尖 -->
 
         <!-- 藍籌高波動 -->
-        <div class="services " id="business ">
-            <div class="container ">
-                <div class="main_product roomy-80 ">
-                    <div class="head_title text-center fix ">
-                        <!--<div class="row w3pvtits-services-row text-center "></div>-->
+        <div class="services servicespink" id="business">
+            <div class="container">
+                <div class="main_product roomy-80">
+                    <div class="head_title text-center fix">
+                        <!--<div class="row w3pvtits-services-row text-center"></div>-->
                     </div>
 
-                    <div class="row ">
-                        <div class="col-md-2 col-sm-12 "></div>
+                    <div class="row">
+                        <div class="col-md-2 col-sm-12"></div>
 
-                        <div class="col-md-10 col-sm-12 ">
-                            <h2 class="text-uppercase text-center text-white choice_best_h2 ">藍籌高波動</h2>
+                        <div class="col-md-10 col-sm-12">
+                            <h2 class="text-uppercase  text-center text-white choice_best_h2">藍籌高波動</h2>
 
-                            <div id="carousel-example-business " class="carousel slide newslide " data-ride="carousel ">
+                            <div id="carousel-example-business" class="carousel slide newslide" data-ride="carousel">
                                 <!-- Indicators -->
-                                <ol class="carousel-indicators ">
-                                    <li data-target="#carousel-example-business " data-slide-to="0 " class="active "></li>
-                                    <li data-target="#carousel-example-business " data-slide-to="1 "></li>
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-business" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-business" data-slide-to="1"></li>
                                 </ol>
                                 <!-- Wrapper for slides -->
-                                <div class="carousel-inner " role="listbox ">
-                                    <div class="item active ">
-                                        <div class="container ">
-                                            <div class="row ">
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -780,24 +845,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -811,24 +881,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -842,7 +917,7 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -851,54 +926,63 @@
                                         </div>
                                     </div>
 
-                                    <div class="item ">
-                                        <div class="container ">
-                                            <div class="row ">
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
-                                                        <h4>2330 台積電</h4>
+                                    <div class="item">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
+                                                        <h4>00637L 元大滬深300正2</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover table-hoverAlgin">
                                                                 <tr>
-                                                                    <td>買進價位</td>
-                                                                    <td><span class="red ">97.0</span>%</td>
+                                                                    <td>履約價比例</td>
+                                                                    <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>承作期間</td>
-                                                                    <td><span>30</span>天</td>
+                                                                    <td>賣出call比例</td>
+                                                                    <td><span class="red">97.0</span>%</td>
+                                                                </tr>
+                                                                <tr>
+
+
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -912,24 +996,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -943,7 +1032,7 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -956,14 +1045,14 @@
                                 </div>
 
                                 <!-- Controls -->
-                                <a class="left carousel-control " href="#carousel-example-business " role="button " data-slide="prev ">
-                                    <i class="fa fa-angle-left " aria-hidden="true "></i>
-                                    <span class="sr-only ">Previous</span>
+                                <a class="left carousel-control" href="#carousel-example-business" role="button" data-slide="prev">
+                                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                    <span class="sr-only">Previous</span>
                                 </a>
 
-                                <a class="right carousel-control " href="#carousel-example-business " role="button " data-slide="next ">
-                                    <i class="fa fa-angle-right " aria-hidden="true "></i>
-                                    <span class="sr-only ">Next</span>
+                                <a class="right carousel-control" href="#carousel-example-business" role="button" data-slide="next">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <span class="sr-only">Next</span>
                                 </a>
                             </div>
 
@@ -976,50 +1065,53 @@
                 </div>
             </div>
         </div>
-
         <!-- 藍籌高波動 -->
 
         <!-- //藍籌權值 -->
-
-        <section class="branches " id="team " style="background-color: rgba(255,236,215,0.3) ">
-            <div class="container ">
-                <div class="main_product roomy-80 ">
-                    <div class="head_title text-center fix ">
+        <section class="branches" id="team">
+            <div class="container">
+                <div class="main_product roomy-80">
+                    <div class="head_title text-center fix">
                     </div>
 
-                    <div class="row ">
-                        <div class="col-md-2 col-sm-12 "></div>
+                    <div class="row">
+                        <div class="col-md-2 col-sm-12"></div>
 
-                        <div class="col-md-10 col-sm-12 ">
-                            <h2 class="text-uppercase text-black text-center choice_best_h2 ">藍籌權值</h2>
+                        <div class="col-md-10 col-sm-12">
+                            <h2 class="text-uppercase text-black text-center choice_best_h2">藍籌權值</h2>
 
-                            <div id="carousel-example-team " class="carousel slide newslide " data-ride="carousel ">
+                            <div id="carousel-example-team" class="carousel slide newslide" data-ride="carousel">
                                 <!-- Indicators -->
-                                <ol class="carousel-indicators ">
-                                    <li data-target="#carousel-example-team " data-slide-to="0 " class="active "></li>
-                                    <li data-target="#carousel-example-team " data-slide-to="1 "></li>
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-team" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-team" data-slide-to="1"></li>
                                 </ol>
 
 
                                 <!-- Wrapper for slides -->
-                                <div class="carousel-inner " role="listbox ">
-                                    <div class="item active ">
-                                        <div class="container ">
-                                            <div class="row ">
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -1033,24 +1125,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -1064,24 +1161,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -1095,7 +1197,7 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1104,23 +1206,28 @@
                                         </div>
                                     </div>
 
-                                    <div class="item ">
-                                        <div class="container ">
-                                            <div class="row ">
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                    <div class="item">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -1134,24 +1241,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -1165,24 +1277,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -1196,7 +1313,7 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1209,14 +1326,14 @@
                                 </div>
 
                                 <!-- Controls -->
-                                <a class="left carousel-control " href="#carousel-example-team " role="button " data-slide="prev ">
-                                    <i class="fa fa-angle-left " aria-hidden="true " style="color:#FF9E00 "></i>
-                                    <span class="sr-only ">Previous</span>
+                                <a class="left carousel-control" href="#carousel-example-team" role="button" data-slide="prev">
+                                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                    <span class="sr-only">Previous</span>
                                 </a>
 
-                                <a class="right carousel-control " href="#carousel-example-team " role="button " data-slide="next ">
-                                    <i class="fa fa-angle-right " aria-hidden="true " style="color:#FF9E00 "></i>
-                                    <span class="sr-only ">Next</span>
+                                <a class="right carousel-control" href="#carousel-example-team" role="button" data-slide="next">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <span class="sr-only">Next</span>
                                 </a>
                             </div>
 
@@ -1233,45 +1350,51 @@
         <!-- //藍籌權值 -->
 
         <!-- 客戶自選 -->
-        <div class="middlesection-w3pvt " id="yield ">
-            <div class="container ">
-                <div class="main_product roomy-80 ">
-                    <div class="head_title text-center fix ">
-                        <!--<p class="nogoods ">今日無推薦商品</p>-->
+        <div class="middlesection-w3pvt" id="yield">
+            <div class="container">
+                <div class="main_product roomy-80">
+                    <div class="head_title text-center fix">
+                        <!--<p class="nogoods">今日無推薦商品</p>-->
                     </div>
-                    <div class="row ">
-                        <div class="col-md-2 col-sm-12 "></div>
 
-                        <div class="col-md-10 col-sm-12 ">
-                            <h2 class="text-uppercase text-white text-center choice_best_h2 ">客戶自選</h2>
+                    <div class="row">
+                        <div class="col-md-2 col-sm-12"></div>
 
-                            <div id="carousel-example-yield " class="carousel slide newslide " data-ride="carousel ">
+                        <div class="col-md-10 col-sm-12">
+                            <h2 class="text-uppercase text-white text-center choice_best_h2">客戶自選</h2>
+
+                            <div id="carousel-example-yield" class="carousel slide newslide" data-ride="carousel">
                                 <!-- Indicators -->
-                                <ol class="carousel-indicators ">
-                                    <li data-target="#carousel-example-yield " data-slide-to="0 " class="active "></li>
-                                    <li data-target="#carousel-example-yield " data-slide-to="1 "></li>
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-yield" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-yield" data-slide-to="1"></li>
                                 </ol>
 
 
                                 <!-- Wrapper for slides -->
-                                <div class="carousel-inner " role="listbox ">
-                                    <div class="item active ">
-                                        <div class="container ">
-                                            <div class="row ">
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
-                                                        <h4>00637L 元大滬深300正2</h4>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
+                                                        <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -1285,24 +1408,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -1316,24 +1444,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -1347,7 +1480,7 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1356,23 +1489,28 @@
                                         </div>
                                     </div>
 
-                                    <div class="item ">
-                                        <div class="container ">
-                                            <div class="row ">
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                    <div class="item">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -1386,24 +1524,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -1417,24 +1560,29 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4 ">
-                                                    <div class="port_item xs-m-top-30 ">
-                                                        <div class="port_img "></div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle ">
+                                                        <div class="port_circle">
                                                             <span>17</span>%<br>
-                                                            <small data-toggle="tooltip " data-placement="bottom " title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。 "><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle " aria-hidden="true " ></i></small>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
-                                                        <div class="port_caption ">
+                                                        <div class="port_caption">
 
-                                                            <table class="table table-hover ">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>買進價位</td>
                                                                     <td><span class="red ">97.0</span>%</td>
@@ -1448,7 +1596,7 @@
                                                                     <td><span>5.00</span>億</td>
                                                                 </tr>
                                                             </table>
-                                                            <div class="neworder "><a href="objectkind.shtml " class="button_order ">查看所有報價</a></div>
+                                                            <div class="neworder"><a href="objectkind.shtml" class="button_order">查看所有報價</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1461,22 +1609,20 @@
                                 </div>
 
                                 <!-- Controls -->
-                                <a class="left carousel-control " href="#carousel-example-yield " role="button " data-slide="prev ">
-                                    <i class="fa fa-angle-left " aria-hidden="true " style="color:#FF9E00 "></i>
-                                    <span class="sr-only ">Previous</span>
+                                <a class="left carousel-control" href="#carousel-example-yield" role="button" data-slide="prev">
+                                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                    <span class="sr-only">Previous</span>
                                 </a>
 
-                                <a class="right carousel-control " href="#carousel-example-yield " role="button " data-slide="next ">
-                                    <i class="fa fa-angle-right " aria-hidden="true " style="color:#FF9E00 "></i>
-                                    <span class="sr-only ">Next</span>
+                                <a class="right carousel-control" href="#carousel-example-yield" role="button" data-slide="next">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <span class="sr-only">Next</span>
                                 </a>
                             </div>
-
 
                         </div>
 
                     </div>
-
 
 
                 </div>
@@ -1605,19 +1751,19 @@
                 // 用scrolltop
                 $(window).scroll(function() {
                     var scrollVal = $(this).scrollTop();
-                    var pH = $("#product ").height();
-                    var fH = $("#features ").height();
-                    var bH = $("#business ").height();
-                    var tH = $("#team ").height();
+
+                    var pH = $("#product").height();
+                    var fH = $("#features").height();
+                    var bH = $("#business").height();
+                    var tH = $("#team").height();
                     var winScroll = $(window).scrollTop();
                     // console.log(scrollVal);
                     // console.log(pH + fH + bH - 97);
-                    if (scrollVal > (pH - 97) && scrollVal < (pH + fH - 97) || scrollVal > (pH + fH + bH - 97) && scrollVal < (pH + fH + bH + tH - 97)) {
-                        $(".optional_area h3 ").css('color', '#000000');
+                    if (scrollVal > 800 && scrollVal < 1300 || scrollVal > 2100 && scrollVal < 2800) {
+                        $(".optional_area h3").css('color', '#000000');
                     } else {
-                        $(".optional_area h3 ").css('color', '#FFFFFF');
+                        $(".optional_area h3").css('color', '#FFFFFF');
                     }
-
                 });
 
 

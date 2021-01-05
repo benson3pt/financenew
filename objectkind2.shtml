@@ -157,11 +157,10 @@
                             <option value="低買優益">低買優益</option>
                         </select>
                         <select class="custom-select select_toggel">
-                            <option disabled>--請選擇--</option>
-                            <option value="30">1個月期</option>
-                            <option value="60">6個月期</option>
-                            <option value="90">9個月期</option>
-                            <option value="180">12個月期</option>
+                            <option>--請選擇--</option>
+                            <option value="6m">6個月期</option>
+                            <option value="9m">9個月期</option>
+                            <option value="12m">12個月期</option>
                         </select>
                         <a href="#" class="button_order button_order_r">確定</a>
                     </form>
@@ -213,7 +212,8 @@
                                             <div class="panel-body">
                                                 <ul>
                                                     <li>2454 聯發科</li>
-                                                    <li class="pbliactive">2330 台積電</li>
+                                                    <li class="pbliactive">2330 台積電<span class="pi">限專業客戶</span>
+                                                    </li>
                                                     <li>2330 成長股</li>
                                                 </ul>
                                             </div>
@@ -337,6 +337,13 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+
+                                                                            <tr>
                                                                                 <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
@@ -366,6 +373,14 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+
+
+                                                                            <tr>
                                                                                 <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
@@ -394,6 +409,13 @@
                                                                     </div>
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+
                                                                             <tr>
                                                                                 <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
@@ -432,6 +454,12 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
                                                                                 <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
@@ -461,6 +489,12 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
                                                                                 <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
@@ -489,6 +523,12 @@
                                                                     </div>
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
@@ -570,6 +610,13 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+
+                                                                            <tr>
                                                                                 <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
@@ -599,6 +646,13 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+
+                                                                            <tr>
                                                                                 <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
@@ -627,6 +681,13 @@
                                                                     </div>
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+
                                                                             <tr>
                                                                                 <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
@@ -665,6 +726,11 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
                                                                                 <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
@@ -694,6 +760,13 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+
+                                                                            <tr>
                                                                                 <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>
                                                                             </tr>
@@ -717,11 +790,17 @@
                                                                     <h4>2330 台積電</h4>
                                                                     <h5>風險等級 RR 4</h5>
                                                                     <div class="port_circle">
-                                                                        <span>2</span>%<br>
-                                                                        <small>年化收益率</small>
+                                                                        <span>2</span>%<br> P <small>年化收益率</small>
                                                                     </div>
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover table-hoveralgin">
+                                                                            <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+
                                                                             <tr>
                                                                                 <td>履約價比例</td>
                                                                                 <td><span>0</span>%</td>

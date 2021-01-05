@@ -169,11 +169,10 @@
                             <option value="低買優益">低買優益</option>
                         </select>
                         <select class="custom-select select_toggel">
-                            <option disabled>--請選擇--</option>
-                            <option value="30">1個月期</option>
-                            <option value="60">6個月期</option>
-                            <option value="90">9個月期</option>
-                            <option value="180">12個月期</option>
+                            <option>--請選擇--</option>
+                            <option value="6m">6個月期</option>
+                            <option value="9m">9個月期</option>
+                            <option value="12m">12個月期</option>
                         </select>
                         <a href="#" class="button_order button_order_r">確定</a>
                     </form>
@@ -258,19 +257,21 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>賣出call比例 </td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -293,18 +294,19 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>賣出call比例 </td>
-                                                                    <td><span class="red">97.0</span>%</td>
-                                                                </tr>
-                                                                <tr>
-
-
+                                                                    <td>承作期間</td>
+                                                                    <td><span>30</span>天</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
@@ -321,26 +323,28 @@
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
-                                                            <span>17</span>%<br>
+                                                            <span>88.88</span>%<br>
                                                             <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>賣出call比例 </td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -364,26 +368,65 @@
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
-                                                            <span>17</span>%<br>
+                                                            <span>99.99</span>%<br>
                                                             <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>賣出call比例 </td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
+
                                                                 <tr>
-
-
+                                                                    <td>尚可投資</td>
+                                                                    <td><span>5.00</span>億</td>
                                                                 </tr>
+                                                            </table>
+                                                            <div class="neworder"><a href="#" class="btn-dark" data-toggle="modal" data-target="#AlertRisk">查看所有報價</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="port_item xs-m-top-30">
+                                                        <div class="port_img"></div>
+                                                        <h4>2330 台積電</h4>
+                                                        <h5>風險等級 RR 4</h5>
+                                                        <div class="port_circle">
+                                                            <span>88.88</span>%<br>
+                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
+                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
+                                                        </div>
+
+                                                        <div class="port_caption">
+
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>履約價比例</td>
+                                                                    <td><span>0</span>%</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>賣出call比例</td>
+                                                                    <td><span class="red">97.0</span>%</td>
+                                                                </tr>
+
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -399,61 +442,28 @@
                                                         <h4>2330 台積電</h4>
                                                         <h5>風險等級 RR 4</h5>
                                                         <div class="port_circle">
-                                                            <span>17</span>%<br>
+                                                            <span>88.88</span>%<br>
                                                             <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
                                             <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
                                                         </div>
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>賣出call比例 </td>
+                                                                    <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>尚可投資</td>
-                                                                    <td><span>5.00</span>億</td>
-                                                                </tr>
-                                                            </table>
-                                                            <div class="neworder"><a href="objectkind2.shtml" class="button_order">查看所有報價</a></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="port_item xs-m-top-30">
-                                                        <div class="port_img"></div>
-                                                        <h4>2330 台積電</h4>
-                                                        <h5>風險等級 RR 4</h5>
-                                                        <div class="port_circle">
-                                                            <span>17</span>%<br>
-                                                            <small data-toggle="tooltip" data-placement="bottom" title="年化收益率之計算係指，預期商品中選擇權權利金收入佔投資該商品本金之年化報酬率。"><b>最大</b>年化收益率
-                                            <i class="fa fa-info-circle" aria-hidden="true" ></i></small>
-                                                        </div>
-
-                                                        <div class="port_caption">
-
-                                                            <table class="table table-hover table-hoverAlgin">
-                                                                <tr>
-                                                                    <td>履約價比例</td>
-                                                                    <td><span>0</span>%</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>賣出call比例 </td>
-                                                                    <td><span class="red">97.0</span>%</td>
-                                                                </tr>
-                                                                <tr>
-
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -535,7 +545,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -544,10 +559,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -570,7 +582,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -579,10 +596,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -605,7 +619,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -614,10 +633,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -648,7 +664,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -657,10 +678,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -683,7 +701,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -692,10 +715,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -718,7 +738,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -727,10 +752,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -814,7 +836,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -823,10 +850,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -849,7 +873,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -858,10 +887,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -884,7 +910,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -893,10 +924,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -927,7 +955,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -936,10 +969,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -962,7 +992,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -971,10 +1006,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -997,7 +1029,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -1006,10 +1043,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -1089,7 +1123,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -1098,10 +1137,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -1124,7 +1160,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -1133,10 +1174,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -1159,7 +1197,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -1168,10 +1211,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -1202,7 +1242,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -1211,10 +1256,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -1237,7 +1279,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -1246,10 +1293,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -1272,7 +1316,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -1281,10 +1330,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -1366,7 +1412,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -1375,10 +1426,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -1401,7 +1449,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -1410,10 +1463,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -1436,7 +1486,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -1445,10 +1500,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -1479,7 +1531,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -1488,10 +1545,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -1514,7 +1568,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span>限專業客戶</span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -1523,10 +1582,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>
@@ -1549,7 +1605,12 @@
 
                                                         <div class="port_caption">
 
-                                                            <table class="table table-hover table-hoverAlgin">
+                                                            <table class="table table-hover">
+                                                                <tr>
+                                                                    <td colspan="2" class="contentPi">
+                                                                        <span></span>
+                                                                    </td>
+                                                                </tr>
                                                                 <tr>
                                                                     <td>履約價比例</td>
                                                                     <td><span>0</span>%</td>
@@ -1558,10 +1619,7 @@
                                                                     <td>賣出call比例</td>
                                                                     <td><span class="red">97.0</span>%</td>
                                                                 </tr>
-                                                                <tr>
 
-
-                                                                </tr>
                                                                 <tr>
                                                                     <td>尚可投資</td>
                                                                     <td><span>5.00</span>億</td>

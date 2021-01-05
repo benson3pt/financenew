@@ -8548,3 +8548,20 @@ color: #FFC600
         li.ui-menu-item:focus {
             background-color: #f36c28;
         }
+        
+        .newslide .carousel-inner .container .row .col-md-4 .port_item .port_caption table tr td.contentPi {
+            border-top: none;
+            text-align: center;
+            height: 100%;
+            padding-top: 0px;
+        }
+        
+        .newslide .carousel-inner .container .row .col-md-4 .port_item .port_caption table tr td.contentPi span {
+            color: #c20707;
+            font-size: 20px;
+        }
+        
+        span.pi {
+            color: red;
+            margin-left: 10px;
+        }

@@ -163,10 +163,10 @@
                             <option value="低買優益">低買優益</option>
                           </select>
                         <select class="custom-select">
-                            <option value="30">30天</option>
-                            <option value="60">60天</option>
-                            <option value="90">90天</option>
-                            <option value="180">180天</option>
+                            <option>--請選擇--</option>
+                            <option value="6m">6個月期</option>
+                            <option value="9m">9個月期</option>
+                            <option value="12m">12個月期</option>
                       </select>
                         <a href="#" class="button_order">確定</a>
                     </form>
@@ -210,7 +210,8 @@
                                             <div class="panel-body">
                                                 <ul>
                                                     <li>2454 聯發科</li>
-                                                    <li class="pbliactive">2330 台積電</li>
+                                                    <li class="pbliactive">2330 台積電<span class="pi">限專業客戶</span>
+                                                    </li>
                                                     <li>2330 成長股</li>
                                                 </ul>
                                             </div>
@@ -339,6 +340,12 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
                                                                                 <td>買進價位</td>
                                                                                 <td><span class="red">98.0</span>%</td>
                                                                             </tr>
@@ -363,6 +370,12 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span></span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
                                                                                 <td>買進價位</td>
                                                                                 <td><span class="red">98.0</span>%</td>
                                                                             </tr>
@@ -386,6 +399,12 @@
                                                                     </div>
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
+                                                                            <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
                                                                             <tr>
                                                                                 <td>買進價位</td>
                                                                                 <td><span class="red">98.0</span>%</td>
@@ -419,8 +438,14 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span class="red">97.0</span>%</td>
+                                                                                <td><span class="red">98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -443,8 +468,14 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span class="red">97.0</span>%</td>
+                                                                                <td><span class="red">98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -467,8 +498,14 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span class="red">97.0</span>%</td>
+                                                                                <td><span class="red">98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -540,8 +577,14 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span class="red">96.0</span>%</td>
+                                                                                <td><span class="red">98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -564,8 +607,14 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span class="red">96.0</span>%</td>
+                                                                                <td><span class="red">98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -588,8 +637,14 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span class="red">94.0</span>%</td>
+                                                                                <td><span class="red">98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -620,8 +675,14 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span class="red">96.0</span>%</td>
+                                                                                <td><span class="red">98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -644,8 +705,14 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span>限專業客戶</span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span class="red">96.0</span>%</td>
+                                                                                <td><span class="red">98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -668,8 +735,14 @@
                                                                     <div class="port_caption">
                                                                         <table class="table table-hover">
                                                                             <tr>
+                                                                                <td colspan="2" class="contentPi">
+                                                                                    <span></span>
+                                                                                </td>
+                                                                            </tr>
+
+                                                                            <tr>
                                                                                 <td>買進價位</td>
-                                                                                <td><span class="red">94.0</span>%</td>
+                                                                                <td><span class="red">98.0</span>%</td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>承作期間</td>
@@ -833,15 +906,15 @@
                 $(this).addClass("pbliactive").siblings().removeClass();
             });
 
-            $("#stockitem .panel-default a").click(function() {
-                var $icon = $(this).children().children("i");
-                var $iconname = $icon.attr('class').split(' ')[1];
-                if ($iconname === "fa-chevron-circle-down") {
-                    $icon.removeClass("fa-chevron-circle-down").addClass("fa-chevron-circle-up")
-                } else {
-                    $icon.removeClass("fa-chevron-circle-up").addClass("fa-chevron-circle-down")
-                }
-            });
+            // $("#stockitem .panel-default a").click(function() {
+            //     var $icon = $(this).children().children("i");
+            //     var $iconname = $icon.attr('class').split(' ')[1];
+            //     if ($iconname === "fa-chevron-circle-down") {
+            //         $icon.removeClass("fa-chevron-circle-down").addClass("fa-chevron-circle-up")
+            //     } else {
+            //         $icon.removeClass("fa-chevron-circle-up").addClass("fa-chevron-circle-down")
+            //     }
+            // });
             $('.carousel').carousel({
                 interval: false
             })
