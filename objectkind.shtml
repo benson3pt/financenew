@@ -293,6 +293,12 @@
                             <!----------------右側內容------------------------>
 
                             <div class="col-md-9 col-sm-12">
+                                <p class="cancelSequel">目前為<span>續作模式</span> 您可
+                                    <button type="button" class="btn btn-default refresh">
+                                        取消續作
+                                    </button>
+                                </p>
+
                                 <p class="text-left stockname">
                                     <span>低買優益</span>
                                     <i class="fa fa-angle-right m-l-5" aria-hidden="true"></i>
@@ -303,7 +309,6 @@
 					9秒<i class="fa fa-refresh" aria-hidden="true"></i>
                 </button>
                                 </p>
-
                                 <div class="panel-group" id="stockitem">
 
                                     <!----------------積極型------------------------>
