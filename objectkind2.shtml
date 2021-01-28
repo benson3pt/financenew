@@ -288,7 +288,24 @@
                             </div>
 
                             <div class="col-md-9 col-sm-12">
+                                <p class="cancelSequel">目前為<span style="color: #FFECCA;">續作模式</span> 您可
+                                    <button type="button" class="btn btn-default refresh">
+                                        取消續作
+                                    </button>
+                                </p>
+
                                 <p class="text-left stockname">
+                                    <span>低買優益</span>
+                                    <i class="fa fa-angle-right m-l-5" aria-hidden="true"></i>
+                                    <i class="fa fa-angle-right m-r-5" aria-hidden="true"></i> 00637L 元大滬深300正2
+                                    <span class="currentprice">現在股價：</span><span class="currentprice2">235</span>
+                                    <span class="currentprice">尚可投資	</span><span class="currentprice2">5.00億</span>
+                                    <button type="button" class="btn btn-default refresh">
+					9秒<i class="fa fa-refresh" aria-hidden="true"></i>
+                </button>
+                                </p>
+
+                                <!-- <p class="text-left stockname">
                                     <span>存股優益</span>
                                     <i class="fa fa-angle-right m-l-5" aria-hidden="true"></i>
                                     <i class="fa fa-angle-right m-r-5" aria-hidden="true"></i> 2330 台積電<span class="currentprice">現在股價：</span><span class="currentprice2">235</span>
@@ -297,7 +314,7 @@
                                     <button type="button" class="btn btn-default refresh">
 					9秒<i class="fa fa-refresh" aria-hidden="true"></i>
                 </button>
-                                </p>
+                                </p> -->
 
                                 <div class="panel-group" id="stockitem">
 
