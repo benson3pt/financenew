@@ -5207,7 +5207,7 @@ work Section style
         
         table.norbox tr td {
             padding: 12px 0px;
-            font-size: 1.30em;
+            font-size: 1.20em;
             text-align: center;
             vertical-align: middle;
             font-weight: bold;
@@ -8443,7 +8443,7 @@ color: #FFC600
         }
         
         a.cancel_Continue {
-            padding: 4px 12px;
+            padding: 4px 8px;
             font-size: 14px;
             color: #FFF;
             border-radius: 5px;
